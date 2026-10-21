@@ -1,0 +1,8 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6420.38it/s]
+[amazon_dil oracle s2036] step 19 seg A packages 1 A:0.891
+[amazon_dil oracle s2036] step 39 seg B packages 2 A:0.898 B:0.906
+[amazon_dil oracle s2036] step 59 seg C packages 3 A:0.891 B:0.883 C:0.820
+[amazon_dil oracle s2036] step 79 seg D packages 4 A:0.898 B:0.867 C:0.852 D:0.836
+[amazon_dil oracle s2036] step 99 seg E packages 5 A:0.891 B:0.883 C:0.836 D:0.836 E:0.891
+FINAL amazon_dil oracle 2036 {"proto_mean": 0.8671875, "proto_max": 0.8078125, "proto_own": 0.809375, "linear_last": 0.790625} 48s

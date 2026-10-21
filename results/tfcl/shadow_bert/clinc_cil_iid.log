@@ -1,0 +1,4 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7039.98it/s]
+[clinc_cil_iid shadow s2026] step 374 seg iid packages 1 A:0.890 B:0.823 C:0.923 D:0.877 E:0.777 F:0.930 G:0.833 H:0.930 I:0.913 J:0.863
+FINAL clinc_cil_iid shadow 2026 {"proto_mean": 0.8759999990463256, "proto_max": 0.8759999990463256, "proto_own": 0.8759999990463256, "linear_last": 0.9266666650772095} 392s

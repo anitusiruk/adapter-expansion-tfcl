@@ -1,0 +1,214 @@
+{
+ "args": {
+  "stream": "amazon_dilconf",
+  "policy": "random",
+  "seed": 2031,
+  "model": "distilbert-base-uncased",
+  "lr": 0.001,
+  "steps": 2,
+  "replay": 0,
+  "mem": 512,
+  "max_length": 64,
+  "head_init": "fresh",
+  "lora_init": "fresh",
+  "no_lora": false,
+  "trigger_args": "{}",
+  "out": "results/tfcl/ext2_ef/amazon_dilconf/random_s2031.json"
+ },
+ "n_batches": 100,
+ "packages": 5,
+ "events": [
+  {
+   "step": 54,
+   "seg": "C",
+   "boundary": false
+  },
+  {
+   "step": 61,
+   "seg": "D",
+   "boundary": false
+  },
+  {
+   "step": 64,
+   "seg": "D",
+   "boundary": false
+  },
+  {
+   "step": 82,
+   "seg": "E",
+   "boundary": false
+  }
+ ],
+ "checkpoints": [
+  {
+   "step": 19,
+   "seg": "A",
+   "seen": [
+    "A"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.8828125,
+     "proto_max": 0.8828125,
+     "proto_own": 0.8828125,
+     "linear_last": 0.875,
+     "proto_ef": 0.8828125
+    }
+   }
+  },
+  {
+   "step": 39,
+   "seg": "B",
+   "seen": [
+    "A",
+    "B"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.90625,
+     "proto_max": 0.90625,
+     "proto_own": 0.90625,
+     "linear_last": 0.1171875,
+     "proto_ef": 0.53125
+    },
+    "B": {
+     "proto_mean": 0.140625,
+     "proto_max": 0.140625,
+     "proto_own": 0.140625,
+     "linear_last": 0.8671875,
+     "proto_ef": 0.484375
+    }
+   }
+  },
+  {
+   "step": 59,
+   "seg": "C",
+   "seen": [
+    "A",
+    "B",
+    "C"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.796875,
+     "proto_max": 0.71875,
+     "proto_own": 0.671875,
+     "linear_last": 0.5234375,
+     "proto_ef": 0.625
+    },
+    "B": {
+     "proto_mean": 0.3125,
+     "proto_max": 0.453125,
+     "proto_own": 0.4609375,
+     "linear_last": 0.4296875,
+     "proto_ef": 0.3828125
+    },
+    "C": {
+     "proto_mean": 0.7734375,
+     "proto_max": 0.65625,
+     "proto_own": 0.5703125,
+     "linear_last": 0.5,
+     "proto_ef": 0.5625
+    }
+   }
+  },
+  {
+   "step": 79,
+   "seg": "D",
+   "seen": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.203125,
+     "proto_max": 0.4375,
+     "proto_own": 0.125,
+     "linear_last": 0.1484375,
+     "proto_ef": 0.109375
+    },
+    "B": {
+     "proto_mean": 0.75,
+     "proto_max": 0.59375,
+     "proto_own": 0.8125,
+     "linear_last": 0.8046875,
+     "proto_ef": 0.84375
+    },
+    "C": {
+     "proto_mean": 0.296875,
+     "proto_max": 0.3828125,
+     "proto_own": 0.2265625,
+     "linear_last": 0.234375,
+     "proto_ef": 0.21875
+    },
+    "D": {
+     "proto_mean": 0.75,
+     "proto_max": 0.578125,
+     "proto_own": 0.8125,
+     "linear_last": 0.8046875,
+     "proto_ef": 0.8359375
+    }
+   }
+  },
+  {
+   "step": 99,
+   "seg": "E",
+   "seen": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.890625,
+     "proto_max": 0.859375,
+     "proto_own": 0.125,
+     "linear_last": 0.859375,
+     "proto_ef": 0.90625
+    },
+    "B": {
+     "proto_mean": 0.1328125,
+     "proto_max": 0.1171875,
+     "proto_own": 0.890625,
+     "linear_last": 0.1953125,
+     "proto_ef": 0.1328125
+    },
+    "C": {
+     "proto_mean": 0.828125,
+     "proto_max": 0.7890625,
+     "proto_own": 0.2109375,
+     "linear_last": 0.765625,
+     "proto_ef": 0.828125
+    },
+    "D": {
+     "proto_mean": 0.1796875,
+     "proto_max": 0.1953125,
+     "proto_own": 0.7890625,
+     "linear_last": 0.1796875,
+     "proto_ef": 0.1796875
+    },
+    "E": {
+     "proto_mean": 0.84375,
+     "proto_max": 0.828125,
+     "proto_own": 0.1640625,
+     "linear_last": 0.8671875,
+     "proto_ef": 0.8515625
+    }
+   }
+  }
+ ],
+ "final_mean": {
+  "proto_mean": 0.575,
+  "proto_max": 0.5578125,
+  "proto_own": 0.4359375,
+  "linear_last": 0.5734375,
+  "proto_ef": 0.5796875
+ },
+ "trigger_records": [],
+ "seconds": 73.049152135849,
+ "trainable_params_per_package": 148994
+}

@@ -1,0 +1,9 @@
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 8907.94it/s]
+[banking_cil oracle s2034] step 19 seg A packages 1 A:0.934
+[banking_cil oracle s2034] step 39 seg B packages 2 A:0.872 B:0.856
+[banking_cil oracle s2034] step 59 seg C packages 3 A:0.809 B:0.840 C:0.797
+[banking_cil oracle s2034] step 79 seg D packages 4 A:0.693 B:0.771 C:0.750 D:0.779
+[banking_cil oracle s2034] step 99 seg E packages 5 A:0.661 B:0.748 C:0.734 D:0.730 E:0.648
+[banking_cil oracle s2034] step 119 seg F packages 6 A:0.576 B:0.719 C:0.684 D:0.687 E:0.625 F:0.651
+[banking_cil oracle s2034] step 139 seg G packages 7 A:0.599 B:0.673 C:0.625 D:0.619 E:0.584 F:0.616 G:0.589
+FINAL banking_cil oracle 2034 {"proto_mean": 0.615081250667572, "proto_max": 0.5651921715055194, "proto_own": 0.5723081060818264, "linear_last": 0.11526479891368321} 57s

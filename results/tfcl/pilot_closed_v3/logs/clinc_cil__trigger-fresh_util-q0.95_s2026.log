@@ -1,0 +1,13 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 7407.81it/s]
+[clinc_cil trigger:fresh_util s2026] step 37 seg A packages 5 A:0.933
+[clinc_cil trigger:fresh_util s2026] step 75 seg B packages 6 A:0.943 B:0.840
+[clinc_cil trigger:fresh_util s2026] step 113 seg C packages 8 A:0.910 B:0.840 C:0.920
+[clinc_cil trigger:fresh_util s2026] step 151 seg D packages 10 A:0.877 B:0.803 C:0.897 D:0.853
+[clinc_cil trigger:fresh_util s2026] step 189 seg E packages 11 A:0.833 B:0.797 C:0.863 D:0.790 E:0.777
+[clinc_cil trigger:fresh_util s2026] step 227 seg F packages 12 A:0.787 B:0.807 C:0.850 D:0.763 E:0.763 F:0.847
+[clinc_cil trigger:fresh_util s2026] step 265 seg G packages 13 A:0.753 B:0.810 C:0.820 D:0.743 E:0.737 F:0.823 G:0.763
+[clinc_cil trigger:fresh_util s2026] step 303 seg H packages 14 A:0.710 B:0.813 C:0.827 D:0.733 E:0.730 F:0.777 G:0.747 H:0.853
+[clinc_cil trigger:fresh_util s2026] step 341 seg I packages 15 A:0.677 B:0.737 C:0.823 D:0.697 E:0.690 F:0.803 G:0.687 H:0.847 I:0.740
+[clinc_cil trigger:fresh_util s2026] step 379 seg J packages 17 A:0.603 B:0.677 C:0.793 D:0.663 E:0.680 F:0.730 G:0.673 H:0.840 I:0.703 J:0.713
+FINAL clinc_cil trigger:fresh_util 2026 {"proto_mean": 0.7076666712760925, "proto_max": 0.6566666722297668, "proto_own": 0.5830000013113021, "linear_last": 0.09599999785423279} 251s

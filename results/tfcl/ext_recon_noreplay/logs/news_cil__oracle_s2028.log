@@ -1,0 +1,11 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Repo card metadata block was not found. Setting CardData to empty.
+HTTP Error 429 thrown while requesting GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main
+Rate limited. Waiting 71.0s before retry [Retry 1/5].
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 5145.19it/s]
+[news_cil oracle s2028] step 19 seg A packages 1 A:0.855
+[news_cil oracle s2028] step 39 seg B packages 2 A:0.790 B:0.715
+[news_cil oracle s2028] step 59 seg C packages 3 A:0.665 B:0.660 C:0.635
+[news_cil oracle s2028] step 79 seg D packages 4 A:0.550 B:0.615 C:0.540 D:0.545
+[news_cil oracle s2028] step 99 seg E packages 5 A:0.515 B:0.610 C:0.480 D:0.495 E:0.430
+FINAL news_cil oracle 2028 {"proto_mean": 0.5060000002384186, "proto_max": 0.4799999952316284, "proto_own": 0.4360000014305115, "linear_last": 0.1409999966621399} 172s

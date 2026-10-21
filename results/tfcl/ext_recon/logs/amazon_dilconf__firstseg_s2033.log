@@ -1,0 +1,10 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Error 429 thrown while requesting GET https://huggingface.co/api/datasets/goosmanlei/amazon_reviews_multi/tree/a7b1fa9703f1f930d5c8e1a65c5d2774aaab0c85/de
+Rate limited. Waiting 138.0s before retry [Retry 1/5].
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6705.74it/s]
+[amazon_dilconf single s2033] step 19 seg A packages 1 A:0.898
+[amazon_dilconf single s2033] step 39 seg B packages 1 A:0.898 B:0.172
+[amazon_dilconf single s2033] step 59 seg C packages 1 A:0.898 B:0.148 C:0.758
+[amazon_dilconf single s2033] step 79 seg D packages 1 A:0.828 B:0.258 C:0.750 D:0.195
+[amazon_dilconf single s2033] step 99 seg E packages 1 A:0.891 B:0.156 C:0.781 D:0.141 E:0.883
+FINAL amazon_dilconf single 2033 {"proto_mean": 0.5703125, "proto_max": 0.5703125, "proto_own": 0.5703125, "linear_last": 0.584375} 164s

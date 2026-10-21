@@ -1,0 +1,13 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 7727.59it/s]
+[clinc_cil frozen s2036] step 37 seg A packages 1 A:0.930
+[clinc_cil frozen s2036] step 75 seg B packages 1 A:0.910 B:0.863
+[clinc_cil frozen s2036] step 113 seg C packages 1 A:0.880 B:0.887 C:0.897
+[clinc_cil frozen s2036] step 151 seg D packages 1 A:0.870 B:0.823 C:0.810 D:0.870
+[clinc_cil frozen s2036] step 189 seg E packages 1 A:0.833 B:0.830 C:0.733 D:0.827 E:0.740
+[clinc_cil frozen s2036] step 227 seg F packages 1 A:0.747 B:0.780 C:0.707 D:0.750 E:0.683 F:0.773
+[clinc_cil frozen s2036] step 265 seg G packages 1 A:0.747 B:0.750 C:0.643 D:0.720 E:0.680 F:0.763 G:0.637
+[clinc_cil frozen s2036] step 303 seg H packages 1 A:0.680 B:0.707 C:0.577 D:0.690 E:0.660 F:0.703 G:0.617 H:0.760
+[clinc_cil frozen s2036] step 341 seg I packages 1 A:0.657 B:0.663 C:0.540 D:0.700 E:0.557 F:0.667 G:0.570 H:0.733 I:0.610
+[clinc_cil frozen s2036] step 379 seg J packages 1 A:0.630 B:0.600 C:0.523 D:0.667 E:0.497 F:0.653 G:0.573 H:0.727 I:0.573 J:0.613
+FINAL clinc_cil frozen 2036 {"proto_mean": 0.6056666672229767, "proto_max": 0.6056666672229767, "proto_own": 0.6056666672229767, "linear_last": 0.006666667014360428, "frozen_full_ncm": 0.8139999866485595} 45s

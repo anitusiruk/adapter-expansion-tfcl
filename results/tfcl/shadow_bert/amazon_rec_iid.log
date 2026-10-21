@@ -1,0 +1,4 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 6548.15it/s]
+[amazon_rec_iid shadow s2026] step 79 seg iid packages 1 A:0.914 B:0.906 C:0.844
+FINAL amazon_rec_iid shadow 2026 {"proto_mean": 0.8880208333333334, "proto_max": 0.8880208333333334, "proto_own": 0.8880208333333334, "linear_last": 0.875} 136s

@@ -1,0 +1,14 @@
+Using the latest cached version of the dataset since clinc/clinc_oos couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'plus' at /workspace/.cache/huggingface/datasets/clinc___clinc_oos/plus/0.0.0/155b9c710419136e17307b80d0a13e68cd46b4ec (last modified on Sun Oct 11 03:31:55 2026).
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 11169.84it/s]
+[clinc_cil single s2030] step 37 seg A packages 1 A:0.973
+[clinc_cil single s2030] step 75 seg B packages 1 A:0.970 B:0.930
+[clinc_cil single s2030] step 113 seg C packages 1 A:0.983 B:0.930 C:0.950
+[clinc_cil single s2030] step 151 seg D packages 1 A:0.977 B:0.943 C:0.923 D:0.930
+[clinc_cil single s2030] step 189 seg E packages 1 A:0.950 B:0.920 C:0.940 D:0.867 E:0.897
+[clinc_cil single s2030] step 227 seg F packages 1 A:0.960 B:0.927 C:0.920 D:0.837 E:0.867 F:0.983
+[clinc_cil single s2030] step 265 seg G packages 1 A:0.950 B:0.857 C:0.900 D:0.837 E:0.850 F:0.960 G:0.867
+[clinc_cil single s2030] step 303 seg H packages 1 A:0.927 B:0.850 C:0.930 D:0.827 E:0.850 F:0.943 G:0.843 H:0.927
+[clinc_cil single s2030] step 341 seg I packages 1 A:0.883 B:0.823 C:0.910 D:0.790 E:0.827 F:0.927 G:0.730 H:0.930 I:0.907
+[clinc_cil single s2030] step 379 seg J packages 1 A:0.893 B:0.847 C:0.890 D:0.713 E:0.823 F:0.923 G:0.740 H:0.910 I:0.877 J:0.783
+FINAL clinc_cil single 2030 {"proto_mean": 0.8400000035762787, "proto_max": 0.8400000035762787, "proto_own": 0.8400000035762787, "linear_last": 0.821666669845581} 129s

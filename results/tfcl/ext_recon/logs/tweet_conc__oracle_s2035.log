@@ -1,0 +1,7 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 7063.14it/s]
+[tweet_conc oracle s2035] step 19 seg A packages 1 A:0.688
+[tweet_conc oracle s2035] step 39 seg B packages 2 A:0.719 B:0.703
+[tweet_conc oracle s2035] step 59 seg C packages 3 A:0.727 B:0.719 C:0.492
+[tweet_conc oracle s2035] step 79 seg A packages 4 A:0.758 B:0.688 C:0.516
+FINAL tweet_conc oracle 2035 {"proto_mean": 0.6536458333333334, "proto_max": 0.625, "proto_own": 0.6276041666666666, "linear_last": 0.6640625} 32s

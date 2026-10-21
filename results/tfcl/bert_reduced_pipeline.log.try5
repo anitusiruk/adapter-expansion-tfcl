@@ -1,0 +1,11 @@
+200 jobs
+[4/200] ok results/tfcl/confirm_bert/banking_rec/trigger-label_surprise-q0.99_s2027.json
+[6/200] ok results/tfcl/confirm_bert/banking_rec/oracle_s2028.json
+[18/200] ok results/tfcl/confirm_bert/banking_rec/oracle_s2031.json
+[20/200] ok results/tfcl/confirm_bert/banking_rec/trigger-label_surprise-q0.99_s2031.json
+[22/200] ok results/tfcl/confirm_bert/banking_cil/oracle_s2027.json
+[23/200] ok results/tfcl/confirm_bert/banking_cil/trigger-loss_z-q0.99_s2027.json
+[24/200] ok results/tfcl/confirm_bert/banking_cil/trigger-label_surprise-q0.99_s2027.json
+[25/200] ok results/tfcl/confirm_bert/banking_cil/single_s2028.json
+FAILED: none
+BERT_REDUCED_DONE

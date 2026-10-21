@@ -1,0 +1,13 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Using the latest cached version of the dataset since cardiffnlp/tweet_eval couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'sentiment' at /workspace/.cache/huggingface/datasets/cardiffnlp___tweet_eval/sentiment/0.0.0/b3a375baf0f409c77e6bc7aa35102b7b3534f8be (last modified on Sat Oct 10 00:42:27 2026).
+Using the latest cached version of the dataset since stanfordnlp/imdb couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'plain_text' at /workspace/.cache/huggingface/datasets/stanfordnlp___imdb/plain_text/0.0.0/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 (last modified on Sat Oct 10 00:42:36 2026).
+HTTP Error 429 thrown while requesting GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main/additional_chat_templates
+Rate limited. Waiting 62.0s before retry [Retry 1/5].
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 2252.06it/s]
+[senti_dil single s2028] step 19 seg A packages 1 A:0.859
+[senti_dil single s2028] step 39 seg B packages 1 A:0.844 B:0.891
+[senti_dil single s2028] step 59 seg C packages 1 A:0.852 B:0.891 C:0.859
+[senti_dil single s2028] step 79 seg D packages 1 A:0.898 B:0.875 C:0.859 D:0.695
+FINAL senti_dil single 2028 {"proto_mean": 0.83203125, "proto_max": 0.83203125, "proto_own": 0.83203125, "linear_last": 0.80859375} 123s

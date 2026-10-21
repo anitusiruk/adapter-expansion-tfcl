@@ -1,0 +1,5 @@
+FAIL --stream cifar_cil --policy oracle --replay 0 --ef --seed 2026 --out results/tfcl/ef_dev/cifar_cil/oracle_s2026.json
+FAIL --stream cifar_conf --policy oracle --replay 0 --ef --seed 2026 --out results/tfcl/ef_dev/cifar_conf/oracle_s2026.json
+FAIL --stream cifar_conf --policy trigger:loss_z --trigger-args {"tau": 2.532137295080682} --replay 0 --ef --seed 2026 --out results/tfcl/ef_dev/cifar_conf/trigger-loss_z-q0.99_s2026.json
+FAIL --stream cifar_conf --policy trigger:label_surprise --trigger-args {"tau": 0.5269248667571861} --replay 0 --ef --seed 2026 --out results/tfcl/ef_dev/cifar_conf/trigger-label_surprise-q0.99_s2026.json
+JOBS_DONE

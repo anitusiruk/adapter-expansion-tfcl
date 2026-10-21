@@ -1,0 +1,7 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6095.84it/s]
+[senti_conf oracle s2036] step 19 seg A packages 1 A:0.852
+[senti_conf oracle s2036] step 39 seg B packages 2 A:0.828 B:0.414
+[senti_conf oracle s2036] step 59 seg C packages 3 A:0.859 B:0.188 C:0.867
+[senti_conf oracle s2036] step 79 seg D packages 4 A:0.758 B:0.336 C:0.773 D:0.555
+FINAL senti_conf oracle 2036 {"proto_mean": 0.60546875, "proto_max": 0.490234375, "proto_own": 0.607421875, "linear_last": 0.494140625} 56s

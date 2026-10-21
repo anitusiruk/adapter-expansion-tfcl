@@ -1,0 +1,8 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/200 [00:00<?, ?it/s]Loading weights: 100%|██████████| 200/200 [00:00<00:00, 5359.31it/s]
+[cifar_conf single s2030] step 49 seg A packages 1 A:0.965
+[cifar_conf single s2030] step 99 seg B packages 1 A:0.962 B:0.418
+[cifar_conf single s2030] step 149 seg C packages 1 A:0.962 B:0.312 C:0.812
+[cifar_conf single s2030] step 199 seg D packages 1 A:0.868 B:0.488 C:0.707 D:0.480
+[cifar_conf single s2030] step 249 seg E packages 1 A:0.932 B:0.318 C:0.738 D:0.350 E:0.685
+FINAL cifar_conf single 2030 {"proto_mean": 0.604666668176651, "proto_max": 0.604666668176651, "proto_own": 0.604666668176651, "linear_last": 0.40999999903142453} 126s

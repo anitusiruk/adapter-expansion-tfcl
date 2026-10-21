@@ -1,0 +1,13 @@
+/usr/local/lib/python3.12/dist-packages/datasets/load.py:1231: FutureWarning: The repository for PolyAI/banking77 contains custom code which must be executed to correctly load the dataset. You can inspect the repository content at https://hf.co/datasets/PolyAI/banking77
+You can avoid this message in future by passing the argument `trust_remote_code=True`.
+Passing `trust_remote_code=True` will be mandatory to load this dataset from the next major release of `datasets`.
+  warnings.warn(
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 5647.30it/s]
+[banking_cil single s2028] step 19 seg A packages 1 A:0.914
+[banking_cil single s2028] step 39 seg B packages 1 A:0.825 B:0.794
+[banking_cil single s2028] step 59 seg C packages 1 A:0.770 B:0.771 C:0.680
+[banking_cil single s2028] step 79 seg D packages 1 A:0.669 B:0.735 C:0.609 D:0.658
+[banking_cil single s2028] step 99 seg E packages 1 A:0.630 B:0.765 C:0.598 D:0.622 E:0.566
+[banking_cil single s2028] step 119 seg F packages 1 A:0.615 B:0.716 C:0.559 D:0.638 E:0.506 F:0.514
+[banking_cil single s2028] step 139 seg G packages 1 A:0.553 B:0.657 C:0.504 D:0.619 E:0.509 F:0.482 G:0.399
+FINAL banking_cil single 2028 {"proto_mean": 0.5318145964826856, "proto_max": 0.5318145964826856, "proto_own": 0.5318145964826856, "linear_last": 0.12896053280149186} 38s

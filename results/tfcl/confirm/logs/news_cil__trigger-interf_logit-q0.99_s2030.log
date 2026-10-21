@@ -1,0 +1,9 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Repo card metadata block was not found. Setting CardData to empty.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6465.81it/s]
+[news_cil trigger:interf_logit s2030] step 19 seg A packages 1 A:0.840
+[news_cil trigger:interf_logit s2030] step 39 seg B packages 2 A:0.795 B:0.710
+[news_cil trigger:interf_logit s2030] step 59 seg C packages 3 A:0.635 B:0.680 C:0.630
+[news_cil trigger:interf_logit s2030] step 79 seg D packages 4 A:0.505 B:0.635 C:0.550 D:0.590
+[news_cil trigger:interf_logit s2030] step 99 seg E packages 5 A:0.505 B:0.600 C:0.505 D:0.490 E:0.435
+FINAL news_cil trigger:interf_logit 2030 {"proto_mean": 0.5070000052452087, "proto_max": 0.4919999957084656, "proto_own": 0.4519999921321869, "linear_last": 0.14900000095367433} 176s

@@ -1,0 +1,14 @@
+Using the latest cached version of the dataset since clinc/clinc_oos couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'plus' at /workspace/.cache/huggingface/datasets/clinc___clinc_oos/plus/0.0.0/155b9c710419136e17307b80d0a13e68cd46b4ec (last modified on Sun Oct 11 03:31:55 2026).
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7888.43it/s]
+[clinc_cil trigger:label_surprise s2029] step 37 seg A packages 1 A:0.960
+[clinc_cil trigger:label_surprise s2029] step 75 seg B packages 1 A:0.980 B:0.950
+[clinc_cil trigger:label_surprise s2029] step 113 seg C packages 1 A:0.957 B:0.900 C:0.963
+[clinc_cil trigger:label_surprise s2029] step 151 seg D packages 1 A:0.957 B:0.900 C:0.940 D:0.947
+[clinc_cil trigger:label_surprise s2029] step 189 seg E packages 1 A:0.937 B:0.883 C:0.910 D:0.927 E:0.903
+[clinc_cil trigger:label_surprise s2029] step 227 seg F packages 1 A:0.930 B:0.883 C:0.917 D:0.930 E:0.853 F:0.983
+[clinc_cil trigger:label_surprise s2029] step 265 seg G packages 1 A:0.937 B:0.887 C:0.893 D:0.857 E:0.843 F:0.923 G:0.890
+[clinc_cil trigger:label_surprise s2029] step 303 seg H packages 1 A:0.933 B:0.893 C:0.890 D:0.883 E:0.860 F:0.900 G:0.870 H:0.920
+[clinc_cil trigger:label_surprise s2029] step 341 seg I packages 1 A:0.927 B:0.860 C:0.920 D:0.877 E:0.847 F:0.900 G:0.863 H:0.887 I:0.927
+[clinc_cil trigger:label_surprise s2029] step 379 seg J packages 1 A:0.847 B:0.770 C:0.890 D:0.847 E:0.797 F:0.833 G:0.833 H:0.847 I:0.887 J:0.793
+FINAL clinc_cil trigger:label_surprise 2029 {"proto_mean": 0.834333336353302, "proto_max": 0.834333336353302, "proto_own": 0.834333336353302, "linear_last": 0.8230000078678131} 210s

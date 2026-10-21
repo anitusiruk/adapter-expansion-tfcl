@@ -1,0 +1,8 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 8507.03it/s]
+[banking_rec trigger:interf_logit s2031] step 15 seg A packages 1 A:0.914
+[banking_rec trigger:interf_logit s2031] step 31 seg B packages 1 A:0.897 B:0.835
+[banking_rec trigger:interf_logit s2031] step 47 seg A packages 1 A:0.938 B:0.816
+[banking_rec trigger:interf_logit s2031] step 63 seg C packages 2 A:0.897 B:0.790 C:0.821
+[banking_rec trigger:interf_logit s2031] step 79 seg B packages 3 A:0.869 B:0.810 C:0.810
+FINAL banking_rec trigger:interf_logit 2031 {"proto_mean": 0.8295390208562216, "proto_max": 0.7208168705304464, "proto_own": 0.6604738434155782, "linear_last": 0.2279569904009501} 40s

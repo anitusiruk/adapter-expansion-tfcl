@@ -1,0 +1,40 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/usr/local/lib/python3.12/dist-packages/datasets/load.py:1231: FutureWarning: The repository for PolyAI/banking77 contains custom code which must be executed to correctly load the dataset. You can inspect the repository content at https://hf.co/datasets/PolyAI/banking77
+You can avoid this message in future by passing the argument `trust_remote_code=True`.
+Passing `trust_remote_code=True` will be mandatory to load this dataset from the next major release of `datasets`.
+  warnings.warn(
+Using the latest cached version of the module from /workspace/.cache/huggingface/modules/datasets_modules/datasets/PolyAI--banking77/17ffc2ed47c2ed928bee64127ff1dbc97204cb974c2f980becae7c864007aed9 (last modified on Sat Oct 10 00:41:29 2026) since it couldn't be found locally at PolyAI/banking77, or remotely on the Hugging Face Hub.
+HTTP Error 429 thrown while requesting GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main/additional_chat_templates
+Rate limited. Waiting 54.0s before retry [Retry 1/5].
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 1970.42it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/workspace/mitosis-interference/experiments/tfcl_run.py", line 135, in <module>
+    main()
+  File "/workspace/mitosis-interference/experiments/tfcl_run.py", line 68, in main
+    enc = Encoder(a.model, max_length=a.max_length)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mitosis-interference/src/tfcl/model.py", line 45, in __init__
+    self.backbone = AutoModel.from_pretrained(name).to(device).eval()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/modeling_utils.py", line 3713, in to
+    return super().to(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1369, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 928, in _apply
+    module._apply(fn)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 928, in _apply
+    module._apply(fn)
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 928, in _apply
+    module._apply(fn)
+  [Previous line repeated 2 more times]
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 955, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1355, in convert
+    return t.to(
+           ^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 23.53 GiB of which 18.38 MiB is free. Process 257646 has 1.88 GiB memory in use. Process 268399 has 4.34 GiB memory in use. Process 273190 has 2.43 GiB memory in use. Process 273319 has 1.58 GiB memory in use. Process 273668 has 2.41 GiB memory in use. Process 273254 has 1.95 GiB memory in use. Process 273318 has 1.95 GiB memory in use. Process 274689 has 4.34 GiB memory in use. Process 274119 has 738.00 MiB memory in use. Process 275249 has 718.00 MiB memory in use. Including non-PyTorch memory, this process has 596.00 MiB memory in use. Process 273526 has 526.00 MiB memory in use. Process 274544 has 14.00 MiB memory in use. Process 274972 has 22.00 MiB memory in use. Of the allocated memory 200.16 MiB is allocated by PyTorch, and 11.84 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

@@ -1,0 +1,9 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Repo card metadata block was not found. Setting CardData to empty.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6968.09it/s]
+[news_cil oracle s2036] step 19 seg A packages 1 A:0.870
+[news_cil oracle s2036] step 39 seg B packages 2 A:0.790 B:0.730
+[news_cil oracle s2036] step 59 seg C packages 3 A:0.690 B:0.665 C:0.620
+[news_cil oracle s2036] step 79 seg D packages 4 A:0.535 B:0.605 C:0.535 D:0.530
+[news_cil oracle s2036] step 99 seg E packages 5 A:0.490 B:0.590 C:0.480 D:0.510 E:0.440
+FINAL news_cil oracle 2036 {"proto_mean": 0.5019999921321869, "proto_max": 0.4659999907016754, "proto_own": 0.45299999713897704, "linear_last": 0.1600000023841858} 92s

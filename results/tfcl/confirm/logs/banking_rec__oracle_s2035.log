@@ -1,0 +1,8 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6542.46it/s]
+[banking_rec oracle s2035] step 15 seg A packages 1 A:0.900
+[banking_rec oracle s2035] step 31 seg B packages 2 A:0.873 B:0.781
+[banking_rec oracle s2035] step 47 seg A packages 3 A:0.887 B:0.729
+[banking_rec oracle s2035] step 63 seg C packages 4 A:0.852 B:0.655 C:0.751
+[banking_rec oracle s2035] step 79 seg B packages 5 A:0.832 B:0.739 C:0.758
+FINAL banking_rec oracle 2035 {"proto_mean": 0.776188870271047, "proto_max": 0.7361133495966593, "proto_own": 0.7416407465934753, "linear_last": 0.23870966831843057} 18s

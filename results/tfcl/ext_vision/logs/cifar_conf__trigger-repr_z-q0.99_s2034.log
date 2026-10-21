@@ -1,0 +1,9 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Could not reach the Hub ([Errno 101] Network is unreachable). Using cached commit hash for 'google/vit-base-patch16-224-in21k'.
+Loading weights:   0%|          | 0/200 [00:00<?, ?it/s]Loading weights: 100%|██████████| 200/200 [00:00<00:00, 5606.91it/s]
+[cifar_conf trigger:repr_z s2034] step 49 seg A packages 1 A:0.965
+[cifar_conf trigger:repr_z s2034] step 99 seg B packages 1 A:0.865 B:0.910
+[cifar_conf trigger:repr_z s2034] step 149 seg C packages 1 A:0.940 B:0.667 C:0.918
+[cifar_conf trigger:repr_z s2034] step 199 seg D packages 1 A:0.832 B:0.823 C:0.793 D:0.932
+[cifar_conf trigger:repr_z s2034] step 249 seg E packages 1 A:0.902 B:0.575 C:0.847 D:0.758 E:0.928
+FINAL cifar_conf trigger:repr_z 2034 {"proto_mean": 0.8019999980926513, "proto_max": 0.8019999980926513, "proto_own": 0.8019999980926513, "linear_last": 0.8170000076293945} 677s

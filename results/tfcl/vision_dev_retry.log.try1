@@ -1,0 +1,7 @@
+FAIL --stream cifar_conf --policy shadow --seed 2026 --out results/tfcl/vision_dev/shadow/cifar_conf_s2026.json
+FAIL --stream cifar_conf_iid --policy shadow --seed 2026 --out results/tfcl/vision_dev/shadow/cifar_conf_iid_s2026.json
+FAIL --stream cifar_conf --policy frozen --seed 2026 --out results/tfcl/vision_dev/cifar_conf/frozen_s2026.json
+FAIL --stream cifar_conf --policy single --seed 2026 --out results/tfcl/vision_dev/cifar_conf/single_s2026.json
+FAIL --stream cifar_conf --policy oracle --seed 2026 --out results/tfcl/vision_dev/cifar_conf/oracle_s2026.json
+FAIL --stream cifar_conf --policy firstseg --seed 2026 --out results/tfcl/vision_dev/cifar_conf/firstseg_s2026.json
+VISION_DEV_DONE

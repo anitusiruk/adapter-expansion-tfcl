@@ -1,0 +1,21 @@
+110 jobs
+FAILED: none
+220 jobs
+FAILED: none
+90 jobs
+FAILED: none
+55 jobs
+FAILED: none
+240 jobs
+FAILED: none
+48 jobs
+FAILED: none
+9 jobs
+[1/9] ok results/tfcl/ext_shadow/cifar_cil/shadow_s2027.json
+[3/9] ok results/tfcl/ext_shadow/cifar_cil/shadow_s2029.json
+[5/9] ok results/tfcl/ext_shadow/cifar_dil/shadow_s2028.json
+[6/9] ok results/tfcl/ext_shadow/cifar_dil/shadow_s2029.json
+[7/9] ok results/tfcl/ext_shadow/cifar_conf/shadow_s2027.json
+[9/9] fail(1) results/tfcl/ext_shadow/cifar_conf/shadow_s2029.json
+FAILED: ['results/tfcl/ext_shadow/cifar_conf/shadow_s2029.json']
+EXTENSION_PIPELINE_DONE

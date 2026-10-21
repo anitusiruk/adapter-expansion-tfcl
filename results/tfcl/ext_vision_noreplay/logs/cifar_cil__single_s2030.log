@@ -1,0 +1,13 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/200 [00:00<?, ?it/s]Loading weights: 100%|██████████| 200/200 [00:00<00:00, 8320.46it/s]
+[cifar_cil single s2030] step 24 seg A packages 1 A:0.963
+[cifar_cil single s2030] step 49 seg B packages 1 A:0.977 B:0.937
+[cifar_cil single s2030] step 74 seg C packages 1 A:0.893 B:0.803 C:0.937
+[cifar_cil single s2030] step 99 seg D packages 1 A:0.923 B:0.863 C:0.900 D:0.933
+[cifar_cil single s2030] step 124 seg E packages 1 A:0.900 B:0.817 C:0.847 D:0.847 E:0.947
+[cifar_cil single s2030] step 149 seg F packages 1 A:0.857 B:0.760 C:0.800 D:0.823 E:0.747 F:0.897
+[cifar_cil single s2030] step 174 seg G packages 1 A:0.807 B:0.773 C:0.730 D:0.780 E:0.717 F:0.840 G:0.930
+[cifar_cil single s2030] step 199 seg H packages 1 A:0.783 B:0.813 C:0.750 D:0.790 E:0.707 F:0.807 G:0.850 H:0.797
+[cifar_cil single s2030] step 224 seg I packages 1 A:0.757 B:0.697 C:0.690 D:0.687 E:0.613 F:0.780 G:0.807 H:0.737 I:0.880
+[cifar_cil single s2030] step 249 seg J packages 1 A:0.747 B:0.727 C:0.737 D:0.663 E:0.613 F:0.717 G:0.770 H:0.740 I:0.743 J:0.850
+FINAL cifar_cil single 2030 {"proto_mean": 0.7306666731834411, "proto_max": 0.7306666731834411, "proto_own": 0.7306666731834411, "linear_last": 0.2580000000074506} 183s

@@ -1,0 +1,11 @@
+FAIL --stream cifar_cil --policy firstseg --replay 0 --ef --seed 2028 --out results/tfcl/ext4_sdc/cifar_cil/firstseg_s2028.json
+FAIL --stream imnr_cil --policy single --replay 0 --ef --seed 2028 --out results/tfcl/ext3_imnr/ef/imnr_cil/single_s2028.json
+FAIL --stream imnr_cil --policy oracle --replay 0 --ef --seed 2028 --out results/tfcl/ext3_imnr/ef/imnr_cil/oracle_s2028.json
+FAIL --stream imnr_cil --policy oracle --replay 0 --ef --seed 2030 --out results/tfcl/ext3_imnr/ef/imnr_cil/oracle_s2030.json
+FAIL --stream imnr_cil --policy oracle --replay 0 --ef --seed 2031 --out results/tfcl/ext3_imnr/ef/imnr_cil/oracle_s2031.json
+JOBS_DONE
+FAIL --stream imnr_cil --policy single --seed 2027 --out results/tfcl/ext3_imnr/exemplar/imnr_cil/single_s2027.json
+FAIL --stream imnr_cil --policy firstseg --seed 2027 --out results/tfcl/ext3_imnr/exemplar/imnr_cil/firstseg_s2027.json
+FAIL --stream imnr_cil --policy single --seed 2028 --out results/tfcl/ext3_imnr/exemplar/imnr_cil/single_s2028.json
+JOBS_DONE
+EXT34_DONE

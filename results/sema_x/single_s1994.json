@@ -1,0 +1,281 @@
+{
+ "args": {
+  "variant": "single",
+  "seed": 1994,
+  "config": "exps/sema_cifar.json",
+  "out": "results/sema_x/single_s1994.json",
+  "n_ex": 20,
+  "max_tasks": 0
+ },
+ "sema_args": {
+  "prefix": "reproduce",
+  "dataset": "cifar224",
+  "memory_size": 0,
+  "memory_per_class": 0,
+  "fixed_memory": false,
+  "shuffle": true,
+  "init_cls": 10,
+  "increment": 10,
+  "model_name": "sema",
+  "backbone_type": "pretrained_vit_b16_224_adapter",
+  "device": [
+   "cuda:0"
+  ],
+  "seed": 1994,
+  "batch_size": 32,
+  "weight_decay": 0.0005,
+  "min_lr": 0,
+  "ffn_adapter_type": "adaptmlp",
+  "ffn_num": 16,
+  "optimizer": "sgd",
+  "vpt_type": "shallow",
+  "prompt_token_num": 5,
+  "func_epoch": 5,
+  "rd_epoch": 20,
+  "init_lr": 0.005,
+  "rd_lr": 0.01,
+  "rd_dim": 128,
+  "buffer_size": 500,
+  "detect_batch_size": 128,
+  "exp_threshold": "inf",
+  "adapt_start_layer": 9,
+  "adapt_end_layer": 11,
+  "nb_classes": 100,
+  "nb_tasks": 10
+ },
+ "tasks": [
+  {
+   "task": 0,
+   "seen": 10,
+   "linear": 97.6,
+   "ncm_ef": 95.0999984741211,
+   "ncm_ex20": 95.70000457763672,
+   "adapters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "seconds": 2402.700744867325
+  },
+  {
+   "task": 1,
+   "seen": 20,
+   "linear": 96.25,
+   "ncm_ef": 95.0999984741211,
+   "ncm_ex20": 95.25,
+   "adapters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "seconds": 2992.084716796875
+  },
+  {
+   "task": 2,
+   "seen": 30,
+   "linear": 95.4,
+   "ncm_ef": 94.70000457763672,
+   "ncm_ex20": 94.70000457763672,
+   "adapters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "seconds": 3633.6035923957825
+  },
+  {
+   "task": 3,
+   "seen": 40,
+   "linear": 92.7,
+   "ncm_ef": 92.82500457763672,
+   "ncm_ex20": 93.4000015258789,
+   "adapters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "seconds": 4376.399666070938
+  },
+  {
+   "task": 4,
+   "seen": 50,
+   "linear": 91.72,
+   "ncm_ef": 92.07999420166016,
+   "ncm_ex20": 92.58000183105469,
+   "adapters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "seconds": 5045.9873876571655
+  },
+  {
+   "task": 5,
+   "seen": 60,
+   "linear": 90.93,
+   "ncm_ef": 91.31666564941406,
+   "ncm_ex20": 92.1500015258789,
+   "adapters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "seconds": 5711.205514431
+  },
+  {
+   "task": 6,
+   "seen": 70,
+   "linear": 88.79,
+   "ncm_ef": 88.87142944335938,
+   "ncm_ex20": 90.6142807006836,
+   "adapters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "seconds": 6380.387490510941
+  },
+  {
+   "task": 7,
+   "seen": 80,
+   "linear": 87.84,
+   "ncm_ef": 87.9124984741211,
+   "ncm_ex20": 88.9124984741211,
+   "adapters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "seconds": 7035.008533239365
+  },
+  {
+   "task": 8,
+   "seen": 90,
+   "linear": 86.36,
+   "ncm_ef": 86.82221984863281,
+   "ncm_ex20": 87.69999694824219,
+   "adapters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "seconds": 7707.211396217346
+  },
+  {
+   "task": 9,
+   "seen": 100,
+   "linear": 86.16,
+   "ncm_ef": 86.93000030517578,
+   "ncm_ex20": 87.5999984741211,
+   "adapters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "seconds": 8383.198858261108,
+   "ncm_full": 88.79000091552734
+  }
+ ],
+ "final": {
+  "linear": 86.16,
+  "ncm_ef": 86.93000030517578,
+  "ncm_ex20": 87.5999984741211,
+  "ncm_full": 88.79000091552734
+ },
+ "avg_inc": {
+  "linear": 91.375,
+  "ncm_ef": 91.1657814025879,
+  "ncm_ex20": 91.8606788635254
+ },
+ "seconds": 8634.385739326477
+}

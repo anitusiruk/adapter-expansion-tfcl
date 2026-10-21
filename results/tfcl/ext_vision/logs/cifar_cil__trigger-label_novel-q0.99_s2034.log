@@ -1,0 +1,13 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/200 [00:00<?, ?it/s]Loading weights: 100%|██████████| 200/200 [00:00<00:00, 6704.83it/s]
+[cifar_cil trigger:label_novel s2034] step 24 seg A packages 1 A:0.963
+[cifar_cil trigger:label_novel s2034] step 49 seg B packages 1 A:0.977 B:0.937
+[cifar_cil trigger:label_novel s2034] step 74 seg C packages 1 A:0.967 B:0.923 C:0.940
+[cifar_cil trigger:label_novel s2034] step 99 seg D packages 1 A:0.957 B:0.893 C:0.917 D:0.937
+[cifar_cil trigger:label_novel s2034] step 124 seg E packages 2 A:0.953 B:0.860 C:0.900 D:0.933 E:0.900
+[cifar_cil trigger:label_novel s2034] step 149 seg F packages 2 A:0.933 B:0.847 C:0.857 D:0.917 E:0.880 F:0.890
+[cifar_cil trigger:label_novel s2034] step 174 seg G packages 2 A:0.937 B:0.860 C:0.850 D:0.877 E:0.863 F:0.857 G:0.910
+[cifar_cil trigger:label_novel s2034] step 199 seg H packages 3 A:0.930 B:0.843 C:0.840 D:0.853 E:0.853 F:0.867 G:0.900 H:0.707
+[cifar_cil trigger:label_novel s2034] step 224 seg I packages 3 A:0.930 B:0.813 C:0.777 D:0.857 E:0.850 F:0.823 G:0.843 H:0.747 I:0.833
+[cifar_cil trigger:label_novel s2034] step 249 seg J packages 3 A:0.927 B:0.807 C:0.773 D:0.863 E:0.847 F:0.783 G:0.860 H:0.737 I:0.807 J:0.817
+FINAL cifar_cil trigger:label_novel 2034 {"proto_mean": 0.8220000088214874, "proto_max": 0.8036666631698608, "proto_own": 0.8039999902248383, "linear_last": 0.24733332991600038} 247s

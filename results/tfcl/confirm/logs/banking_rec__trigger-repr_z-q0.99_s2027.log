@@ -1,0 +1,7 @@
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6450.69it/s]
+[banking_rec trigger:repr_z s2027] step 15 seg A packages 2 A:0.821
+[banking_rec trigger:repr_z s2027] step 31 seg B packages 2 A:0.828 B:0.790
+[banking_rec trigger:repr_z s2027] step 47 seg A packages 2 A:0.911 B:0.810
+[banking_rec trigger:repr_z s2027] step 63 seg C packages 2 A:0.863 B:0.790 C:0.821
+[banking_rec trigger:repr_z s2027] step 79 seg B packages 3 A:0.845 B:0.781 C:0.821
+FINAL banking_rec trigger:repr_z 2027 {"proto_mean": 0.8155062596003214, "proto_max": 0.7187801599502563, "proto_own": 0.6381655335426331, "linear_last": 0.2322580615679423} 20s

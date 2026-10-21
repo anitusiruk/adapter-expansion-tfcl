@@ -1,0 +1,8 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/200 [00:00<?, ?it/s]Loading weights: 100%|██████████| 200/200 [00:00<00:00, 6818.84it/s]
+[cifar_conf oracle s2028] step 49 seg A packages 1 A:0.968
+[cifar_conf oracle s2028] step 99 seg B packages 2 A:0.785 B:0.903
+[cifar_conf oracle s2028] step 149 seg C packages 3 A:0.930 B:0.563 C:0.912
+[cifar_conf oracle s2028] step 199 seg D packages 4 A:0.735 B:0.737 C:0.707 D:0.713
+[cifar_conf oracle s2028] step 249 seg E packages 5 A:0.800 B:0.473 C:0.810 D:0.435 E:0.775
+FINAL cifar_conf oracle 2028 {"proto_mean": 0.6586666643619538, "proto_max": 0.5870000004768372, "proto_own": 0.8396666646003723, "linear_last": 0.3976666770875454} 237s

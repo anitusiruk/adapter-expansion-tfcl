@@ -1,0 +1,10 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 8653.22it/s]
+[banking_cil oracle s2031] step 19 seg A packages 1 A:0.918
+[banking_cil oracle s2031] step 39 seg B packages 2 A:0.860 B:0.824
+[banking_cil oracle s2031] step 59 seg C packages 3 A:0.794 B:0.814 C:0.789
+[banking_cil oracle s2031] step 79 seg D packages 4 A:0.735 B:0.732 C:0.758 D:0.723
+[banking_cil oracle s2031] step 99 seg E packages 5 A:0.673 B:0.725 C:0.777 D:0.707 E:0.663
+[banking_cil oracle s2031] step 119 seg F packages 6 A:0.634 B:0.673 C:0.656 D:0.648 E:0.652 F:0.620
+[banking_cil oracle s2031] step 139 seg G packages 7 A:0.611 B:0.637 C:0.633 D:0.577 E:0.554 F:0.525 G:0.586
+FINAL banking_cil oracle 2031 {"proto_mean": 0.5888763240405491, "proto_max": 0.5514548718929291, "proto_own": 0.5678384048598153, "linear_last": 0.10725411346980504} 56s

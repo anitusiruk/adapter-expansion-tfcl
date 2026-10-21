@@ -1,0 +1,13 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Repo card metadata block was not found. Setting CardData to empty.
+Using the latest cached version of the dataset since SetFit/20_newsgroups couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'default' at /workspace/.cache/huggingface/datasets/SetFit___20_newsgroups/default/0.0.0/f1b91292074e7cfb69be58b642d583ec262f30ed (last modified on Sat Oct 10 00:41:58 2026).
+HTTP Error 429 thrown while requesting GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main/additional_chat_templates
+Rate limited. Waiting 65.0s before retry [Retry 1/5].
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6935.26it/s]
+[news_cil trigger:interf_proto s2028] step 19 seg A packages 1 A:0.860
+[news_cil trigger:interf_proto s2028] step 39 seg B packages 1 A:0.790 B:0.750
+[news_cil trigger:interf_proto s2028] step 59 seg C packages 1 A:0.715 B:0.710 C:0.600
+[news_cil trigger:interf_proto s2028] step 79 seg D packages 1 A:0.590 B:0.695 C:0.620 D:0.585
+[news_cil trigger:interf_proto s2028] step 99 seg E packages 1 A:0.575 B:0.660 C:0.585 D:0.580 E:0.480
+FINAL news_cil trigger:interf_proto 2028 {"proto_mean": 0.5759999930858613, "proto_max": 0.5759999930858613, "proto_own": 0.5759999930858613, "linear_last": 0.5100000083446503} 215s

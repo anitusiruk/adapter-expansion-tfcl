@@ -1,0 +1,14 @@
+Using the latest cached version of the dataset since stanfordnlp/sst2 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /workspace/.cache/huggingface/datasets/stanfordnlp___sst2/default/0.0.0/8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb (last modified on Sun Oct 11 03:32:20 2026).
+Using the latest cached version of the dataset since fancyzhx/yelp_polarity couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'plain_text' at /workspace/.cache/huggingface/datasets/fancyzhx___yelp_polarity/plain_text/0.0.0/bbf1c97a1f0cf005e5aded43839fd814654a1557 (last modified on Sun Oct 11 03:34:51 2026).
+Using the latest cached version of the dataset since cardiffnlp/tweet_eval couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'sentiment' at /workspace/.cache/huggingface/datasets/cardiffnlp___tweet_eval/sentiment/0.0.0/b3a375baf0f409c77e6bc7aa35102b7b3534f8be (last modified on Sun Oct 11 03:35:02 2026).
+Using the latest cached version of the dataset since stanfordnlp/imdb couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'plain_text' at /workspace/.cache/huggingface/datasets/stanfordnlp___imdb/plain_text/0.0.0/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 (last modified on Sun Oct 11 03:35:10 2026).
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 8610.14it/s]
+[senti_conf trigger:loss_z s2027] step 19 seg A packages 1 A:0.891
+[senti_conf trigger:loss_z s2027] step 39 seg B packages 1 A:0.859 B:0.500
+[senti_conf trigger:loss_z s2027] step 59 seg C packages 1 A:0.844 B:0.461 C:0.773
+[senti_conf trigger:loss_z s2027] step 79 seg D packages 1 A:0.836 B:0.727 C:0.781 D:0.688
+FINAL senti_conf trigger:loss_z 2027 {"proto_mean": 0.7578125, "proto_max": 0.7578125, "proto_own": 0.7578125, "linear_last": 0.748046875} 74s

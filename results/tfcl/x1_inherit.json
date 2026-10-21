@@ -1,0 +1,50 @@
+{
+ "clinc_cil/fresh_head": {
+  "spawns_per_seed": {
+   "2027": 41,
+   "2028": 41,
+   "2029": 41,
+   "2030": 41,
+   "2031": 41
+  },
+  "mean_spawns": 41.0,
+  "runs_with_spawn": 5,
+  "n_runs": 5
+ },
+ "clinc_cil/inherit": {
+  "spawns_per_seed": {
+   "2027": 1,
+   "2028": 1,
+   "2029": 2,
+   "2030": 1,
+   "2031": 2
+  },
+  "mean_spawns": 1.4,
+  "runs_with_spawn": 5,
+  "n_runs": 5
+ },
+ "banking_cil/fresh_head": {
+  "spawns_per_seed": {
+   "2027": 0,
+   "2028": 0,
+   "2029": 0,
+   "2030": 14,
+   "2031": 14
+  },
+  "mean_spawns": 5.6,
+  "runs_with_spawn": 2,
+  "n_runs": 5
+ },
+ "banking_cil/inherit": {
+  "spawns_per_seed": {
+   "2027": 0,
+   "2028": 0,
+   "2029": 0,
+   "2030": 1,
+   "2031": 1
+  },
+  "mean_spawns": 0.4,
+  "runs_with_spawn": 2,
+  "n_runs": 5
+ }
+}

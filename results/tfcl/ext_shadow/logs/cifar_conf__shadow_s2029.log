@@ -1,0 +1,7 @@
+Loading weights:   0%|          | 0/200 [00:00<?, ?it/s]Loading weights: 100%|██████████| 200/200 [00:00<00:00, 7791.11it/s]
+[cifar_conf shadow s2029] step 49 seg A packages 1 A:0.967
+[cifar_conf shadow s2029] step 99 seg B packages 1 A:0.888 B:0.915
+[cifar_conf shadow s2029] step 149 seg C packages 1 A:0.942 B:0.707 C:0.915
+[cifar_conf shadow s2029] step 199 seg D packages 1 A:0.867 B:0.868 C:0.802 D:0.922
+[cifar_conf shadow s2029] step 249 seg E packages 1 A:0.877 B:0.612 C:0.885 D:0.702 E:0.900
+FINAL cifar_conf shadow 2029 {"proto_mean": 0.7949999928474426, "proto_max": 0.7949999928474426, "proto_own": 0.7949999928474426, "linear_last": 0.8120000004768372} 686s

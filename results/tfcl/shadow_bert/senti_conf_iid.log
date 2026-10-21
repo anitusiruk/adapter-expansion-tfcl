@@ -1,0 +1,4 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7228.24it/s]
+[senti_conf_iid shadow s2026] step 79 seg iid packages 1 A:0.828 B:0.680 C:0.836 D:0.547
+FINAL senti_conf_iid shadow 2026 {"proto_mean": 0.72265625, "proto_max": 0.72265625, "proto_own": 0.72265625, "linear_last": 0.74609375} 140s

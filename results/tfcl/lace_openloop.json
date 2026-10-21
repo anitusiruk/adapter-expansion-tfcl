@@ -1,0 +1,93 @@
+{
+ "amazon_conflict": {
+  "fires": 8,
+  "near_novel": 0,
+  "near_change": 8,
+  "runs": 5,
+  "changes": 20
+ },
+ "amazon_dil": {
+  "fires": 8,
+  "near_novel": 0,
+  "near_change": 2,
+  "runs": 5,
+  "changes": 20
+ },
+ "amazon_dilconf": {
+  "fires": 6,
+  "near_novel": 0,
+  "near_change": 6,
+  "runs": 5,
+  "changes": 20
+ },
+ "amazon_rec": {
+  "fires": 6,
+  "near_novel": 0,
+  "near_change": 3,
+  "runs": 5,
+  "changes": 20
+ },
+ "banking_cil": {
+  "fires": 27,
+  "near_novel": 27,
+  "near_change": 27,
+  "runs": 5,
+  "changes": 30
+ },
+ "banking_rec": {
+  "fires": 5,
+  "near_novel": 5,
+  "near_change": 5,
+  "runs": 5,
+  "changes": 20
+ },
+ "cifar_cil": {
+  "fires": 27,
+  "near_novel": 27,
+  "near_change": 27,
+  "runs": 3,
+  "changes": 27
+ },
+ "cifar_conf": {
+  "fires": 12,
+  "near_novel": 0,
+  "near_change": 12,
+  "runs": 3,
+  "changes": 12
+ },
+ "cifar_dil": {
+  "fires": 12,
+  "near_novel": 0,
+  "near_change": 10,
+  "runs": 3,
+  "changes": 12
+ },
+ "clinc_cil": {
+  "fires": 52,
+  "near_novel": 33,
+  "near_change": 32,
+  "runs": 5,
+  "changes": 45
+ },
+ "news_cil": {
+  "fires": 20,
+  "near_novel": 20,
+  "near_change": 20,
+  "runs": 5,
+  "changes": 20
+ },
+ "senti_conf": {
+  "fires": 6,
+  "near_novel": 0,
+  "near_change": 5,
+  "runs": 5,
+  "changes": 15
+ },
+ "senti_dil": {
+  "fires": 2,
+  "near_novel": 0,
+  "near_change": 1,
+  "runs": 5,
+  "changes": 15
+ }
+}

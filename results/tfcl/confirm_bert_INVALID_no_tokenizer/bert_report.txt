@@ -1,0 +1,32 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Repo card metadata block was not found. Setting CardData to empty.
+Repo card metadata block was not found. Setting CardData to empty.
+Repo card metadata block was not found. Setting CardData to empty.
+Repo card metadata block was not found. Setting CardData to empty.
+Repo card metadata block was not found. Setting CardData to empty.
+H2
+  banking_rec      oracle                              +0.29 [ -0.73, +1.31] W/L 2/3 p=0.8125 holm=False
+  banking_rec      trigger-loss_z-q0.99                +0.72 [ -0.66, +2.09] W/L 3/2 p=0.3125 holm=False
+  banking_cil      oracle                              +0.46 [ -0.07, +0.99] W/L 4/1 p=0.1250 holm=False
+  banking_cil      trigger-loss_z-q0.99                +0.48 [ -0.08, +1.04] W/L 4/1 p=0.1250 holm=False
+  clinc_cil        oracle                              +0.13 [ -0.23, +0.50] W/L 3/2 p=0.4375 holm=False
+  clinc_cil        trigger-loss_z-q0.99                -0.03 [ -0.34, +0.27] W/L 2/2 p=0.6250 holm=False
+  news_cil         oracle                              +0.56 [ -0.42, +1.54] W/L 4/1 p=0.3125 holm=False
+  news_cil         trigger-loss_z-q0.99                +0.64 [ -0.47, +1.75] W/L 4/1 p=0.1875 holm=False
+H3
+  amazon_conflict  oracle                              +2.97 [ +0.41, +5.53] W/L 4/1 p=0.1250 holm=False
+  amazon_conflict  trigger-label_surprise-q0.99        +0.00 [ -3.70, +3.70] W/L 2/3 p=1.0000 holm=False
+  amazon_dilconf   oracle                              +1.19 [ -0.54, +2.92] W/L 3/1 p=0.2500 holm=False
+  amazon_dilconf   trigger-label_surprise-q0.99        -0.09 [ -0.81, +0.63] W/L 2/1 p=1.0000 holm=False
+  senti_conf       oracle                              -0.62 [ -2.82, +1.57] W/L 1/3 p=0.6250 holm=False
+  senti_conf       trigger-label_surprise-q0.99        -0.27 [ -1.05, +0.50] W/L 1/2 p=0.7500 holm=False
+H4
+  banking_rec      trigger-label_surprise-q0.99        +0.44 [ -0.47, +1.36] W/L 3/2 p=0.3125 NI=True
+  banking_cil      trigger-label_surprise-q0.99        +0.42 [ +0.06, +0.79] W/L 4/0 p=0.1250 NI=True
+  clinc_cil        trigger-label_surprise-q0.99        +0.00 [ +0.00, +0.00] W/L 0/0 p=1.0000 NI=True
+  news_cil         trigger-label_surprise-q0.99        -0.16 [ -0.52, +0.20] W/L 2/3 p=0.3125 NI=True
+  amazon_rec       trigger-label_surprise-q0.99        -0.10 [ -0.59, +0.39] W/L 1/3 p=0.7500 NI=True
+  amazon_dil       trigger-label_surprise-q0.99        +0.63 [ -0.65, +1.90] W/L 3/1 p=0.2500 NI=True
+  senti_dil        trigger-label_surprise-q0.99        +0.39 [ -0.32, +1.10] W/L 3/1 p=0.3750 NI=True
+H1 {"banking_rec/loss_z": {"spawns": 20, "within2_of_novel": 10, "fraction": 0.5}, "banking_rec/fresh_util": {"spawns": 0, "within2_of_novel": 0, "fraction": NaN}, "banking_cil/loss_z": {"spawns": 29, "within2_of_novel": 29, "fraction": 1.0}, "banking_cil/fresh_util": {"spawns": 0, "within2_of_novel": 0, "fraction": NaN}, "clinc_cil/loss_z": {"spawns": 45, "within2_of_novel": 45, "fraction": 1.0}, "clinc_cil/fresh_util": {"spawns": 0, "within2_of_novel": 0, "fraction": NaN}, "news_cil/loss_z": {"spawns": 20, "within2_of_novel": 20, "fraction": 1.0}, "news_cil/fresh_util": {"spawns": 0, "within2_of_novel": 0, "fraction": NaN}}
+label_novel spawns in DIL/DRIFT: {'amazon_rec': 0, 'amazon_dil': 0, 'senti_dil': 0, 'amazon_conflict': 0, 'amazon_dilconf': 0, 'senti_conf': 0}

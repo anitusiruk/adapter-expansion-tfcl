@@ -1,0 +1,8 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/200 [00:00<?, ?it/s]Loading weights: 100%|██████████| 200/200 [00:00<00:00, 6578.42it/s]
+[cifar_dil trigger:fresh_util s2028] step 49 seg A packages 1 A:0.968
+[cifar_dil trigger:fresh_util s2028] step 99 seg B packages 1 A:0.923 B:0.925
+[cifar_dil trigger:fresh_util s2028] step 149 seg C packages 1 A:0.918 B:0.883 C:0.925
+[cifar_dil trigger:fresh_util s2028] step 199 seg D packages 1 A:0.902 B:0.860 C:0.873 D:0.930
+[cifar_dil trigger:fresh_util s2028] step 249 seg E packages 1 A:0.910 B:0.882 C:0.833 D:0.893 E:0.907
+FINAL cifar_dil trigger:fresh_util 2028 {"proto_mean": 0.8850000023841857, "proto_max": 0.8850000023841857, "proto_own": 0.8850000023841857, "linear_last": 0.8903333425521851} 535s

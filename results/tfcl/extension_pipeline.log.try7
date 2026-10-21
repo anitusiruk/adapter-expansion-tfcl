@@ -1,0 +1,27 @@
+110 jobs
+FAILED: none
+220 jobs
+FAILED: none
+90 jobs
+FAILED: none
+55 jobs
+FAILED: none
+240 jobs
+[107/240] ok results/tfcl/ext_vision/cifar_dil/trigger-loss_z-q0.99_s2029.json
+[188/240] ok results/tfcl/ext_vision/cifar_conf/trigger-repr_z-q0.99_s2029.json
+[189/240] ok results/tfcl/ext_vision/cifar_conf/trigger-fresh_util-q0.99_s2029.json
+[193/240] ok results/tfcl/ext_vision/cifar_conf/firstseg_s2030.json
+[196/240] ok results/tfcl/ext_vision/cifar_conf/trigger-label_novel-q0.99_s2030.json
+FAILED: none
+48 jobs
+FAILED: none
+9 jobs
+[1/9] fail(1) results/tfcl/ext_shadow/cifar_cil/shadow_s2027.json
+[3/9] fail(1) results/tfcl/ext_shadow/cifar_cil/shadow_s2029.json
+[4/9] ok results/tfcl/ext_shadow/cifar_dil/shadow_s2027.json
+[5/9] fail(1) results/tfcl/ext_shadow/cifar_dil/shadow_s2028.json
+[6/9] fail(1) results/tfcl/ext_shadow/cifar_dil/shadow_s2029.json
+[7/9] fail(1) results/tfcl/ext_shadow/cifar_conf/shadow_s2027.json
+[9/9] fail(1) results/tfcl/ext_shadow/cifar_conf/shadow_s2029.json
+FAILED: ['results/tfcl/ext_shadow/cifar_cil/shadow_s2027.json', 'results/tfcl/ext_shadow/cifar_cil/shadow_s2029.json', 'results/tfcl/ext_shadow/cifar_dil/shadow_s2028.json', 'results/tfcl/ext_shadow/cifar_dil/shadow_s2029.json', 'results/tfcl/ext_shadow/cifar_conf/shadow_s2027.json', 'results/tfcl/ext_shadow/cifar_conf/shadow_s2029.json']
+EXTENSION_PIPELINE_DONE

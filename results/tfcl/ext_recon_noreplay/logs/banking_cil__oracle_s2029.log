@@ -1,0 +1,14 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/usr/local/lib/python3.12/dist-packages/datasets/load.py:1231: FutureWarning: The repository for PolyAI/banking77 contains custom code which must be executed to correctly load the dataset. You can inspect the repository content at https://hf.co/datasets/PolyAI/banking77
+You can avoid this message in future by passing the argument `trust_remote_code=True`.
+Passing `trust_remote_code=True` will be mandatory to load this dataset from the next major release of `datasets`.
+  warnings.warn(
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 4045.55it/s]
+[banking_cil oracle s2029] step 19 seg A packages 1 A:0.907
+[banking_cil oracle s2029] step 39 seg B packages 2 A:0.860 B:0.846
+[banking_cil oracle s2029] step 59 seg C packages 3 A:0.805 B:0.820 C:0.746
+[banking_cil oracle s2029] step 79 seg D packages 4 A:0.673 B:0.739 C:0.676 D:0.713
+[banking_cil oracle s2029] step 99 seg E packages 5 A:0.681 B:0.670 C:0.699 D:0.642 E:0.652
+[banking_cil oracle s2029] step 119 seg F packages 6 A:0.599 B:0.641 C:0.641 D:0.651 E:0.588 F:0.630
+[banking_cil oracle s2029] step 139 seg G packages 7 A:0.541 B:0.565 C:0.602 D:0.616 E:0.622 F:0.609 G:0.583
+FINAL banking_cil oracle 2029 {"proto_mean": 0.5909779156957354, "proto_max": 0.5486435209001813, "proto_own": 0.5368829923016685, "linear_last": 0.10858923196792603} 82s

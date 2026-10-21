@@ -1,0 +1,30 @@
+520 text jobs; 88 vision jobs
+JOBS_DONE
+Traceback (most recent call last):
+  File "/workspace/mitosis-interference/experiments/run_jobs.py", line 50, in <module>
+    main()
+  File "/workspace/mitosis-interference/experiments/run_jobs.py", line 43, in main
+    for r in ex.map(lambda j: run(j, module), jobs):
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mitosis-interference/experiments/run_jobs.py", line 43, in <lambda>
+    for r in ex.map(lambda j: run(j, module), jobs):
+                              ^^^^^^^^^^^^^^
+  File "/workspace/mitosis-interference/experiments/run_jobs.py", line 34, in run
+    log.unlink()
+  File "/usr/lib/python3.12/pathlib.py", line 1344, in unlink
+    os.unlink(self)
+FileNotFoundError: [Errno 2] No such file or directory: 'results/tfcl/ext6/null_closed/cifar_cil/trigger-loss_z-q0.99_s2029.log'
+EXT6_DONE

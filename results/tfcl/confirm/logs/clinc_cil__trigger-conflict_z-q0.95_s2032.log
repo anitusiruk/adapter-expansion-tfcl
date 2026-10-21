@@ -1,0 +1,13 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6110.58it/s]
+[clinc_cil trigger:conflict_z s2032] step 37 seg A packages 1 A:0.973
+[clinc_cil trigger:conflict_z s2032] step 75 seg B packages 2 A:0.963 B:0.900
+[clinc_cil trigger:conflict_z s2032] step 113 seg C packages 2 A:0.947 B:0.907 C:0.943
+[clinc_cil trigger:conflict_z s2032] step 151 seg D packages 3 A:0.913 B:0.863 C:0.923 D:0.903
+[clinc_cil trigger:conflict_z s2032] step 189 seg E packages 3 A:0.903 B:0.897 C:0.840 D:0.897 E:0.853
+[clinc_cil trigger:conflict_z s2032] step 227 seg F packages 3 A:0.900 B:0.873 C:0.857 D:0.883 E:0.863 F:0.927
+[clinc_cil trigger:conflict_z s2032] step 265 seg G packages 4 A:0.823 B:0.773 C:0.817 D:0.860 E:0.830 F:0.867 G:0.727
+[clinc_cil trigger:conflict_z s2032] step 303 seg H packages 4 A:0.853 B:0.693 C:0.813 D:0.850 E:0.720 F:0.883 G:0.690 H:0.843
+[clinc_cil trigger:conflict_z s2032] step 341 seg I packages 5 A:0.840 B:0.637 C:0.783 D:0.800 E:0.657 F:0.850 G:0.633 H:0.827 I:0.847
+[clinc_cil trigger:conflict_z s2032] step 379 seg J packages 5 A:0.807 B:0.563 C:0.703 D:0.713 E:0.633 F:0.887 G:0.607 H:0.793 I:0.820 J:0.763
+FINAL clinc_cil trigger:conflict_z 2032 {"proto_mean": 0.7289999961853028, "proto_max": 0.7053333401679993, "proto_own": 0.7040000021457672, "linear_last": 0.17366666793823243} 258s

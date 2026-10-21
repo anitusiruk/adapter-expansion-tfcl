@@ -1,0 +1,15 @@
+FINAL banking_rec shadow 2026 {"proto_mean": 0.8637095093727112, "proto_max": 0.8637095093727112, "proto_own": 0.8637095093727112, "linear_last": 0.8308658599853516} 27s
+FINAL banking_rec_iid shadow 2026 {"proto_mean": 0.8682371576627096, "proto_max": 0.8682371576627096, "proto_own": 0.8682371576627096, "linear_last": 0.8772605458895365} 27s
+FINAL banking_cil shadow 2026 {"proto_mean": 0.7260785443442208, "proto_max": 0.7260785443442208, "proto_own": 0.7260785443442208, "linear_last": 0.6887857488223484} 51s
+FINAL banking_cil_iid shadow 2026 {"proto_mean": 0.7526717696871076, "proto_max": 0.7526717696871076, "proto_own": 0.7526717696871076, "linear_last": 0.7813584974833897} 46s
+FINAL clinc_cil shadow 2026 {"proto_mean": 0.8316666662693024, "proto_max": 0.8316666662693024, "proto_own": 0.8316666662693024, "linear_last": 0.7713333189487457} 111s
+FINAL clinc_cil_iid shadow 2026 {"proto_mean": 0.8573333263397217, "proto_max": 0.8573333263397217, "proto_own": 0.8573333263397217, "linear_last": 0.9123333334922791} 110s
+FINAL amazon_rec shadow 2026 {"proto_mean": 0.8671875, "proto_max": 0.8671875, "proto_own": 0.8671875, "linear_last": 0.8697916666666666} 32s
+FINAL amazon_rec_iid shadow 2026 {"proto_mean": 0.8828125, "proto_max": 0.8828125, "proto_own": 0.8828125, "linear_last": 0.8645833333333334} 30s
+FINAL amazon_dil shadow 2026 {"proto_mean": 0.8484375, "proto_max": 0.8484375, "proto_own": 0.8484375, "linear_last": 0.859375} 39s
+FINAL amazon_dil_iid shadow 2026 {"proto_mean": 0.859375, "proto_max": 0.859375, "proto_own": 0.859375, "linear_last": 0.859375} 39s
+FINAL amazon_conflict shadow 2026 {"proto_mean": 0.578125, "proto_max": 0.578125, "proto_own": 0.578125, "linear_last": 0.5104166666666666} 29s
+FINAL amazon_conflict_iid shadow 2026 {"proto_mean": 0.7135416666666666, "proto_max": 0.7135416666666666, "proto_own": 0.7135416666666666, "linear_last": 0.6875} 32s
+FINAL amazon_dilconf shadow 2026 {"proto_mean": 0.5, "proto_max": 0.5, "proto_own": 0.5, "linear_last": 0.5} 40s
+FINAL amazon_dilconf_iid shadow 2026 {"proto_mean": 0.621875, "proto_max": 0.621875, "proto_own": 0.621875, "linear_last": 0.6234375} 39s
+DONE

@@ -1,0 +1,8 @@
+Repo card metadata block was not found. Setting CardData to empty.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6132.02it/s]
+[news_cil single s2035] step 19 seg A packages 1 A:0.835
+[news_cil single s2035] step 39 seg B packages 1 A:0.740 B:0.675
+[news_cil single s2035] step 59 seg C packages 1 A:0.660 B:0.630 C:0.650
+[news_cil single s2035] step 79 seg D packages 1 A:0.500 B:0.560 C:0.545 D:0.570
+[news_cil single s2035] step 99 seg E packages 1 A:0.480 B:0.550 C:0.470 D:0.585 E:0.410
+FINAL news_cil single 2035 {"proto_mean": 0.49899999499320985, "proto_max": 0.49899999499320985, "proto_own": 0.49899999499320985, "linear_last": 0.1629999980330467} 67s

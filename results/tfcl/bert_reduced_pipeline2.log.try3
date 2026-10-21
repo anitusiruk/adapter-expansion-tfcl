@@ -1,0 +1,14 @@
+200 jobs
+[1/200] ok results/tfcl/confirm_bert/banking_rec/single_s2027.json
+[2/200] ok results/tfcl/confirm_bert/banking_rec/oracle_s2027.json
+[3/200] fail(1) results/tfcl/confirm_bert/banking_rec/trigger-loss_z-q0.99_s2027.json
+[4/200] fail(1) results/tfcl/confirm_bert/banking_rec/trigger-label_surprise-q0.99_s2027.json
+[5/200] fail(1) results/tfcl/confirm_bert/banking_rec/single_s2028.json
+[6/200] fail(1) results/tfcl/confirm_bert/banking_rec/oracle_s2028.json
+[7/200] fail(1) results/tfcl/confirm_bert/banking_rec/trigger-loss_z-q0.99_s2028.json
+[8/200] ok results/tfcl/confirm_bert/banking_rec/trigger-label_surprise-q0.99_s2028.json
+[9/200] ok results/tfcl/confirm_bert/banking_rec/single_s2029.json
+[10/200] ok results/tfcl/confirm_bert/banking_rec/oracle_s2029.json
+[11/200] ok results/tfcl/confirm_bert/banking_rec/trigger-loss_z-q0.99_s2029.json
+FAILED: ['results/tfcl/confirm_bert/banking_rec/trigger-loss_z-q0.99_s2027.json', 'results/tfcl/confirm_bert/banking_rec/trigger-label_surprise-q0.99_s2027.json', 'results/tfcl/confirm_bert/banking_rec/single_s2028.json', 'results/tfcl/confirm_bert/banking_rec/oracle_s2028.json', 'results/tfcl/confirm_bert/banking_rec/trigger-loss_z-q0.99_s2028.json']
+BERT_REDUCED_DONE

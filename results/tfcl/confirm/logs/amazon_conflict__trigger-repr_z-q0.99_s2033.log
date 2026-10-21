@@ -1,0 +1,8 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6821.78it/s]
+[amazon_conflict trigger:repr_z s2033] step 15 seg A packages 1 A:0.859
+[amazon_conflict trigger:repr_z s2033] step 31 seg B packages 1 A:0.766 B:0.391
+[amazon_conflict trigger:repr_z s2033] step 47 seg A packages 1 A:0.797 B:0.359
+[amazon_conflict trigger:repr_z s2033] step 63 seg C packages 2 A:0.852 B:0.172 C:0.797
+[amazon_conflict trigger:repr_z s2033] step 79 seg B packages 2 A:0.633 B:0.430 C:0.602
+FINAL amazon_conflict trigger:repr_z 2033 {"proto_mean": 0.5546875, "proto_max": 0.6171875, "proto_own": 0.6302083333333334, "linear_last": 0.5052083333333334} 58s

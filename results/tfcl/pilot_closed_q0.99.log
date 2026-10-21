@@ -1,0 +1,23 @@
+35 jobs
+[3/35] ok results/tfcl/pilot_closed/banking_rec/trigger-loss_z-q0.99_s2026.json
+[4/35] ok results/tfcl/pilot_closed/banking_rec/trigger-repr_z-q0.99_s2026.json
+[5/35] ok results/tfcl/pilot_closed/banking_rec/trigger-conflict_z-q0.99_s2026.json
+[8/35] ok results/tfcl/pilot_closed/banking_cil/trigger-loss_z-q0.99_s2026.json
+[9/35] ok results/tfcl/pilot_closed/banking_cil/trigger-repr_z-q0.99_s2026.json
+[10/35] ok results/tfcl/pilot_closed/banking_cil/trigger-conflict_z-q0.99_s2026.json
+[13/35] ok results/tfcl/pilot_closed/clinc_cil/trigger-loss_z-q0.99_s2026.json
+[14/35] ok results/tfcl/pilot_closed/clinc_cil/trigger-repr_z-q0.99_s2026.json
+[15/35] ok results/tfcl/pilot_closed/clinc_cil/trigger-conflict_z-q0.99_s2026.json
+[18/35] ok results/tfcl/pilot_closed/amazon_rec/trigger-loss_z-q0.99_s2026.json
+[19/35] ok results/tfcl/pilot_closed/amazon_rec/trigger-repr_z-q0.99_s2026.json
+[20/35] ok results/tfcl/pilot_closed/amazon_rec/trigger-conflict_z-q0.99_s2026.json
+[23/35] ok results/tfcl/pilot_closed/amazon_dil/trigger-loss_z-q0.99_s2026.json
+[24/35] ok results/tfcl/pilot_closed/amazon_dil/trigger-repr_z-q0.99_s2026.json
+[25/35] ok results/tfcl/pilot_closed/amazon_dil/trigger-conflict_z-q0.99_s2026.json
+[28/35] ok results/tfcl/pilot_closed/amazon_conflict/trigger-loss_z-q0.99_s2026.json
+[29/35] ok results/tfcl/pilot_closed/amazon_conflict/trigger-repr_z-q0.99_s2026.json
+[30/35] ok results/tfcl/pilot_closed/amazon_conflict/trigger-conflict_z-q0.99_s2026.json
+[33/35] ok results/tfcl/pilot_closed/amazon_dilconf/trigger-loss_z-q0.99_s2026.json
+[34/35] ok results/tfcl/pilot_closed/amazon_dilconf/trigger-repr_z-q0.99_s2026.json
+[35/35] ok results/tfcl/pilot_closed/amazon_dilconf/trigger-conflict_z-q0.99_s2026.json
+FAILED: none

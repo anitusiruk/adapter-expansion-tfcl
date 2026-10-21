@@ -1,0 +1,9 @@
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 8320.05it/s]
+[banking_cil trigger:interf_logit s2033] step 19 seg A packages 1 A:0.934
+[banking_cil trigger:interf_logit s2033] step 39 seg B packages 1 A:0.895 B:0.879
+[banking_cil trigger:interf_logit s2033] step 59 seg C packages 1 A:0.868 B:0.873 C:0.809
+[banking_cil trigger:interf_logit s2033] step 79 seg D packages 2 A:0.778 B:0.833 C:0.758 D:0.720
+[banking_cil trigger:interf_logit s2033] step 99 seg E packages 3 A:0.778 B:0.843 C:0.766 D:0.723 E:0.715
+[banking_cil trigger:interf_logit s2033] step 119 seg F packages 3 A:0.708 B:0.788 C:0.715 D:0.678 E:0.682 F:0.764
+[banking_cil trigger:interf_logit s2033] step 139 seg G packages 4 A:0.650 B:0.745 C:0.688 D:0.668 E:0.659 F:0.725 G:0.632
+FINAL banking_cil trigger:interf_logit 2033 {"proto_mean": 0.6810118300574166, "proto_max": 0.5770385350499835, "proto_own": 0.5665875162397113, "linear_last": 0.10458389350346156} 93s

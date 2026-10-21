@@ -1,0 +1,9 @@
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 8411.32it/s]
+[banking_cil trigger:fresh_util s2026] step 19 seg A packages 1 A:0.922
+[banking_cil trigger:fresh_util s2026] step 39 seg B packages 2 A:0.837 B:0.846
+[banking_cil trigger:fresh_util s2026] step 59 seg C packages 3 A:0.798 B:0.840 C:0.754
+[banking_cil trigger:fresh_util s2026] step 79 seg D packages 4 A:0.642 B:0.788 C:0.672 D:0.772
+[banking_cil trigger:fresh_util s2026] step 99 seg E packages 5 A:0.603 B:0.781 C:0.695 D:0.782 E:0.640
+[banking_cil trigger:fresh_util s2026] step 119 seg F packages 6 A:0.580 B:0.722 C:0.605 D:0.694 E:0.637 F:0.616
+[banking_cil trigger:fresh_util s2026] step 139 seg G packages 7 A:0.568 B:0.663 C:0.570 D:0.658 E:0.614 F:0.570 G:0.576
+FINAL banking_cil trigger:fresh_util 2026 {"proto_mean": 0.6029662404741559, "proto_max": 0.5467134884425572, "proto_own": 0.5573659539222717, "linear_last": 0.11615487507411412} 85s

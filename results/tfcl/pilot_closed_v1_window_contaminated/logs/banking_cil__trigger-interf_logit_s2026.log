@@ -1,0 +1,10 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6402.34it/s]
+[banking_cil trigger:interf_logit s2026] step 19 seg A packages 1 A:0.922
+[banking_cil trigger:interf_logit s2026] step 39 seg B packages 1 A:0.903 B:0.879
+[banking_cil trigger:interf_logit s2026] step 59 seg C packages 2 A:0.895 B:0.889 C:0.848
+[banking_cil trigger:interf_logit s2026] step 79 seg D packages 2 A:0.759 B:0.824 C:0.742 D:0.762
+[banking_cil trigger:interf_logit s2026] step 99 seg E packages 3 A:0.700 B:0.810 C:0.715 D:0.772 E:0.644
+[banking_cil trigger:interf_logit s2026] step 119 seg F packages 3 A:0.677 B:0.788 C:0.594 D:0.743 E:0.655 F:0.648
+[banking_cil trigger:interf_logit s2026] step 139 seg G packages 3 A:0.661 B:0.735 C:0.594 D:0.691 E:0.697 F:0.637 G:0.611
+FINAL banking_cil trigger:interf_logit 2026 {"proto_mean": 0.660803062575204, "proto_max": 0.6038622600691659, "proto_own": 0.5922737717628479, "linear_last": 0.30086114576884676} 60s

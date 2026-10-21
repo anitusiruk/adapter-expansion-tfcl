@@ -1,0 +1,10 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Error 429 thrown while requesting GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main/additional_chat_templates
+Rate limited. Waiting 77.0s before retry [Retry 1/5].
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 2018.47it/s]
+[amazon_dilconf single s2034] step 19 seg A packages 1 A:0.859
+[amazon_dilconf single s2034] step 39 seg B packages 1 A:0.766 B:0.406
+[amazon_dilconf single s2034] step 59 seg C packages 1 A:0.844 B:0.219 C:0.812
+[amazon_dilconf single s2034] step 79 seg D packages 1 A:0.531 B:0.477 C:0.586 D:0.555
+[amazon_dilconf single s2034] step 99 seg E packages 1 A:0.742 B:0.375 C:0.680 D:0.336 E:0.750
+FINAL amazon_dilconf single 2034 {"proto_mean": 0.5765625, "proto_max": 0.5765625, "proto_own": 0.5765625, "linear_last": 0.55625} 142s

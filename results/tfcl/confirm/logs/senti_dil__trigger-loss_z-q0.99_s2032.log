@@ -1,0 +1,7 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 2731.79it/s]
+[senti_dil trigger:loss_z s2032] step 19 seg A packages 1 A:0.836
+[senti_dil trigger:loss_z s2032] step 39 seg B packages 1 A:0.875 B:0.891
+[senti_dil trigger:loss_z s2032] step 59 seg C packages 1 A:0.836 B:0.891 C:0.828
+[senti_dil trigger:loss_z s2032] step 79 seg D packages 1 A:0.875 B:0.875 C:0.828 D:0.719
+FINAL senti_dil trigger:loss_z 2032 {"proto_mean": 0.82421875, "proto_max": 0.82421875, "proto_own": 0.82421875, "linear_last": 0.82421875} 64s

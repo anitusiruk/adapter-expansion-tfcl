@@ -1,0 +1,12 @@
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 8575.03it/s]
+[clinc_cil trigger:label_novel s2035] step 37 seg A packages 1 A:0.963
+[clinc_cil trigger:label_novel s2035] step 75 seg B packages 1 A:0.977 B:0.950
+[clinc_cil trigger:label_novel s2035] step 113 seg C packages 1 A:0.973 B:0.940 C:0.970
+[clinc_cil trigger:label_novel s2035] step 151 seg D packages 2 A:0.917 B:0.907 C:0.950 D:0.870
+[clinc_cil trigger:label_novel s2035] step 189 seg E packages 2 A:0.923 B:0.887 C:0.920 D:0.833 E:0.887
+[clinc_cil trigger:label_novel s2035] step 227 seg F packages 3 A:0.920 B:0.880 C:0.877 D:0.863 E:0.873 F:0.900
+[clinc_cil trigger:label_novel s2035] step 265 seg G packages 4 A:0.907 B:0.863 C:0.830 D:0.763 E:0.813 F:0.843 G:0.830
+[clinc_cil trigger:label_novel s2035] step 303 seg H packages 5 A:0.917 B:0.870 C:0.777 D:0.767 E:0.780 F:0.817 G:0.787 H:0.807
+[clinc_cil trigger:label_novel s2035] step 341 seg I packages 6 A:0.850 B:0.853 C:0.737 D:0.730 E:0.733 F:0.777 G:0.747 H:0.817 I:0.747
+[clinc_cil trigger:label_novel s2035] step 379 seg J packages 6 A:0.803 B:0.817 C:0.620 D:0.733 E:0.693 F:0.763 G:0.747 H:0.823 I:0.733 J:0.723
+FINAL clinc_cil trigger:label_novel 2035 {"proto_mean": 0.7456666707992554, "proto_max": 0.7053333342075347, "proto_own": 0.7209999978542327, "linear_last": 0.18300000429153443} 164s

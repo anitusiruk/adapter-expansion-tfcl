@@ -1,0 +1,9 @@
+Using the latest cached version of the dataset since SetFit/20_newsgroups couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /workspace/.cache/huggingface/datasets/SetFit___20_newsgroups/default/0.0.0/f1b91292074e7cfb69be58b642d583ec262f30ed (last modified on Sun Oct 11 03:32:14 2026).
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7233.94it/s]
+[news_cil oracle s2028] step 19 seg A packages 1 A:0.295
+[news_cil oracle s2028] step 39 seg B packages 2 A:0.045 B:0.205
+[news_cil oracle s2028] step 59 seg C packages 3 A:0.030 B:0.040 C:0.200
+[news_cil oracle s2028] step 79 seg D packages 4 A:0.220 B:0.005 C:0.010 D:0.055
+[news_cil oracle s2028] step 99 seg E packages 5 A:0.220 B:0.000 C:0.005 D:0.030 E:0.020
+FINAL news_cil oracle 2028 {"proto_mean": 0.05499999951571226, "proto_max": 0.059999999962747096, "proto_own": 0.057999998331069946, "linear_last": 0.05} 86s

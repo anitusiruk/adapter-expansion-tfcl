@@ -1,0 +1,57 @@
+M integrity: 108 checked; mismatches: []
+M1 banking_rec +30.15 [+27.71,+32.58] 10+/0- n=10 pH=0.00977 SUPPORTED=True
+M1 banking_cil +36.89 [+33.06,+40.72] 10+/0- n=10 pH=0.00977 SUPPORTED=True
+M1 clinc_cil +23.57 [+19.01,+28.13] 10+/0- n=10 pH=0.00977 SUPPORTED=True
+M1 news_cil +21.38 [+16.07,+26.69] 10+/0- n=10 pH=0.00977 SUPPORTED=True
+M1 cifar_cil +29.35 [+25.37,+33.34] 8+/0- n=8 pH=0.00977 SUPPORTED=True
+M1 imnr_cil +14.34 [+12.47,+16.21] 6+/0- n=6 SUPPORTED=True
+M2 banking_rec +27.84 [+25.08,+30.60] 10+/0- n=10 pH=0.00977 SUPPORTED=True
+M2 banking_cil +28.81 [+25.51,+32.11] 10+/0- n=10 pH=0.00977 SUPPORTED=True
+M2 clinc_cil +21.42 [+16.66,+26.18] 10+/0- n=10 pH=0.00977 SUPPORTED=True
+M2 news_cil +19.05 [+13.43,+24.67] 10+/0- n=10 pH=0.00977 SUPPORTED=True
+M2 cifar_cil +29.25 [+25.23,+33.28] 8+/0- n=8 pH=0.00977 SUPPORTED=True
+M2 imnr_cil +10.87 [+8.76,+12.98] 6+/0- n=6 SUPPORTED=True
+value banking_rec {'proto_ef': 24.02, 'proto_ms': 22.73, 'proto_mf': -5.1, 'proto_mfa': -4.3, 'proto_mean': -4.3}
+decomp banking_rec {'sample (ef->ms)': 1.29, 'feature age (ms->mf)': 27.84, 'coverage+aggregation (mf->mfa)': -0.8, 'check (mfa->mean)': 0.0, 'total (ef->mean)': 28.33}
+value banking_cil {'proto_ef': 29.79, 'proto_ms': 24.79, 'proto_mf': -4.02, 'proto_mfa': -3.26, 'proto_mean': -3.26}
+decomp banking_cil {'sample (ef->ms)': 5.0, 'feature age (ms->mf)': 28.81, 'coverage+aggregation (mf->mfa)': -0.76, 'check (mfa->mean)': 0.0, 'total (ef->mean)': 33.05}
+value clinc_cil {'proto_ef': 28.08, 'proto_ms': 19.67, 'proto_mf': -1.75, 'proto_mfa': -0.56, 'proto_mean': -0.56}
+decomp clinc_cil {'sample (ef->ms)': 8.41, 'feature age (ms->mf)': 21.42, 'coverage+aggregation (mf->mfa)': -1.19, 'check (mfa->mean)': 0.0, 'total (ef->mean)': 28.64}
+value news_cil {'proto_ef': 18.41, 'proto_ms': 17.22, 'proto_mf': -1.83, 'proto_mfa': -1.17, 'proto_mean': -1.17}
+decomp news_cil {'sample (ef->ms)': 1.19, 'feature age (ms->mf)': 19.05, 'coverage+aggregation (mf->mfa)': -0.66, 'check (mfa->mean)': 0.0, 'total (ef->mean)': 19.58}
+value cifar_cil {'proto_ef': 31.37, 'proto_ms': 24.0, 'proto_mf': -5.25, 'proto_mfa': 1.35, 'proto_mean': 1.35}
+decomp cifar_cil {'sample (ef->ms)': 7.37, 'feature age (ms->mf)': 29.25, 'coverage+aggregation (mf->mfa)': -6.6, 'check (mfa->mean)': 0.0, 'total (ef->mean)': 30.03}
+value imnr_cil {'proto_ef': 8.08, 'proto_ms': -3.46, 'proto_mf': -14.32, 'proto_mfa': -8.36, 'proto_mean': -8.36}
+decomp imnr_cil {'sample (ef->ms)': 11.53, 'feature age (ms->mf)': 10.87, 'coverage+aggregation (mf->mfa)': -5.97, 'check (mfa->mean)': 0.0, 'total (ef->mean)': 16.43}
+G integrity {'cifar_single_global_equals_saved': True}
+G banking_rec glob-single -7.66 [-8.66,-6.66] 0+/10- n=10 pH=0.00977 SUPPORTED=True | glob-owned +0.54 [+0.14,+0.95] 9+/1- n=10 | owned-single -8.20 [-9.06,-7.34] 0+/10- n=10 | share 0.06619276429078871
+G banking_cil glob-single -10.87 [-12.02,-9.72] 0+/10- n=10 pH=0.00977 SUPPORTED=True | glob-owned +0.49 [-0.01,+0.98] 7+/3- n=10 | owned-single -11.36 [-12.85,-9.87] 0+/10- n=10 | share 0.04279458732186825
+G clinc_cil glob-single -9.33 [-9.87,-8.78] 0+/10- n=10 pH=0.00977 SUPPORTED=True | glob-owned +0.57 [+0.13,+1.02] 9+/1- n=10 | owned-single -9.90 [-10.30,-9.50] 0+/10- n=10 | share 0.05791247541902912
+G news_cil glob-single -6.29 [-7.47,-5.11] 0+/10- n=10 pH=0.00977 SUPPORTED=True | glob-owned +0.85 [+0.23,+1.47] 8+/2- n=10 | owned-single -7.14 [-8.74,-5.54] 0+/10- n=10 | share 0.11904762024018901
+G amazon_rec glob-single -0.60 [-1.26,+0.06] 3+/6- n=10 | glob-owned +0.05 [-0.68,+0.79] 5+/5- n=10 | owned-single -0.65 [-1.45,+0.15] 2+/7- n=10 | share 0.0799999999999972
+G amazon_dil glob-single +0.23 [-0.26,+0.73] 6+/3- n=10 | glob-owned -0.11 [-0.43,+0.21] 3+/6- n=10 | owned-single +0.34 [-0.22,+0.91] 6+/3- n=10 | share None
+G amazon_conflict glob-single +1.33 [-1.96,+4.62] 6+/4- n=10 | glob-owned +0.49 [-0.17,+1.15] 7+/2- n=10 | owned-single +0.83 [-2.10,+3.77] 5+/5- n=10 | share None
+G amazon_dilconf glob-single +2.00 [+0.92,+3.08] 10+/0- n=10 | glob-owned +0.06 [-0.62,+0.75] 4+/6- n=10 | owned-single +1.94 [+0.54,+3.34] 9+/0- n=10 | share None
+G senti_dil glob-single +0.14 [-1.19,+1.47] 4+/6- n=10 | glob-owned +0.12 [-0.19,+0.42] 6+/4- n=10 | owned-single +0.02 [-1.42,+1.46] 3+/7- n=10 | share None
+G senti_conf glob-single -13.50 [-17.22,-9.77] 0+/10- n=10 | glob-owned +3.98 [+0.92,+7.05] 7+/3- n=10 | owned-single -17.48 [-20.47,-14.49] 0+/10- n=10 | share 0.22793296089385473
+G cifar_cil glob-single -2.32 [-3.26,-1.38] 0+/8- n=8 pH=0.00977 SUPPORTED=True | glob-owned +6.60 [+5.85,+7.36] 8+/0- n=8 | owned-single -8.92 [-9.95,-7.89] 0+/8- n=8 | share 0.740308236640108
+G imnr_cil glob-single -12.79 [-15.35,-10.23] 0+/6- n=6 SUPPORTED=True | glob-owned +5.48 [+4.10,+6.86] 6+/0- n=6 | owned-single -18.27 [-20.31,-16.23] 0+/6- n=6 | share 0.3001263572829157
+F exemplar fresh_util {'runs': 59, 'mean_spawns_per_run': 5.271186440677966, 'frac_runs_with_spawn': 0.23728813559322035, 'spawns_per_100_eligible_range': [0.0, 49.51690821256039]}
+F exemplar interf_logit {'runs': 50, 'mean_spawns_per_run': 0.2, 'frac_runs_with_spawn': 0.18, 'spawns_per_100_eligible_range': [0.0, 1.2048192771084338]}
+F exemplar label_novel {'runs': 59, 'mean_spawns_per_run': 0.06779661016949153, 'frac_runs_with_spawn': 0.06779661016949153, 'spawns_per_100_eligible_range': [0.0, 0.16538037486218302]}
+F exemplar label_surprise {'runs': 59, 'mean_spawns_per_run': 0.01694915254237288, 'frac_runs_with_spawn': 0.01694915254237288, 'spawns_per_100_eligible_range': [0.0, 0.22075055187637968]}
+F exemplar loss_z {'runs': 59, 'mean_spawns_per_run': 0.11864406779661017, 'frac_runs_with_spawn': 0.11864406779661017, 'spawns_per_100_eligible_range': [0.0, 0.28328611898017]}
+F exemplar repr_z {'runs': 59, 'mean_spawns_per_run': 0.423728813559322, 'frac_runs_with_spawn': 0.2711864406779661, 'spawns_per_100_eligible_range': [0.0, 1.4354066985645932]}
+F exemplar_free label_surprise {'runs': 20, 'mean_spawns_per_run': 0.1, 'frac_runs_with_spawn': 0.1, 'spawns_per_100_eligible_range': [0.0, 0.10982976386600769]}
+F exemplar_free loss_z {'runs': 20, 'mean_spawns_per_run': 0.25, 'frac_runs_with_spawn': 0.25, 'spawns_per_100_eligible_range': [0.0, 0.48859934853420195]}
+A4 banking_rec stored +24.02 [+21.26,+26.78] 10+/0- n=10 | refreshed -4.30 [-6.03,-2.58] 0+/10- n=10
+A4 banking_cil stored +29.79 [+25.19,+34.39] 10+/0- n=10 | refreshed -3.26 [-7.08,+0.56] 1+/9- n=10
+A4 clinc_cil stored +28.08 [+22.46,+33.70] 10+/0- n=10 | refreshed -0.56 [-1.80,+0.69] 3+/7- n=10
+A4 news_cil stored +18.41 [+12.12,+24.70] 10+/0- n=10 | refreshed -1.17 [-2.90,+0.56] 3+/7- n=10
+A4 cifar_cil stored +31.37 [+26.97,+35.78] 8+/0- n=8 | refreshed +1.35 [-0.42,+3.11] 5+/3- n=8
+A4 imnr_cil stored +8.08 [+3.75,+12.40] 6+/0- n=6 | refreshed -8.36 [-11.63,-5.08] 0+/6- n=6
+A6 sema - single | linear +0.61 [-1.44,+2.66] 2+/1- n=3
+A6 sema - single | ncm_ef +0.35 [-1.28,+1.99] 2+/1- n=3
+A6 sema - single | ncm_ex20 -1.80 [-3.50,-0.09] 0+/3- n=3
+A6 NCM interaction (ncm_ef - ncm_ex20) +2.15 [+1.89,+2.41] 3+/0- n=3
+A6 sema - noexp | linear +0.22 [-1.31,+1.76] 2+/1- n=3

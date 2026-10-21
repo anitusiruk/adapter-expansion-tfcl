@@ -1,0 +1,7 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 7781.06it/s]
+[senti_conf trigger:conflict_z s2036] step 19 seg A packages 1 A:0.852
+[senti_conf trigger:conflict_z s2036] step 39 seg B packages 2 A:0.828 B:0.680
+[senti_conf trigger:conflict_z s2036] step 59 seg C packages 3 A:0.844 B:0.180 C:0.852
+[senti_conf trigger:conflict_z s2036] step 79 seg D packages 4 A:0.703 B:0.367 C:0.773 D:0.609
+FINAL senti_conf trigger:conflict_z 2036 {"proto_mean": 0.61328125, "proto_max": 0.44140625, "proto_own": 0.7421875, "linear_last": 0.498046875} 88s

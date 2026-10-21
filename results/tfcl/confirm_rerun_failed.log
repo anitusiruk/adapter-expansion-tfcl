@@ -1,0 +1,26 @@
+1200 jobs
+[291/1200] ok results/tfcl/confirm/clinc_cil/oracle_s2031.json
+[296/1200] ok results/tfcl/confirm/clinc_cil/trigger-interf_logit-q0.99_s2031.json
+[297/1200] ok results/tfcl/confirm/clinc_cil/trigger-fresh_util-q0.99_s2031.json
+[298/1200] ok results/tfcl/confirm/clinc_cil/trigger-interf_proto-q0.99_s2031.json
+[299/1200] ok results/tfcl/confirm/clinc_cil/trigger-conflict_z-q0.99_s2031.json
+[301/1200] ok results/tfcl/confirm/clinc_cil/frozen_s2032.json
+[302/1200] ok results/tfcl/confirm/clinc_cil/single_s2032.json
+[303/1200] ok results/tfcl/confirm/clinc_cil/oracle_s2032.json
+[306/1200] ok results/tfcl/confirm/clinc_cil/trigger-loss_z-q0.99_s2032.json
+[1119/1200] ok results/tfcl/confirm/senti_conf/oracle_s2030.json
+[1144/1200] ok results/tfcl/confirm/senti_conf/random_s2032.json
+[1154/1200] ok results/tfcl/confirm/senti_conf/single_s2033.json
+[1155/1200] ok results/tfcl/confirm/senti_conf/oracle_s2033.json
+[1167/1200] ok results/tfcl/confirm/senti_conf/oracle_s2034.json
+[1169/1200] ok results/tfcl/confirm/senti_conf/trigger-label_novel-q0.99_s2034.json
+[1170/1200] ok results/tfcl/confirm/senti_conf/trigger-loss_z-q0.99_s2034.json
+[1184/1200] ok results/tfcl/confirm/senti_conf/trigger-interf_logit-q0.99_s2035.json
+[1185/1200] ok results/tfcl/confirm/senti_conf/trigger-fresh_util-q0.99_s2035.json
+[1186/1200] ok results/tfcl/confirm/senti_conf/trigger-interf_proto-q0.99_s2035.json
+[1189/1200] ok results/tfcl/confirm/senti_conf/frozen_s2036.json
+[1190/1200] ok results/tfcl/confirm/senti_conf/single_s2036.json
+[1191/1200] ok results/tfcl/confirm/senti_conf/oracle_s2036.json
+[1192/1200] ok results/tfcl/confirm/senti_conf/random_s2036.json
+[1194/1200] ok results/tfcl/confirm/senti_conf/trigger-loss_z-q0.99_s2036.json
+FAILED: none

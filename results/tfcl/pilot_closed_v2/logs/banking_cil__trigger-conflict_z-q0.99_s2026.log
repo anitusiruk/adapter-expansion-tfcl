@@ -1,0 +1,9 @@
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 8875.89it/s]
+[banking_cil trigger:conflict_z s2026] step 19 seg A packages 1 A:0.922
+[banking_cil trigger:conflict_z s2026] step 39 seg B packages 1 A:0.903 B:0.879
+[banking_cil trigger:conflict_z s2026] step 59 seg C packages 1 A:0.895 B:0.879 C:0.844
+[banking_cil trigger:conflict_z s2026] step 79 seg D packages 2 A:0.794 B:0.859 C:0.762 D:0.785
+[banking_cil trigger:conflict_z s2026] step 99 seg E packages 2 A:0.728 B:0.794 C:0.730 D:0.765 E:0.689
+[banking_cil trigger:conflict_z s2026] step 119 seg F packages 2 A:0.728 B:0.797 C:0.613 D:0.765 E:0.700 F:0.694
+[banking_cil trigger:conflict_z s2026] step 139 seg G packages 2 A:0.735 B:0.768 C:0.633 D:0.717 E:0.704 F:0.673 G:0.664
+FINAL banking_cil trigger:conflict_z 2026 {"proto_mean": 0.6990019679069519, "proto_max": 0.6573184047426496, "proto_own": 0.6390420539038522, "linear_last": 0.38190828476633343} 33s

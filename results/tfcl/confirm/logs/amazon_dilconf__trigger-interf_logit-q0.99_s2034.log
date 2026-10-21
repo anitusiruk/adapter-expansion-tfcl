@@ -1,0 +1,8 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 7621.16it/s]
+[amazon_dilconf trigger:interf_logit s2034] step 19 seg A packages 1 A:0.883
+[amazon_dilconf trigger:interf_logit s2034] step 39 seg B packages 2 A:0.172 B:0.836
+[amazon_dilconf trigger:interf_logit s2034] step 59 seg C packages 3 A:0.875 B:0.141 C:0.883
+[amazon_dilconf trigger:interf_logit s2034] step 79 seg D packages 4 A:0.172 B:0.820 C:0.234 D:0.766
+[amazon_dilconf trigger:interf_logit s2034] step 99 seg E packages 4 A:0.852 B:0.250 C:0.703 D:0.258 E:0.766
+FINAL amazon_dilconf trigger:interf_logit 2034 {"proto_mean": 0.565625, "proto_max": 0.575, "proto_own": 0.56875, "linear_last": 0.54375} 77s

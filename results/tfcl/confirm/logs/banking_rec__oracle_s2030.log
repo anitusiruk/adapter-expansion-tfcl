@@ -1,0 +1,7 @@
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 8745.79it/s]
+[banking_rec oracle s2030] step 15 seg A packages 1 A:0.914
+[banking_rec oracle s2030] step 31 seg B packages 2 A:0.856 B:0.797
+[banking_rec oracle s2030] step 47 seg A packages 3 A:0.890 B:0.777
+[banking_rec oracle s2030] step 63 seg C packages 4 A:0.842 B:0.713 C:0.802
+[banking_rec oracle s2030] step 79 seg B packages 5 A:0.835 B:0.723 C:0.773
+FINAL banking_rec oracle 2030 {"proto_mean": 0.7768419981002808, "proto_max": 0.7446195681889852, "proto_own": 0.7430422306060791, "linear_last": 0.2612903316815694} 19s

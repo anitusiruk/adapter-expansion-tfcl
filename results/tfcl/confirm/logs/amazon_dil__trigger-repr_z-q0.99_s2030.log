@@ -1,0 +1,8 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 7599.07it/s]
+[amazon_dil trigger:repr_z s2030] step 19 seg A packages 3 A:0.836
+[amazon_dil trigger:repr_z s2030] step 39 seg B packages 3 A:0.859 B:0.828
+[amazon_dil trigger:repr_z s2030] step 59 seg C packages 3 A:0.906 B:0.859 C:0.844
+[amazon_dil trigger:repr_z s2030] step 79 seg D packages 3 A:0.891 B:0.836 C:0.828 D:0.828
+[amazon_dil trigger:repr_z s2030] step 99 seg E packages 3 A:0.883 B:0.828 C:0.812 D:0.836 E:0.836
+FINAL amazon_dil trigger:repr_z 2030 {"proto_mean": 0.8390625, "proto_max": 0.7921875, "proto_own": 0.8, "linear_last": 0.846875} 79s

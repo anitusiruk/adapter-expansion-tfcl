@@ -1,0 +1,13 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 8557.53it/s]
+[clinc_cil oracle s2026] step 37 seg A packages 1 A:0.963
+[clinc_cil oracle s2026] step 75 seg B packages 2 A:0.920 B:0.853
+[clinc_cil oracle s2026] step 113 seg C packages 3 A:0.897 B:0.853 C:0.967
+[clinc_cil oracle s2026] step 151 seg D packages 4 A:0.853 B:0.807 C:0.933 D:0.873
+[clinc_cil oracle s2026] step 189 seg E packages 5 A:0.853 B:0.800 C:0.910 D:0.790 E:0.773
+[clinc_cil oracle s2026] step 227 seg F packages 6 A:0.803 B:0.823 C:0.907 D:0.770 E:0.743 F:0.900
+[clinc_cil oracle s2026] step 265 seg G packages 7 A:0.780 B:0.813 C:0.850 D:0.737 E:0.730 F:0.853 G:0.790
+[clinc_cil oracle s2026] step 303 seg H packages 8 A:0.773 B:0.820 C:0.853 D:0.727 E:0.707 F:0.787 G:0.790 H:0.837
+[clinc_cil oracle s2026] step 341 seg I packages 9 A:0.717 B:0.747 C:0.833 D:0.713 E:0.683 F:0.780 G:0.697 H:0.847 I:0.777
+[clinc_cil oracle s2026] step 379 seg J packages 10 A:0.640 B:0.670 C:0.797 D:0.673 E:0.667 F:0.730 G:0.693 H:0.837 I:0.730 J:0.727
+FINAL clinc_cil oracle 2026 {"proto_mean": 0.7163333415985107, "proto_max": 0.701666671037674, "proto_own": 0.7259999930858612, "linear_last": 0.09733333587646484, "proto_ef": 0.7746666669845581, "proto_ef_sdc": 0.781333327293396, "proto_ef_sdc02": 0.7799999952316284, "proto_ef_sdcinf": 0.7769999861717224} 374s

@@ -1,0 +1,10 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 8148.87it/s]
+[banking_cil frozen s2032] step 19 seg A packages 1 A:0.802
+[banking_cil frozen s2032] step 39 seg B packages 1 A:0.716 B:0.807
+[banking_cil frozen s2032] step 59 seg C packages 1 A:0.634 B:0.758 C:0.727
+[banking_cil frozen s2032] step 79 seg D packages 1 A:0.595 B:0.712 C:0.668 D:0.557
+[banking_cil frozen s2032] step 99 seg E packages 1 A:0.533 B:0.621 C:0.645 D:0.528 E:0.577
+[banking_cil frozen s2032] step 119 seg F packages 1 A:0.479 B:0.562 C:0.609 D:0.443 E:0.554 F:0.486
+[banking_cil frozen s2032] step 139 seg G packages 1 A:0.482 B:0.435 C:0.543 D:0.407 E:0.521 F:0.444 G:0.399
+FINAL banking_cil frozen 2032 {"proto_mean": 0.4614686795643398, "proto_max": 0.4614686795643398, "proto_own": 0.4614686795643398, "linear_last": 0.017121455499104092, "frozen_full_ncm": 0.5817178870950427} 18s

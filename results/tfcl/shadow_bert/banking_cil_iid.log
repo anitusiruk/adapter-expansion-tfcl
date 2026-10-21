@@ -1,0 +1,4 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7014.48it/s]
+[banking_cil_iid shadow s2026] step 134 seg iid packages 1 A:0.732 B:0.840 C:0.734 D:0.814 E:0.813 F:0.810 G:0.773
+FINAL banking_cil_iid shadow 2026 {"proto_mean": 0.7878961307661874, "proto_max": 0.7878961307661874, "proto_own": 0.7878961307661874, "linear_last": 0.8052386896950858} 198s

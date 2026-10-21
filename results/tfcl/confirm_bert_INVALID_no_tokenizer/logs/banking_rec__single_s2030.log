@@ -1,0 +1,8 @@
+Using the latest cached version of the module from /workspace/.cache/huggingface/modules/datasets_modules/datasets/PolyAI--banking77/17ffc2ed47c2ed928bee64127ff1dbc97204cb974c2f980becae7c864007aed9 (last modified on Sun Oct 11 03:31:47 2026) since it couldn't be found locally at PolyAI/banking77
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 10299.82it/s]
+[banking_rec single s2030] step 15 seg A packages 1 A:0.141
+[banking_rec single s2030] step 31 seg B packages 1 A:0.031 B:0.116
+[banking_rec single s2030] step 47 seg A packages 1 A:0.069 B:0.071
+[banking_rec single s2030] step 63 seg C packages 1 A:0.055 B:0.058 C:0.015
+[banking_rec single s2030] step 79 seg B packages 1 A:0.110 B:0.016 C:0.000
+FINAL banking_rec single 2030 {"proto_mean": 0.042031556367874146, "proto_max": 0.042031556367874146, "proto_own": 0.05573896877467632, "linear_last": 0.03763440748055776} 51s

@@ -1,0 +1,8 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 2027.18it/s]
+[clinc_cil trigger:interf_proto s2036] step 37 seg A packages 2 A:0.943
+[clinc_cil trigger:interf_proto s2036] step 75 seg B packages 2 A:0.923 B:0.933
+[clinc_cil trigger:interf_proto s2036] step 113 seg C packages 2 A:0.920 B:0.923 C:0.950
+[clinc_cil trigger:interf_proto s2036] step 151 seg D packages 2 A:0.910 B:0.903 C:0.907 D:0.893
+[clinc_cil trigger:interf_proto s2036] step 189 seg E packages 2 A:0.880 B:0.897 C:0.867 D:0.837 E:0.847
+[clinc_cil trigger:interf_proto s2036] step 227 seg F packages 2 A:0.863 B:0.860 C:0.847 D:0.830 E:0.843 F:0.963

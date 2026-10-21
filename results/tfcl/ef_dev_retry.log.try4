@@ -1,0 +1,3 @@
+FAIL --stream cifar_cil --policy oracle --replay 0 --ef --seed 2026 --out results/tfcl/ef_dev/cifar_cil/oracle_s2026.json
+FAIL --stream cifar_conf --policy oracle --replay 0 --ef --seed 2026 --out results/tfcl/ef_dev/cifar_conf/oracle_s2026.json
+JOBS_DONE

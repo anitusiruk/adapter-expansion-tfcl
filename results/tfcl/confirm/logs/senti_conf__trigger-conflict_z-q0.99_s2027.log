@@ -1,0 +1,9 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Error 429 thrown while requesting GET https://huggingface.co/api/datasets/cardiffnlp/tweet_eval/tree/b3a375baf0f409c77e6bc7aa35102b7b3534f8be/emoji
+Rate limited. Waiting 140.0s before retry [Retry 1/5].
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6414.19it/s]
+[senti_conf trigger:conflict_z s2027] step 19 seg A packages 1 A:0.875
+[senti_conf trigger:conflict_z s2027] step 39 seg B packages 2 A:0.852 B:0.523
+[senti_conf trigger:conflict_z s2027] step 59 seg C packages 3 A:0.836 B:0.180 C:0.852
+[senti_conf trigger:conflict_z s2027] step 79 seg D packages 5 A:0.773 B:0.406 C:0.766 D:0.469
+FINAL senti_conf trigger:conflict_z 2027 {"proto_mean": 0.603515625, "proto_max": 0.560546875, "proto_own": 0.703125, "linear_last": 0.50390625} 225s

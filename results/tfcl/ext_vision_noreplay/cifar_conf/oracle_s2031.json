@@ -1,0 +1,198 @@
+{
+ "args": {
+  "stream": "cifar_conf",
+  "policy": "oracle",
+  "seed": 2031,
+  "model": "distilbert-base-uncased",
+  "lr": 0.001,
+  "steps": 2,
+  "replay": 0,
+  "mem": 512,
+  "max_length": 64,
+  "head_init": "fresh",
+  "lora_init": "fresh",
+  "no_lora": false,
+  "trigger_args": "{}",
+  "out": "results/tfcl/ext_vision_noreplay/cifar_conf/oracle_s2031.json"
+ },
+ "n_batches": 250,
+ "packages": 5,
+ "events": [
+  {
+   "step": 50,
+   "seg": "B",
+   "boundary": true
+  },
+  {
+   "step": 100,
+   "seg": "C",
+   "boundary": true
+  },
+  {
+   "step": 150,
+   "seg": "D",
+   "boundary": true
+  },
+  {
+   "step": 200,
+   "seg": "E",
+   "boundary": true
+  }
+ ],
+ "checkpoints": [
+  {
+   "step": 49,
+   "seg": "A",
+   "seen": [
+    "A"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.9666666388511658,
+     "proto_max": 0.9666666388511658,
+     "proto_own": 0.9666666388511658,
+     "linear_last": 0.9633333086967468
+    }
+   }
+  },
+  {
+   "step": 99,
+   "seg": "B",
+   "seen": [
+    "A",
+    "B"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.8883333206176758,
+     "proto_max": 0.8650000095367432,
+     "proto_own": 0.8949999809265137,
+     "linear_last": 0.028333334252238274
+    },
+    "B": {
+     "proto_mean": 0.7566666603088379,
+     "proto_max": 0.8116666674613953,
+     "proto_own": 0.9150000214576721,
+     "linear_last": 0.9649999737739563
+    }
+   }
+  },
+  {
+   "step": 149,
+   "seg": "C",
+   "seen": [
+    "A",
+    "B",
+    "C"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.9100000262260437,
+     "proto_max": 0.8633333444595337,
+     "proto_own": 0.8799999952316284,
+     "linear_last": 0.5
+    },
+    "B": {
+     "proto_mean": 0.5,
+     "proto_max": 0.5433333516120911,
+     "proto_own": 0.8566666841506958,
+     "linear_last": 0.09333333373069763
+    },
+    "C": {
+     "proto_mean": 0.8883333206176758,
+     "proto_max": 0.8333333134651184,
+     "proto_own": 0.875,
+     "linear_last": 0.9483333230018616
+    }
+   }
+  },
+  {
+   "step": 199,
+   "seg": "D",
+   "seen": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.7850000262260437,
+     "proto_max": 0.7300000190734863,
+     "proto_own": 0.8799999952316284,
+     "linear_last": 0.0716666653752327
+    },
+    "B": {
+     "proto_mean": 0.6616666913032532,
+     "proto_max": 0.6816666722297668,
+     "proto_own": 0.8349999785423279,
+     "linear_last": 0.46166667342185974
+    },
+    "C": {
+     "proto_mean": 0.7316666841506958,
+     "proto_max": 0.6549999713897705,
+     "proto_own": 0.8433333039283752,
+     "linear_last": 0.05999999865889549
+    },
+    "D": {
+     "proto_mean": 0.6583333611488342,
+     "proto_max": 0.5933333039283752,
+     "proto_own": 0.8799999952316284,
+     "linear_last": 0.9683333039283752
+    }
+   }
+  },
+  {
+   "step": 249,
+   "seg": "E",
+   "seen": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.7666666507720947,
+     "proto_max": 0.7133333086967468,
+     "proto_own": 0.8816666603088379,
+     "linear_last": 0.528333306312561
+    },
+    "B": {
+     "proto_mean": 0.5600000023841858,
+     "proto_max": 0.5400000214576721,
+     "proto_own": 0.7950000166893005,
+     "linear_last": 0.018333332613110542
+    },
+    "C": {
+     "proto_mean": 0.7183333039283752,
+     "proto_max": 0.675000011920929,
+     "proto_own": 0.82833331823349,
+     "linear_last": 0.3216666579246521
+    },
+    "D": {
+     "proto_mean": 0.5383333563804626,
+     "proto_max": 0.47333332896232605,
+     "proto_own": 0.8333333134651184,
+     "linear_last": 0.0949999988079071
+    },
+    "E": {
+     "proto_mean": 0.70333331823349,
+     "proto_max": 0.6066666841506958,
+     "proto_own": 0.8100000023841858,
+     "linear_last": 0.971666693687439
+    }
+   }
+  }
+ ],
+ "final_mean": {
+  "proto_mean": 0.6573333263397216,
+  "proto_max": 0.6016666710376739,
+  "proto_own": 0.8296666622161866,
+  "linear_last": 0.38699999786913397
+ },
+ "trigger_records": [],
+ "seconds": 182.69654822349548,
+ "trainable_params_per_package": 310292
+}

@@ -1,0 +1,88 @@
+{
+ "tweet_conc": {
+  "label_novel": {
+   "auroc_shift": 0.5,
+   "spearman_with_label_novel": NaN
+  },
+  "loss_z": {
+   "auroc_shift": 0.6641414141414141,
+   "spearman_with_label_novel": NaN
+  },
+  "repr_z": {
+   "auroc_shift": 0.7070707070707071,
+   "spearman_with_label_novel": NaN
+  },
+  "interf_logit": {
+   "auroc_shift": 0.4823232323232323,
+   "spearman_with_label_novel": NaN
+  },
+  "fresh_util": {
+   "auroc_shift": 0.7070707070707071,
+   "spearman_with_label_novel": NaN
+  },
+  "interf_proto": {
+   "auroc_shift": 0.45707070707070707,
+   "spearman_with_label_novel": NaN
+  },
+  "conflict_z": {
+   "auroc_shift": 0.6944444444444443,
+   "spearman_with_label_novel": NaN
+  },
+  "label_surprise": {
+   "auroc_shift": 0.6666666666666666,
+   "spearman_with_label_novel": NaN
+  },
+  "boundary_loss_group_share": 0.0,
+  "boundary_loss_mean": 1.0123049318790436,
+  "null_tau": {
+   "label_novel": 0.0,
+   "loss_z": 2.883169155585441,
+   "repr_z": 3.3816524894705777,
+   "interf_logit": 0.06554739296436343,
+   "fresh_util": 0.4452624547481538,
+   "interf_proto": 0.01566833138465882,
+   "conflict_z": 2.8924329236303064,
+   "label_surprise": 0.4091725709982216
+  },
+  "null_tau_q0.9": {
+   "label_novel": 0.0,
+   "loss_z": 1.6135288884095405,
+   "repr_z": 0.5276219831127303,
+   "interf_logit": 0.02876227796077728,
+   "fresh_util": 0.2215189933776855,
+   "interf_proto": 0.0055813699960708596,
+   "conflict_z": 1.5014633685941352,
+   "label_surprise": 0.2827447503733934
+  },
+  "null_tau_q0.95": {
+   "label_novel": 0.0,
+   "loss_z": 2.3869900700093236,
+   "repr_z": 2.1163295859806506,
+   "interf_logit": 0.04159807711839676,
+   "fresh_util": 0.3383627951145173,
+   "interf_proto": 0.009397843480110168,
+   "conflict_z": 2.355231571932077,
+   "label_surprise": 0.31406513718341295
+  },
+  "null_tau_q0.99": {
+   "label_novel": 0.0,
+   "loss_z": 2.883169155585441,
+   "repr_z": 3.3816524894705777,
+   "interf_logit": 0.06554739296436343,
+   "fresh_util": 0.4452624547481538,
+   "interf_proto": 0.01566833138465882,
+   "conflict_z": 2.8924329236303064,
+   "label_surprise": 0.4091725709982216
+  },
+  "null_tau_q0.999": {
+   "label_novel": 0.0,
+   "loss_z": 3.0015601111988217,
+   "repr_z": 3.650468734947181,
+   "interf_logit": 0.10044734340906154,
+   "fresh_util": 0.4585862540006638,
+   "interf_proto": 0.016144880533218386,
+   "conflict_z": 3.0024864880033073,
+   "label_surprise": 0.535802357193315
+  }
+ }
+}

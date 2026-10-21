@@ -1,0 +1,9 @@
+Using the latest cached version of the dataset since uoft-cs/cifar100 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'cifar100' at /workspace/.cache/huggingface/datasets/uoft-cs___cifar100/cifar100/0.0.0/aadb3af77e9048adbea6b47c21a81e47dd092ae5 (last modified on Sun Oct 11 03:36:29 2026).
+Loading weights:   0%|          | 0/200 [00:00<?, ?it/s]Loading weights: 100%|██████████| 200/200 [00:00<00:00, 8127.79it/s]
+[cifar_conf trigger:loss_z s2034] step 49 seg A packages 1 A:0.965
+[cifar_conf trigger:loss_z s2034] step 99 seg B packages 2 A:0.810 B:0.875
+[cifar_conf trigger:loss_z s2034] step 149 seg C packages 3 A:0.888 B:0.420 C:0.932
+[cifar_conf trigger:loss_z s2034] step 199 seg D packages 4 A:0.748 B:0.597 C:0.722 D:0.637
+[cifar_conf trigger:loss_z s2034] step 249 seg E packages 5 A:0.830 B:0.337 C:0.832 D:0.417 E:0.770
+FINAL cifar_conf trigger:loss_z 2034 {"proto_mean": 0.6369999885559082, "proto_max": 0.548333328962326, "proto_own": 0.8396666765213012, "linear_last": 0.383999995701015} 341s

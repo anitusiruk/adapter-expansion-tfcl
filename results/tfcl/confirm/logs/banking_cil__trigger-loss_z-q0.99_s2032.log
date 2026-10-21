@@ -1,0 +1,9 @@
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 8384.92it/s]
+[banking_cil trigger:loss_z s2032] step 19 seg A packages 1 A:0.918
+[banking_cil trigger:loss_z s2032] step 39 seg B packages 2 A:0.848 B:0.853
+[banking_cil trigger:loss_z s2032] step 59 seg C packages 3 A:0.774 B:0.846 C:0.777
+[banking_cil trigger:loss_z s2032] step 79 seg D packages 3 A:0.700 B:0.801 C:0.738 D:0.739
+[banking_cil trigger:loss_z s2032] step 99 seg E packages 4 A:0.677 B:0.775 C:0.727 D:0.723 E:0.614
+[banking_cil trigger:loss_z s2032] step 119 seg F packages 5 A:0.584 B:0.729 C:0.672 D:0.717 E:0.622 F:0.634
+[banking_cil trigger:loss_z s2032] step 139 seg G packages 6 A:0.580 B:0.644 C:0.668 D:0.697 E:0.539 F:0.634 G:0.555
+FINAL banking_cil trigger:loss_z 2032 {"proto_mean": 0.6166057586669922, "proto_max": 0.5308833335127149, "proto_own": 0.527971476316452, "linear_last": 0.10858923196792603} 68s

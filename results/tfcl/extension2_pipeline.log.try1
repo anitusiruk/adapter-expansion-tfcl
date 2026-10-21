@@ -1,0 +1,56 @@
+FAIL --stream banking_cil --policy random --replay 0 --ef --seed 2029 --out results/tfcl/ext2_ef/banking_cil/random_s2029.json
+FAIL --stream amazon_dil --policy trigger:label_novel --trigger-args {"tau": 0.0} --replay 0 --ef --seed 2030 --out results/tfcl/ext2_ef/amazon_dil/trigger-label_novel-q0.99_s2030.json
+FAIL --stream senti_dil --policy trigger:label_surprise --trigger-args {"tau": 0.551758951656337} --replay 0 --ef --seed 2030 --out results/tfcl/ext2_ef/senti_dil/trigger-label_surprise-q0.99_s2030.json
+FAIL --stream amazon_dilconf --policy random --replay 0 --ef --seed 2030 --out results/tfcl/ext2_ef/amazon_dilconf/random_s2030.json
+FAIL --stream banking_cil --policy oracle --replay 0 --ef --seed 2031 --out results/tfcl/ext2_ef/banking_cil/oracle_s2031.json
+FAIL --stream banking_cil --policy trigger:label_surprise --trigger-args {"tau": 0.07766460254788396} --replay 0 --ef --seed 2031 --out results/tfcl/ext2_ef/banking_cil/trigger-label_surprise-q0.99_s2031.json
+FAIL --stream clinc_cil --policy trigger:label_surprise --trigger-args {"tau": 0.32907942320671285} --replay 0 --ef --seed 2031 --out results/tfcl/ext2_ef/clinc_cil/trigger-label_surprise-q0.99_s2031.json
+FAIL --stream news_cil --policy trigger:label_novel --trigger-args {"tau": 0.0} --replay 0 --ef --seed 2031 --out results/tfcl/ext2_ef/news_cil/trigger-label_novel-q0.99_s2031.json
+FAIL --stream amazon_dil --policy oracle --replay 0 --ef --seed 2031 --out results/tfcl/ext2_ef/amazon_dil/oracle_s2031.json
+FAIL --stream amazon_dil --policy firstseg --replay 0 --ef --seed 2031 --out results/tfcl/ext2_ef/amazon_dil/firstseg_s2031.json
+FAIL --stream amazon_dil --policy trigger:label_surprise --trigger-args {"tau": 0.4731753823458365} --replay 0 --ef --seed 2031 --out results/tfcl/ext2_ef/amazon_dil/trigger-label_surprise-q0.99_s2031.json
+FAIL --stream amazon_dilconf --policy single --replay 0 --ef --seed 2031 --out results/tfcl/ext2_ef/amazon_dilconf/single_s2031.json
+FAIL --stream amazon_dilconf --policy oracle --replay 0 --ef --seed 2031 --out results/tfcl/ext2_ef/amazon_dilconf/oracle_s2031.json
+FAIL --stream amazon_dilconf --policy random --replay 0 --ef --seed 2031 --out results/tfcl/ext2_ef/amazon_dilconf/random_s2031.json
+FAIL --stream amazon_dilconf --policy firstseg --replay 0 --ef --seed 2031 --out results/tfcl/ext2_ef/amazon_dilconf/firstseg_s2031.json
+FAIL --stream amazon_dilconf --policy trigger:label_novel --trigger-args {"tau": 0.0} --replay 0 --ef --seed 2031 --out results/tfcl/ext2_ef/amazon_dilconf/trigger-label_novel-q0.99_s2031.json
+FAIL --stream cifar_cil --policy trigger:loss_z --trigger-args {"tau": 2.210391895553634} --replay 0 --ef --seed 2027 --out results/tfcl/ext2_ef/cifar_cil/trigger-loss_z-q0.99_s2027.json
+FAIL --stream cifar_dil --policy oracle --replay 0 --ef --seed 2027 --out results/tfcl/ext2_ef/cifar_dil/oracle_s2027.json
+FAIL --stream cifar_dil --policy random --replay 0 --ef --seed 2027 --out results/tfcl/ext2_ef/cifar_dil/random_s2027.json
+FAIL --stream cifar_dil --policy firstseg --replay 0 --ef --seed 2027 --out results/tfcl/ext2_ef/cifar_dil/firstseg_s2027.json
+FAIL --stream cifar_dil --policy trigger:loss_z --trigger-args {"tau": 3.029682001219503} --replay 0 --ef --seed 2027 --out results/tfcl/ext2_ef/cifar_dil/trigger-loss_z-q0.99_s2027.json
+FAIL --stream cifar_conf --policy single --replay 0 --ef --seed 2028 --out results/tfcl/ext2_ef/cifar_conf/single_s2028.json
+FAIL --stream cifar_conf --policy trigger:loss_z --trigger-args {"tau": 2.437556709760822} --replay 0 --ef --seed 2028 --out results/tfcl/ext2_ef/cifar_conf/trigger-loss_z-q0.99_s2028.json
+FAIL --stream cifar_cil --policy oracle --replay 0 --ef --seed 2030 --out results/tfcl/ext2_ef/cifar_cil/oracle_s2030.json
+FAIL --stream cifar_cil --policy trigger:label_novel --trigger-args {"tau": 0.2243750000000002} --replay 0 --ef --seed 2030 --out results/tfcl/ext2_ef/cifar_cil/trigger-label_novel-q0.99_s2030.json
+FAIL --stream cifar_cil --policy trigger:label_surprise --trigger-args {"tau": 0.3767679764676492} --replay 0 --ef --seed 2030 --out results/tfcl/ext2_ef/cifar_cil/trigger-label_surprise-q0.99_s2030.json
+FAIL --stream cifar_dil --policy trigger:label_novel --trigger-args {"tau": 0.0} --replay 0 --ef --seed 2030 --out results/tfcl/ext2_ef/cifar_dil/trigger-label_novel-q0.99_s2030.json
+FAIL --stream cifar_conf --policy random --replay 0 --ef --seed 2031 --out results/tfcl/ext2_ef/cifar_conf/random_s2031.json
+Traceback (most recent call last):
+  File "/workspace/mitosis-interference/experiments/run_jobs.py", line 50, in <module>
+    main()
+  File "/workspace/mitosis-interference/experiments/run_jobs.py", line 43, in main
+    for r in ex.map(lambda j: run(j, module), jobs):
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/mitosis-interference/experiments/run_jobs.py", line 43, in <lambda>
+    for r in ex.map(lambda j: run(j, module), jobs):
+                              ^^^^^^^^^^^^^^
+  File "/workspace/mitosis-interference/experiments/run_jobs.py", line 34, in run
+    log.unlink()
+  File "/usr/lib/python3.12/pathlib.py", line 1344, in unlink
+    os.unlink(self)
+FileNotFoundError: [Errno 2] No such file or directory: 'results/tfcl/ext2_ef/cifar_conf/trigger-loss_z-q0.99_s2032.log'
+EXTENSION2_DONE

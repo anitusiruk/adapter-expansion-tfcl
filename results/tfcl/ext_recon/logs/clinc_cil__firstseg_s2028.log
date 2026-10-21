@@ -1,0 +1,17 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Using the latest cached version of the dataset since clinc/clinc_oos couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'plus' at /workspace/.cache/huggingface/datasets/clinc___clinc_oos/plus/0.0.0/155b9c710419136e17307b80d0a13e68cd46b4ec (last modified on Sat Oct 10 00:41:33 2026).
+HTTP Error 429 thrown while requesting GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main/additional_chat_templates
+Rate limited. Waiting 36.0s before retry [Retry 1/5].
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 5580.05it/s]
+[clinc_cil single s2028] step 37 seg A packages 1 A:0.970
+[clinc_cil single s2028] step 75 seg B packages 1 A:0.963 B:0.793
+[clinc_cil single s2028] step 113 seg C packages 1 A:0.940 B:0.770 C:0.867
+[clinc_cil single s2028] step 151 seg D packages 1 A:0.927 B:0.757 C:0.823 D:0.730
+[clinc_cil single s2028] step 189 seg E packages 1 A:0.923 B:0.747 C:0.783 D:0.717 E:0.657
+[clinc_cil single s2028] step 227 seg F packages 1 A:0.913 B:0.723 C:0.783 D:0.643 E:0.577 F:0.847
+[clinc_cil single s2028] step 265 seg G packages 1 A:0.910 B:0.700 C:0.723 D:0.563 E:0.537 F:0.847 G:0.647
+[clinc_cil single s2028] step 303 seg H packages 1 A:0.910 B:0.687 C:0.747 D:0.537 E:0.520 F:0.743 G:0.593 H:0.800
+[clinc_cil single s2028] step 341 seg I packages 1 A:0.910 B:0.653 C:0.733 D:0.513 E:0.523 F:0.743 G:0.557 H:0.763 I:0.553
+[clinc_cil single s2028] step 379 seg J packages 1 A:0.860 B:0.640 C:0.693 D:0.510 E:0.520 F:0.733 G:0.537 H:0.727 I:0.520 J:0.683
+FINAL clinc_cil single 2028 {"proto_mean": 0.6423333346843719, "proto_max": 0.6423333346843719, "proto_own": 0.6423333346843719, "linear_last": 0.09833333492279053} 127s

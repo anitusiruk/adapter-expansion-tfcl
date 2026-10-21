@@ -1,0 +1,7 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 5934.55it/s]
+[senti_conf trigger:interf_logit s2033] step 19 seg A packages 2 A:0.859
+[senti_conf trigger:interf_logit s2033] step 39 seg B packages 2 A:0.828 B:0.469
+[senti_conf trigger:interf_logit s2033] step 59 seg C packages 3 A:0.812 B:0.188 C:0.805
+[senti_conf trigger:interf_logit s2033] step 79 seg D packages 3 A:0.805 B:0.242 C:0.789 D:0.328
+FINAL senti_conf trigger:interf_logit 2033 {"proto_mean": 0.541015625, "proto_max": 0.55859375, "proto_own": 0.560546875, "linear_last": 0.517578125} 192s

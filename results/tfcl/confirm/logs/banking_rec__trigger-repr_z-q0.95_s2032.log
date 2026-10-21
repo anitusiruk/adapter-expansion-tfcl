@@ -1,0 +1,15 @@
+/usr/local/lib/python3.12/dist-packages/datasets/load.py:1231: FutureWarning: The repository for PolyAI/banking77 contains custom code which must be executed to correctly load the dataset. You can inspect the repository content at https://hf.co/datasets/PolyAI/banking77
+You can avoid this message in future by passing the argument `trust_remote_code=True`.
+Passing `trust_remote_code=True` will be mandatory to load this dataset from the next major release of `datasets`.
+  warnings.warn(
+Using the latest cached version of the module from /workspace/.cache/huggingface/modules/datasets_modules/datasets/PolyAI--banking77/17ffc2ed47c2ed928bee64127ff1dbc97204cb974c2f980becae7c864007aed9 (last modified on Sat Oct 10 00:41:29 2026) since it couldn't be found locally at PolyAI/banking77, or remotely on the Hugging Face Hub.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Error 429 thrown while requesting GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main/additional_chat_templates
+Rate limited. Waiting 169.0s before retry [Retry 1/5].
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6728.22it/s]
+[banking_rec trigger:repr_z s2032] step 15 seg A packages 2 A:0.821
+[banking_rec trigger:repr_z s2032] step 31 seg B packages 3 A:0.801 B:0.732
+[banking_rec trigger:repr_z s2032] step 47 seg A packages 3 A:0.818 B:0.803
+[banking_rec trigger:repr_z s2032] step 63 seg C packages 3 A:0.804 B:0.787 C:0.806
+[banking_rec trigger:repr_z s2032] step 79 seg B packages 3 A:0.821 B:0.842 C:0.817
+FINAL banking_rec trigger:repr_z 2032 {"proto_mean": 0.826697051525116, "proto_max": 0.7291871309280396, "proto_own": 0.6681851148605347, "linear_last": 0.8158280849456787} 251s

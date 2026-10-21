@@ -1,0 +1,6 @@
+try 1: 4 failures
+try 2: 4 failures
+try 3: 2 failures
+try 4: 2 failures
+try 5: 2 failures
+clean after 6 tries

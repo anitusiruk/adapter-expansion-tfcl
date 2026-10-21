@@ -1,0 +1,11 @@
+Using the latest cached version of the dataset since goosmanlei/amazon_reviews_multi couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'en' at /workspace/.cache/huggingface/datasets/goosmanlei___amazon_reviews_multi/en/0.0.0/a7b1fa9703f1f930d5c8e1a65c5d2774aaab0c85 (last modified on Sun Oct 11 03:32:03 2026).
+Using the latest cached version of the dataset since goosmanlei/amazon_reviews_multi couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'en' at /workspace/.cache/huggingface/datasets/goosmanlei___amazon_reviews_multi/en/0.0.0/a7b1fa9703f1f930d5c8e1a65c5d2774aaab0c85 (last modified on Sun Oct 11 03:32:03 2026).
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7288.71it/s]
+[amazon_dil trigger:label_surprise s2029] step 19 seg A packages 1 A:0.602
+[amazon_dil trigger:label_surprise s2029] step 39 seg B packages 1 A:0.398 B:0.461
+[amazon_dil trigger:label_surprise s2029] step 59 seg C packages 1 A:0.523 B:0.484 C:0.555
+[amazon_dil trigger:label_surprise s2029] step 79 seg D packages 1 A:0.508 B:0.516 C:0.547 D:0.531
+[amazon_dil trigger:label_surprise s2029] step 99 seg E packages 1 A:0.555 B:0.484 C:0.531 D:0.516 E:0.625
+FINAL amazon_dil trigger:label_surprise 2029 {"proto_mean": 0.5421875, "proto_max": 0.5421875, "proto_own": 0.546875, "linear_last": 0.5} 92s

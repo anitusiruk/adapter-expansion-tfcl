@@ -1,0 +1,9 @@
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 8162.67it/s]
+[banking_cil random s2031] step 19 seg A packages 2 A:0.852
+[banking_cil random s2031] step 39 seg B packages 2 A:0.868 B:0.837
+[banking_cil random s2031] step 59 seg C packages 2 A:0.840 B:0.824 C:0.777
+[banking_cil random s2031] step 79 seg D packages 4 A:0.743 B:0.781 C:0.777 D:0.720
+[banking_cil random s2031] step 99 seg E packages 6 A:0.673 B:0.745 C:0.746 D:0.697 E:0.652
+[banking_cil random s2031] step 119 seg F packages 7 A:0.658 B:0.699 C:0.648 D:0.642 E:0.637 F:0.620
+[banking_cil random s2031] step 139 seg G packages 7 A:0.638 B:0.667 C:0.637 D:0.586 E:0.581 F:0.570 G:0.636
+FINAL banking_cil random 2031 {"proto_mean": 0.6163282564708165, "proto_max": 0.4625963738986424, "proto_own": 0.2064222198511873, "linear_last": 0.1484827995300293} 57s

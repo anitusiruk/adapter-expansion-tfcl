@@ -1,0 +1,13 @@
+/usr/local/lib/python3.12/dist-packages/datasets/load.py:1231: FutureWarning: The repository for PolyAI/banking77 contains custom code which must be executed to correctly load the dataset. You can inspect the repository content at https://hf.co/datasets/PolyAI/banking77
+You can avoid this message in future by passing the argument `trust_remote_code=True`.
+Passing `trust_remote_code=True` will be mandatory to load this dataset from the next major release of `datasets`.
+  warnings.warn(
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 5695.84it/s]
+[banking_cil trigger:interf_logit s2035] step 19 seg A packages 1 A:0.907
+[banking_cil trigger:interf_logit s2035] step 39 seg B packages 1 A:0.895 B:0.899
+[banking_cil trigger:interf_logit s2035] step 59 seg C packages 1 A:0.891 B:0.886 C:0.766
+[banking_cil trigger:interf_logit s2035] step 79 seg D packages 2 A:0.716 B:0.856 C:0.742 D:0.756
+[banking_cil trigger:interf_logit s2035] step 99 seg E packages 3 A:0.728 B:0.833 C:0.730 D:0.668 E:0.704
+[banking_cil trigger:interf_logit s2035] step 119 seg F packages 3 A:0.735 B:0.814 C:0.652 D:0.658 E:0.655 F:0.754
+[banking_cil trigger:interf_logit s2035] step 139 seg G packages 4 A:0.693 B:0.732 C:0.629 D:0.638 E:0.659 F:0.627 G:0.629
+FINAL banking_cil trigger:interf_logit 2035 {"proto_mean": 0.6581708533423287, "proto_max": 0.5724144748279026, "proto_own": 0.5331025379044669, "linear_last": 0.10636403730937413} 279s

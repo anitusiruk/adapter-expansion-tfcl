@@ -1,0 +1,8 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/200 [00:00<?, ?it/s]Loading weights: 100%|██████████| 200/200 [00:00<00:00, 6782.02it/s]
+[cifar_conf random s2027] step 49 seg A packages 2 A:0.972
+[cifar_conf random s2027] step 99 seg B packages 2 A:0.798 B:0.918
+[cifar_conf random s2027] step 149 seg C packages 3 A:0.843 B:0.620 C:0.915
+[cifar_conf random s2027] step 199 seg D packages 4 A:0.772 B:0.683 C:0.822 D:0.657
+[cifar_conf random s2027] step 249 seg E packages 5 A:0.817 B:0.543 C:0.867 D:0.515 E:0.762
+FINAL cifar_conf random 2027 {"proto_mean": 0.7006666660308838, "proto_max": 0.6506666600704193, "proto_own": 0.7856666803359985, "linear_last": 0.401333324238658} 235s

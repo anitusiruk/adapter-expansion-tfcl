@@ -1,0 +1,7 @@
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 7253.19it/s]
+[banking_rec trigger:loss_z s2033] step 15 seg A packages 1 A:0.893
+[banking_rec trigger:loss_z s2033] step 31 seg B packages 2 A:0.869 B:0.806
+[banking_rec trigger:loss_z s2033] step 47 seg A packages 3 A:0.863 B:0.735
+[banking_rec trigger:loss_z s2033] step 63 seg C packages 3 A:0.856 B:0.674 C:0.799
+[banking_rec trigger:loss_z s2033] step 79 seg B packages 4 A:0.845 B:0.739 C:0.788
+FINAL banking_rec trigger:loss_z 2033 {"proto_mean": 0.7905387679735819, "proto_max": 0.7532731294631958, "proto_own": 0.7300493121147156, "linear_last": 0.2118279536565145} 26s

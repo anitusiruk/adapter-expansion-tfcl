@@ -1,0 +1,9 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Error 429 thrown while requesting GET https://huggingface.co/api/datasets/cardiffnlp/tweet_eval/tree/b3a375baf0f409c77e6bc7aa35102b7b3534f8be/hate
+Rate limited. Waiting 98.0s before retry [Retry 1/5].
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 5077.85it/s]
+[tweet_conc oracle s2027] step 19 seg A packages 1 A:0.727
+[tweet_conc oracle s2027] step 39 seg B packages 2 A:0.758 B:0.719
+[tweet_conc oracle s2027] step 59 seg C packages 3 A:0.766 B:0.766 C:0.586
+[tweet_conc oracle s2027] step 79 seg A packages 4 A:0.734 B:0.672 C:0.547
+FINAL tweet_conc oracle 2027 {"proto_mean": 0.6510416666666666, "proto_max": 0.6067708333333334, "proto_own": 0.65625, "linear_last": 0.6380208333333334} 161s

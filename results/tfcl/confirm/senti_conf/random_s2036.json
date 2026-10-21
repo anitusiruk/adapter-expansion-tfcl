@@ -1,0 +1,150 @@
+{
+ "args": {
+  "stream": "senti_conf",
+  "policy": "random",
+  "seed": 2036,
+  "model": "distilbert-base-uncased",
+  "lr": 0.001,
+  "steps": 2,
+  "replay": 16,
+  "mem": 512,
+  "max_length": 64,
+  "head_init": "fresh",
+  "lora_init": "fresh",
+  "no_lora": false,
+  "trigger_args": "{}",
+  "out": "results/tfcl/confirm/senti_conf/random_s2036.json"
+ },
+ "n_batches": 80,
+ "packages": 4,
+ "events": [
+  {
+   "step": 22,
+   "seg": "B",
+   "boundary": false
+  },
+  {
+   "step": 42,
+   "seg": "C",
+   "boundary": false
+  },
+  {
+   "step": 71,
+   "seg": "D",
+   "boundary": false
+  }
+ ],
+ "checkpoints": [
+  {
+   "step": 19,
+   "seg": "A",
+   "seen": [
+    "A"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.8515625,
+     "proto_max": 0.8515625,
+     "proto_own": 0.8515625,
+     "linear_last": 0.8515625
+    }
+   }
+  },
+  {
+   "step": 39,
+   "seg": "B",
+   "seen": [
+    "A",
+    "B"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.8046875,
+     "proto_max": 0.390625,
+     "proto_own": 0.765625,
+     "linear_last": 0.2109375
+    },
+    "B": {
+     "proto_mean": 0.6328125,
+     "proto_max": 0.3828125,
+     "proto_own": 0.796875,
+     "linear_last": 0.859375
+    }
+   }
+  },
+  {
+   "step": 59,
+   "seg": "C",
+   "seen": [
+    "A",
+    "B",
+    "C"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.859375,
+     "proto_max": 0.6328125,
+     "proto_own": 0.859375,
+     "linear_last": 0.84375
+    },
+    "B": {
+     "proto_mean": 0.203125,
+     "proto_max": 0.2265625,
+     "proto_own": 0.75,
+     "linear_last": 0.2578125
+    },
+    "C": {
+     "proto_mean": 0.8359375,
+     "proto_max": 0.8359375,
+     "proto_own": 0.765625,
+     "linear_last": 0.8359375
+    }
+   }
+  },
+  {
+   "step": 79,
+   "seg": "D",
+   "seen": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.8125,
+     "proto_max": 0.4375,
+     "proto_own": 0.8359375,
+     "linear_last": 0.2421875
+    },
+    "B": {
+     "proto_mean": 0.421875,
+     "proto_max": 0.40625,
+     "proto_own": 0.796875,
+     "linear_last": 0.625
+    },
+    "C": {
+     "proto_mean": 0.6171875,
+     "proto_max": 0.6875,
+     "proto_own": 0.5859375,
+     "linear_last": 0.3984375
+    },
+    "D": {
+     "proto_mean": 0.59375,
+     "proto_max": 0.5390625,
+     "proto_own": 0.5234375,
+     "linear_last": 0.6953125
+    }
+   }
+  }
+ ],
+ "final_mean": {
+  "proto_mean": 0.611328125,
+  "proto_max": 0.517578125,
+  "proto_own": 0.685546875,
+  "linear_last": 0.490234375
+ },
+ "trigger_records": [],
+ "seconds": 57.571330070495605,
+ "trainable_params_per_package": 148994
+}

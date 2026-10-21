@@ -1,0 +1,9 @@
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 8889.44it/s]
+[banking_cil frozen s2034] step 19 seg A packages 1 A:0.770
+[banking_cil frozen s2034] step 39 seg B packages 1 A:0.693 B:0.784
+[banking_cil frozen s2034] step 59 seg C packages 1 A:0.654 B:0.768 C:0.734
+[banking_cil frozen s2034] step 79 seg D packages 1 A:0.560 B:0.709 C:0.680 D:0.502
+[banking_cil frozen s2034] step 99 seg E packages 1 A:0.471 B:0.634 C:0.625 D:0.420 E:0.588
+[banking_cil frozen s2034] step 119 seg F packages 1 A:0.424 B:0.549 C:0.617 D:0.391 E:0.532 F:0.511
+[banking_cil frozen s2034] step 139 seg G packages 1 A:0.397 B:0.435 C:0.535 D:0.391 E:0.513 F:0.465 G:0.427
+FINAL banking_cil frozen 2034 {"proto_mean": 0.4517502912453243, "proto_max": 0.4517502912453243, "proto_own": 0.4517502912453243, "linear_last": 0.017121455499104092, "frozen_full_ncm": 0.5786342620849609} 20s

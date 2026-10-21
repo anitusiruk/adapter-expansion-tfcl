@@ -1,0 +1,10 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Error 429 thrown while requesting GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main
+Rate limited. Waiting 139.0s before retry [Retry 1/5].
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6785.58it/s]
+[amazon_dilconf frozen s2031] step 19 seg A packages 1 A:0.859
+[amazon_dilconf frozen s2031] step 39 seg B packages 1 A:0.578 B:0.492
+[amazon_dilconf frozen s2031] step 59 seg C packages 1 A:0.789 B:0.305 C:0.734
+[amazon_dilconf frozen s2031] step 79 seg D packages 1 A:0.422 B:0.586 C:0.484 D:0.555
+[amazon_dilconf frozen s2031] step 99 seg E packages 1 A:0.758 B:0.344 C:0.695 D:0.328 E:0.766
+FINAL amazon_dilconf frozen 2031 {"proto_mean": 0.578125, "proto_max": 0.578125, "proto_own": 0.578125, "linear_last": 0.5, "frozen_full_ncm": 0.5703125} 152s

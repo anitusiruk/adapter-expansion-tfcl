@@ -1,0 +1,7 @@
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6725.41it/s]
+[banking_rec trigger:label_novel s2035] step 15 seg A packages 1 A:0.900
+[banking_rec trigger:label_novel s2035] step 31 seg B packages 2 A:0.859 B:0.774
+[banking_rec trigger:label_novel s2035] step 47 seg A packages 2 A:0.900 B:0.790
+[banking_rec trigger:label_novel s2035] step 63 seg C packages 3 A:0.859 B:0.716 C:0.766
+[banking_rec trigger:label_novel s2035] step 79 seg B packages 3 A:0.852 B:0.774 C:0.806
+FINAL banking_rec trigger:label_novel 2035 {"proto_mean": 0.8107626636823019, "proto_max": 0.7625027298927307, "proto_own": 0.7456193367640177, "linear_last": 0.44633503754933673} 24s

@@ -1,0 +1,8 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6886.18it/s]
+[amazon_dilconf frozen s2034] step 19 seg A packages 1 A:0.875
+[amazon_dilconf frozen s2034] step 39 seg B packages 1 A:0.469 B:0.484
+[amazon_dilconf frozen s2034] step 59 seg C packages 1 A:0.812 B:0.289 C:0.750
+[amazon_dilconf frozen s2034] step 79 seg D packages 1 A:0.539 B:0.500 C:0.539 D:0.492
+[amazon_dilconf frozen s2034] step 99 seg E packages 1 A:0.797 B:0.289 C:0.703 D:0.305 E:0.750
+FINAL amazon_dilconf frozen 2034 {"proto_mean": 0.56875, "proto_max": 0.56875, "proto_own": 0.56875, "linear_last": 0.5, "frozen_full_ncm": 0.54375} 23s

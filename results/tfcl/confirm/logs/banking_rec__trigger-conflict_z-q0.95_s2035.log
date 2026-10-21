@@ -1,0 +1,24 @@
+/usr/local/lib/python3.12/dist-packages/datasets/load.py:1231: FutureWarning: The repository for PolyAI/banking77 contains custom code which must be executed to correctly load the dataset. You can inspect the repository content at https://hf.co/datasets/PolyAI/banking77
+You can avoid this message in future by passing the argument `trust_remote_code=True`.
+Passing `trust_remote_code=True` will be mandatory to load this dataset from the next major release of `datasets`.
+  warnings.warn(
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6279.27it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/workspace/mitosis-interference/experiments/tfcl_run.py", line 135, in <module>
+    main()
+  File "/workspace/mitosis-interference/experiments/tfcl_run.py", line 108, in main
+    L.observe(b["x"], b["y"])
+  File "/workspace/mitosis-interference/src/tfcl/learner.py", line 146, in observe
+    self.step(p, xs, ys)
+  File "/workspace/mitosis-interference/src/tfcl/learner.py", line 134, in step
+    loss.backward()
+  File "/usr/local/lib/python3.12/dist-packages/torch/_tensor.py", line 647, in backward
+    torch.autograd.backward(
+  File "/usr/local/lib/python3.12/dist-packages/torch/autograd/__init__.py", line 354, in backward
+    _engine_run_backward(
+  File "/usr/local/lib/python3.12/dist-packages/torch/autograd/graph.py", line 829, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 16.00 MiB. GPU 0 has a total capacity of 23.53 GiB of which 7.25 MiB is free. Process 257646 has 1.88 GiB memory in use. Process 268399 has 4.34 GiB memory in use. Process 273319 has 1.77 GiB memory in use. Process 273668 has 2.41 GiB memory in use. Process 273254 has 1.95 GiB memory in use. Process 273318 has 1.95 GiB memory in use. Process 274689 has 4.34 GiB memory in use. Process 275543 has 1.05 GiB memory in use. Process 275544 has 950.00 MiB memory in use. Including non-PyTorch memory, this process has 1.04 GiB memory in use. Process 275736 has 904.00 MiB memory in use. Process 275927 has 948.00 MiB memory in use. Of the allocated memory 539.15 MiB is allocated by PyTorch, and 54.85 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

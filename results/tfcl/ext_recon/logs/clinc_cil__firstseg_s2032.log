@@ -1,0 +1,13 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 3129.24it/s]
+[clinc_cil single s2032] step 37 seg A packages 1 A:0.973
+[clinc_cil single s2032] step 75 seg B packages 1 A:0.957 B:0.833
+[clinc_cil single s2032] step 113 seg C packages 1 A:0.953 B:0.807 C:0.883
+[clinc_cil single s2032] step 151 seg D packages 1 A:0.933 B:0.800 C:0.790 D:0.820
+[clinc_cil single s2032] step 189 seg E packages 1 A:0.910 B:0.777 C:0.747 D:0.803 E:0.740
+[clinc_cil single s2032] step 227 seg F packages 1 A:0.900 B:0.767 C:0.770 D:0.783 E:0.730 F:0.827
+[clinc_cil single s2032] step 265 seg G packages 1 A:0.880 B:0.670 C:0.740 D:0.770 E:0.693 F:0.800 G:0.610
+[clinc_cil single s2032] step 303 seg H packages 1 A:0.887 B:0.577 C:0.720 D:0.767 E:0.577 F:0.773 G:0.567 H:0.717
+[clinc_cil single s2032] step 341 seg I packages 1 A:0.840 B:0.510 C:0.690 D:0.740 E:0.557 F:0.753 G:0.550 H:0.693 I:0.620
+[clinc_cil single s2032] step 379 seg J packages 1 A:0.807 B:0.433 C:0.667 D:0.623 E:0.527 F:0.793 G:0.490 H:0.647 I:0.597 J:0.613
+FINAL clinc_cil single 2032 {"proto_mean": 0.6196666717529297, "proto_max": 0.6196666717529297, "proto_own": 0.6196666717529297, "linear_last": 0.09800000190734863} 74s

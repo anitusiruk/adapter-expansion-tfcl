@@ -1,0 +1,9 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Using the latest cached version of the module from /workspace/.cache/huggingface/modules/datasets_modules/datasets/PolyAI--banking77/17ffc2ed47c2ed928bee64127ff1dbc97204cb974c2f980becae7c864007aed9 (last modified on Thu Oct  8 23:19:53 2026) since it couldn't be found locally at PolyAI/banking77, or remotely on the Hugging Face Hub.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 7451.51it/s]
+[banking_rec trigger:conflict_z s2033] step 15 seg A packages 1 A:0.893
+[banking_rec trigger:conflict_z s2033] step 31 seg B packages 1 A:0.869 B:0.842
+[banking_rec trigger:conflict_z s2033] step 47 seg A packages 1 A:0.931 B:0.829
+[banking_rec trigger:conflict_z s2033] step 63 seg C packages 1 A:0.907 B:0.787 C:0.810
+[banking_rec trigger:conflict_z s2033] step 79 seg B packages 2 A:0.876 B:0.832 C:0.821
+FINAL banking_rec trigger:conflict_z 2033 {"proto_mean": 0.8430198431015015, "proto_max": 0.7557756106058756, "proto_own": 0.6800414522488912, "linear_last": 0.21505375703175864} 22s

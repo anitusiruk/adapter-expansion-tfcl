@@ -1,0 +1,9 @@
+Using the latest cached version of the dataset since uoft-cs/cifar100 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'cifar100' at /workspace/.cache/huggingface/datasets/uoft-cs___cifar100/cifar100/0.0.0/aadb3af77e9048adbea6b47c21a81e47dd092ae5 (last modified on Sun Oct 11 03:36:29 2026).
+Loading weights:   0%|          | 0/200 [00:00<?, ?it/s]Loading weights: 100%|██████████| 200/200 [00:00<00:00, 7499.67it/s]
+[cifar_conf oracle s2032] step 49 seg A packages 1 A:0.963
+[cifar_conf oracle s2032] step 99 seg B packages 2 A:0.887 B:0.863
+[cifar_conf oracle s2032] step 149 seg C packages 3 A:0.923 B:0.390 C:0.913
+[cifar_conf oracle s2032] step 199 seg D packages 4 A:0.782 B:0.605 C:0.802 D:0.662
+[cifar_conf oracle s2032] step 249 seg E packages 5 A:0.800 B:0.363 C:0.847 D:0.367 E:0.770
+FINAL cifar_conf oracle 2032 {"proto_mean": 0.6293333411216736, "proto_max": 0.5713333427906037, "proto_own": 0.8443333148956299, "linear_last": 0.38566665817052126} 215s

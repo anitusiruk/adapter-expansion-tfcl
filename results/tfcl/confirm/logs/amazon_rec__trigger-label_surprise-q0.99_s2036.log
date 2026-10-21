@@ -1,0 +1,8 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 5727.03it/s]
+[amazon_rec trigger:label_surprise s2036] step 15 seg A packages 1 A:0.867
+[amazon_rec trigger:label_surprise s2036] step 31 seg B packages 1 A:0.883 B:0.867
+[amazon_rec trigger:label_surprise s2036] step 47 seg A packages 1 A:0.906 B:0.898
+[amazon_rec trigger:label_surprise s2036] step 63 seg C packages 1 A:0.898 B:0.875 C:0.820
+[amazon_rec trigger:label_surprise s2036] step 79 seg B packages 1 A:0.891 B:0.898 C:0.820
+FINAL amazon_rec trigger:label_surprise 2036 {"proto_mean": 0.8697916666666666, "proto_max": 0.8697916666666666, "proto_own": 0.8697916666666666, "linear_last": 0.8723958333333334} 46s

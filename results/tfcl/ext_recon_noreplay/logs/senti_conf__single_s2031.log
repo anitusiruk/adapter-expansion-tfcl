@@ -1,0 +1,7 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6616.77it/s]
+[senti_conf single s2031] step 19 seg A packages 1 A:0.844
+[senti_conf single s2031] step 39 seg B packages 1 A:0.891 B:0.172
+[senti_conf single s2031] step 59 seg C packages 1 A:0.672 B:0.312 C:0.734
+[senti_conf single s2031] step 79 seg D packages 1 A:0.461 B:0.547 C:0.562 D:0.539
+FINAL senti_conf single 2031 {"proto_mean": 0.52734375, "proto_max": 0.52734375, "proto_own": 0.52734375, "linear_last": 0.5} 52s

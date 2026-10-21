@@ -1,0 +1,7 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 2072.04it/s]
+[tweet_conc single s2029] step 19 seg A packages 1 A:0.734
+[tweet_conc single s2029] step 39 seg B packages 1 A:0.750 B:0.648
+[tweet_conc single s2029] step 59 seg C packages 1 A:0.727 B:0.672 C:0.539
+[tweet_conc single s2029] step 79 seg A packages 1 A:0.727 B:0.656 C:0.547
+FINAL tweet_conc single 2029 {"proto_mean": 0.6432291666666666, "proto_max": 0.6432291666666666, "proto_own": 0.6432291666666666, "linear_last": 0.6328125} 22s

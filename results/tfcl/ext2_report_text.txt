@@ -1,0 +1,110 @@
+R1
+  banking_rec      oracle                         vs single             +24.02 [+21.26,+26.78] W/L 10/0 p=0.0020 holm=True
+  banking_cil      oracle                         vs single             +29.79 [+25.19,+34.39] W/L 10/0 p=0.0020 holm=True
+  clinc_cil        oracle                         vs single             +28.08 [+22.46,+33.70] W/L 10/0 p=0.0020 holm=True
+  news_cil         oracle                         vs single             +18.41 [+12.12,+24.70] W/L 10/0 p=0.0020 holm=True
+R2
+  banking_rec      DiD(ef - exemplar)             vs 0                  +28.33 [+26.04,+30.61] W/L 10/0 p=0.0020 holm=True
+  banking_cil      DiD(ef - exemplar)             vs 0                  +33.05 [+29.08,+37.01] W/L 10/0 p=0.0020 holm=True
+  clinc_cil        DiD(ef - exemplar)             vs 0                  +28.64 [+23.45,+33.83] W/L 10/0 p=0.0020 holm=True
+  news_cil         DiD(ef - exemplar)             vs 0                  +19.58 [+14.22,+24.94] W/L 10/0 p=0.0020 holm=True
+R3
+  banking_rec      trigger-loss_z-q0.99           vs trigger-label_surprise-q0.99 +29.14 [+17.31,+40.97] W/L 10/0 p=0.0020 holm=True
+  banking_cil      trigger-loss_z-q0.99           vs trigger-label_surprise-q0.99 +28.87 [+24.07,+33.66] W/L 10/0 p=0.0020 holm=True
+  clinc_cil        trigger-loss_z-q0.99           vs trigger-label_surprise-q0.99 +28.23 [+22.62,+33.84] W/L 10/0 p=0.0020 holm=True
+  news_cil         trigger-loss_z-q0.99           vs trigger-label_surprise-q0.99 +17.98 [+11.45,+24.51] W/L 10/0 p=0.0020 holm=True
+R4
+  banking_rec      oracle                         vs random             +27.41 [+15.17,+39.65] W/L 10/0 p=0.0020 holm=True
+  banking_cil      oracle                         vs random             +13.17 [ +7.71,+18.63] W/L 10/0 p=0.0020 holm=True
+  clinc_cil        oracle                         vs random              +6.08 [ +1.37,+10.79] W/L 10/0 p=0.0020 holm=True
+  news_cil         oracle                         vs random              +9.43 [ +5.34,+13.52] W/L 10/0 p=0.0020 holm=True
+all_vs_single_ef
+  banking_rec      oracle                         vs single             +24.02 [+21.26,+26.78] W/L 10/0 p=0.0020
+  banking_rec      random                         vs single              -3.39 [-16.79,+10.02] W/L 5/5 p=0.6953
+  banking_rec      firstseg                       vs single             +19.78 [+17.41,+22.16] W/L 10/0 p=0.0020
+  banking_rec      trigger-label_novel-q0.99      vs single              +6.37 [ -0.66,+13.40] W/L 7/3 p=0.1309
+  banking_rec      trigger-loss_z-q0.99           vs single             +24.19 [+21.48,+26.91] W/L 10/0 p=0.0020
+  banking_rec      trigger-label_surprise-q0.99   vs single              -4.95 [-18.68, +8.79] W/L 3/7 p=0.6250
+  banking_cil      oracle                         vs single             +29.79 [+25.19,+34.39] W/L 10/0 p=0.0020
+  banking_cil      random                         vs single             +16.62 [ +9.04,+24.19] W/L 9/1 p=0.0039
+  banking_cil      firstseg                       vs single             +31.40 [+26.56,+36.24] W/L 10/0 p=0.0020
+  banking_cil      trigger-label_novel-q0.99      vs single             +26.97 [+22.15,+31.79] W/L 10/0 p=0.0020
+  banking_cil      trigger-loss_z-q0.99           vs single             +28.87 [+24.07,+33.66] W/L 10/0 p=0.0020
+  banking_cil      trigger-label_surprise-q0.99   vs single              +0.00 [ +0.00, +0.00] W/L 0/0 p=1.0000
+  clinc_cil        oracle                         vs single             +28.08 [+22.46,+33.70] W/L 10/0 p=0.0020
+  clinc_cil        random                         vs single             +22.00 [+13.82,+30.18] W/L 10/0 p=0.0020
+  clinc_cil        firstseg                       vs single             +23.61 [+18.45,+28.77] W/L 10/0 p=0.0020
+  clinc_cil        trigger-label_novel-q0.99      vs single             +22.50 [+12.28,+32.72] W/L 9/1 p=0.0039
+  clinc_cil        trigger-loss_z-q0.99           vs single             +28.23 [+22.62,+33.84] W/L 10/0 p=0.0020
+  clinc_cil        trigger-label_surprise-q0.99   vs single              +0.00 [ +0.00, +0.00] W/L 0/0 p=1.0000
+  news_cil         oracle                         vs single             +18.41 [+12.12,+24.70] W/L 10/0 p=0.0020
+  news_cil         random                         vs single              +8.98 [ +2.49,+15.47] W/L 9/1 p=0.0098
+  news_cil         firstseg                       vs single             +18.96 [+11.90,+26.02] W/L 10/0 p=0.0020
+  news_cil         trigger-label_novel-q0.99      vs single              +1.27 [ -1.60, +4.14] W/L 1/0 p=1.0000
+  news_cil         trigger-loss_z-q0.99           vs single             +17.98 [+11.45,+24.51] W/L 10/0 p=0.0020
+  news_cil         trigger-label_surprise-q0.99   vs single              +0.00 [ +0.00, +0.00] W/L 0/0 p=1.0000
+  amazon_dil       oracle                         vs single              +0.17 [ -0.47, +0.82] W/L 5/4 p=0.6797
+  amazon_dil       random                         vs single              +0.20 [ -0.42, +0.82] W/L 6/3 p=0.5703
+  amazon_dil       firstseg                       vs single              -1.70 [ -3.29, -0.12] W/L 2/8 p=0.0391
+  amazon_dil       trigger-label_novel-q0.99      vs single              +0.00 [ +0.00, +0.00] W/L 0/0 p=1.0000
+  amazon_dil       trigger-loss_z-q0.99           vs single              -0.03 [ -0.10, +0.04] W/L 0/1 p=1.0000
+  amazon_dil       trigger-label_surprise-q0.99   vs single              +0.19 [ -0.32, +0.70] W/L 1/1 p=1.0000
+  senti_dil        oracle                         vs single              +1.04 [ -0.61, +2.68] W/L 6/4 p=0.1523
+  senti_dil        random                         vs single              +1.13 [ -0.49, +2.75] W/L 6/4 p=0.2266
+  senti_dil        firstseg                       vs single              -0.68 [ -2.42, +1.06] W/L 3/7 p=0.3887
+  senti_dil        trigger-label_novel-q0.99      vs single              +0.00 [ +0.00, +0.00] W/L 0/0 p=1.0000
+  senti_dil        trigger-loss_z-q0.99           vs single              -1.02 [ -2.55, +0.52] W/L 0/2 p=0.5000
+  senti_dil        trigger-label_surprise-q0.99   vs single              -0.53 [ -1.72, +0.67] W/L 0/1 p=1.0000
+  amazon_dilconf   oracle                         vs single              +3.77 [ +0.95, +6.59] W/L 9/1 p=0.0176
+  amazon_dilconf   random                         vs single              +4.19 [ +1.83, +6.54] W/L 9/0 p=0.0039
+  amazon_dilconf   firstseg                       vs single              +3.38 [ +1.54, +5.21] W/L 8/2 p=0.0098
+  amazon_dilconf   trigger-label_novel-q0.99      vs single              +0.00 [ +0.00, +0.00] W/L 0/0 p=1.0000
+  amazon_dilconf   trigger-loss_z-q0.99           vs single              +4.41 [ +1.68, +7.13] W/L 8/1 p=0.0117
+  amazon_dilconf   trigger-label_surprise-q0.99   vs single              +3.97 [ +0.96, +6.98] W/L 9/1 p=0.0195
+  senti_conf       oracle                         vs single              -0.04 [ -3.97, +3.89] W/L 7/3 p=0.6953
+  senti_conf       random                         vs single              +1.33 [ -3.23, +5.89] W/L 5/4 p=0.3594
+  senti_conf       firstseg                       vs single              +2.60 [ -0.49, +5.69] W/L 7/3 p=0.1055
+  senti_conf       trigger-label_novel-q0.99      vs single              +0.00 [ +0.00, +0.00] W/L 0/0 p=1.0000
+  senti_conf       trigger-loss_z-q0.99           vs single              +1.00 [ -0.69, +2.68] W/L 3/0 p=0.2500
+  senti_conf       trigger-label_surprise-q0.99   vs single              +1.68 [ -2.97, +6.33] W/L 7/2 p=0.3594
+all_vs_single_exemplar_same_runs
+  banking_rec      oracle                         vs single              -4.30 [ -6.03, -2.58] W/L 0/10 p=0.0020
+  banking_rec      random                         vs single              -3.53 [ -5.91, -1.15] W/L 2/8 p=0.0195
+  banking_rec      firstseg                       vs single             -10.03 [-11.75, -8.32] W/L 0/10 p=0.0020
+  banking_rec      trigger-loss_z-q0.99           vs single              -3.77 [ -5.34, -2.19] W/L 0/10 p=0.0020
+  banking_rec      trigger-label_surprise-q0.99   vs single              -0.65 [ -2.51, +1.20] W/L 5/5 p=0.5566
+  banking_cil      oracle                         vs single              -3.26 [ -7.08, +0.56] W/L 1/9 p=0.0840
+  banking_cil      random                         vs single              -1.68 [ -5.40, +2.04] W/L 2/8 p=0.1309
+  banking_cil      firstseg                       vs single              -5.93 [ -9.88, -1.97] W/L 1/9 p=0.0195
+  banking_cil      trigger-loss_z-q0.99           vs single              -3.02 [ -6.67, +0.63] W/L 1/9 p=0.0840
+  banking_cil      trigger-label_surprise-q0.99   vs single              +0.00 [ +0.00, +0.00] W/L 0/0 p=1.0000
+  clinc_cil        oracle                         vs single              -0.56 [ -1.80, +0.69] W/L 3/7 p=0.3223
+  clinc_cil        random                         vs single              -0.55 [ -2.14, +1.04] W/L 4/6 p=0.5566
+  clinc_cil        firstseg                       vs single              -6.97 [ -8.13, -5.82] W/L 0/10 p=0.0020
+  clinc_cil        trigger-loss_z-q0.99           vs single              -0.26 [ -1.36, +0.84] W/L 4/6 p=0.5566
+  clinc_cil        trigger-label_surprise-q0.99   vs single              +0.00 [ +0.00, +0.00] W/L 0/0 p=1.0000
+  news_cil         oracle                         vs single              -1.17 [ -2.90, +0.56] W/L 3/7 p=0.1309
+  news_cil         random                         vs single              -1.57 [ -2.88, -0.26] W/L 1/9 p=0.0137
+  news_cil         firstseg                       vs single              -2.01 [ -4.51, +0.49] W/L 3/7 p=0.1055
+  news_cil         trigger-loss_z-q0.99           vs single              -0.87 [ -2.60, +0.86] W/L 4/6 p=0.2754
+  news_cil         trigger-label_surprise-q0.99   vs single              +0.00 [ +0.00, +0.00] W/L 0/0 p=1.0000
+  amazon_dil       oracle                         vs single              +0.11 [ -0.58, +0.80] W/L 6/4 p=0.7578
+  amazon_dil       random                         vs single              +0.05 [ -0.73, +0.82] W/L 7/3 p=0.7715
+  amazon_dil       firstseg                       vs single              -1.34 [ -2.75, +0.06] W/L 2/8 p=0.0996
+  amazon_dil       trigger-loss_z-q0.99           vs single              -0.05 [ -0.15, +0.06] W/L 0/1 p=1.0000
+  amazon_dil       trigger-label_surprise-q0.99   vs single              +0.14 [ -0.31, +0.59] W/L 1/1 p=1.0000
+  senti_dil        oracle                         vs single              +0.10 [ -1.10, +1.30] W/L 4/5 p=1.0000
+  senti_dil        random                         vs single              +0.68 [ -0.40, +1.77] W/L 7/2 p=0.1328
+  senti_dil        firstseg                       vs single              -1.33 [ -2.74, +0.08] W/L 2/7 p=0.0391
+  senti_dil        trigger-loss_z-q0.99           vs single              -0.20 [ -0.55, +0.16] W/L 0/2 p=0.5000
+  senti_dil        trigger-label_surprise-q0.99   vs single              -0.16 [ -0.51, +0.20] W/L 0/1 p=1.0000
+  amazon_dilconf   oracle                         vs single              +3.39 [ +1.55, +5.23] W/L 10/0 p=0.0020
+  amazon_dilconf   random                         vs single              +3.48 [ +1.39, +5.58] W/L 10/0 p=0.0020
+  amazon_dilconf   firstseg                       vs single              +2.88 [ +1.39, +4.36] W/L 10/0 p=0.0020
+  amazon_dilconf   trigger-loss_z-q0.99           vs single              +3.08 [ +1.21, +4.95] W/L 9/0 p=0.0039
+  amazon_dilconf   trigger-label_surprise-q0.99   vs single              +3.39 [ +1.74, +5.04] W/L 10/0 p=0.0020
+  senti_conf       oracle                         vs single              +2.42 [ +1.11, +3.74] W/L 8/2 p=0.0098
+  senti_conf       random                         vs single              +2.05 [ -0.03, +4.13] W/L 8/2 p=0.0625
+  senti_conf       firstseg                       vs single              -0.41 [ -1.68, +0.86] W/L 2/8 p=0.4141
+  senti_conf       trigger-loss_z-q0.99           vs single              -0.06 [ -0.43, +0.31] W/L 1/1 p=1.0000
+  senti_conf       trigger-label_surprise-q0.99   vs single              +1.54 [ +0.25, +2.84] W/L 7/1 p=0.0391

@@ -1,0 +1,105 @@
+Using the latest cached version of the dataset since uoft-cs/cifar100 couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'cifar100' at /workspace/.cache/huggingface/datasets/uoft-cs___cifar100/cifar100/0.0.0/aadb3af77e9048adbea6b47c21a81e47dd092ae5 (last modified on Sun Oct 11 03:36:29 2026).
+XV2
+  cifar_cil        oracle                         vs single              -8.92 [ -9.95, -7.89] W/L 0/8 p=0.0078 holm=True
+  cifar_cil        trigger-loss_z-q0.99           vs single              -5.50 [ -6.52, -4.47] W/L 0/8 p=0.0078 holm=True
+  cifar_cil        trigger-fresh_util-q0.99       vs single              -3.77 [ -4.49, -3.05] W/L 0/8 p=0.0078 holm=True
+  cifar_cil        trigger-label_novel-q0.99      vs single              -2.98 [ -4.76, -1.20] W/L 0/7 p=0.0156 holm=True
+XV3
+  cifar_conf       oracle                         vs single             -13.22 [-16.11,-10.33] W/L 0/8 p=0.0078 holm=True
+  cifar_conf       trigger-label_surprise-q0.99   vs single             -12.14 [-14.44, -9.84] W/L 0/8 p=0.0078 holm=True
+XV4
+  cifar_cil        trigger-label_surprise-q0.99   vs single              +0.00 [ +0.00, +0.00] W/L 0/0 p=1.0000 NI=True
+  cifar_dil        trigger-label_surprise-q0.99   vs single              -2.40 [ -3.44, -1.36] W/L 0/8 p=0.0078 NI=False
+XV_all_vs_single
+  cifar_cil        frozen                         vs single              -8.52 [ -9.34, -7.71] W/L 0/8 p=0.0078
+  cifar_cil        oracle                         vs single              -8.92 [ -9.95, -7.89] W/L 0/8 p=0.0078
+  cifar_cil        random                         vs single              -3.59 [ -4.60, -2.59] W/L 0/8 p=0.0078
+  cifar_cil        firstseg                       vs single             -25.53 [-29.35,-21.70] W/L 0/8 p=0.0078
+  cifar_cil        trigger-label_novel-q0.99      vs single              -2.98 [ -4.76, -1.20] W/L 0/7 p=0.0156
+  cifar_cil        trigger-loss_z-q0.99           vs single              -5.50 [ -6.52, -4.47] W/L 0/8 p=0.0078
+  cifar_cil        trigger-repr_z-q0.99           vs single              -2.98 [ -3.94, -2.01] W/L 0/8 p=0.0078
+  cifar_cil        trigger-fresh_util-q0.99       vs single              -3.77 [ -4.49, -3.05] W/L 0/8 p=0.0078
+  cifar_cil        trigger-label_surprise-q0.99   vs single              +0.00 [ +0.00, +0.00] W/L 0/0 p=1.0000
+  cifar_dil        frozen                         vs single              -5.81 [ -6.64, -4.99] W/L 0/8 p=0.0078
+  cifar_dil        oracle                         vs single              -2.53 [ -3.65, -1.41] W/L 0/8 p=0.0078
+  cifar_dil        random                         vs single              -1.10 [ -2.25, +0.06] W/L 2/6 p=0.0781
+  cifar_dil        firstseg                       vs single             -11.33 [-13.22, -9.43] W/L 0/8 p=0.0078
+  cifar_dil        trigger-label_novel-q0.99      vs single              +0.00 [ +0.00, +0.00] W/L 0/0 p=1.0000
+  cifar_dil        trigger-loss_z-q0.99           vs single              -2.28 [ -3.29, -1.26] W/L 0/8 p=0.0078
+  cifar_dil        trigger-repr_z-q0.99           vs single              -0.78 [ -1.94, +0.37] W/L 2/4 p=0.2188
+  cifar_dil        trigger-fresh_util-q0.99       vs single              +0.00 [ +0.00, +0.00] W/L 0/0 p=1.0000
+  cifar_dil        trigger-label_surprise-q0.99   vs single              -2.40 [ -3.44, -1.36] W/L 0/8 p=0.0078
+  cifar_conf       frozen                         vs single              -8.46 [-10.17, -6.76] W/L 0/8 p=0.0078
+  cifar_conf       oracle                         vs single             -13.22 [-16.11,-10.33] W/L 0/8 p=0.0078
+  cifar_conf       random                         vs single              -5.93 [ -7.24, -4.61] W/L 0/8 p=0.0078
+  cifar_conf       firstseg                       vs single             -19.91 [-22.17,-17.66] W/L 0/8 p=0.0078
+  cifar_conf       trigger-label_novel-q0.99      vs single              +0.00 [ +0.00, +0.00] W/L 0/0 p=1.0000
+  cifar_conf       trigger-loss_z-q0.99           vs single             -12.14 [-14.44, -9.84] W/L 0/8 p=0.0078
+  cifar_conf       trigger-repr_z-q0.99           vs single              -1.18 [ -2.63, +0.28] W/L 0/3 p=0.2500
+  cifar_conf       trigger-fresh_util-q0.99       vs single             -12.14 [-14.44, -9.84] W/L 0/8 p=0.0078
+  cifar_conf       trigger-label_surprise-q0.99   vs single             -12.14 [-14.44, -9.84] W/L 0/8 p=0.0078
+XR1_oracle_vs_firstseg_CIL
+  banking_rec      oracle                         vs firstseg            +7.23 [ +5.51, +8.94] W/L 10/0 p=0.0020 holm=True
+  banking_cil      oracle                         vs firstseg            +5.47 [ +3.85, +7.10] W/L 10/0 p=0.0020 holm=True
+  clinc_cil        oracle                         vs firstseg            +6.92 [ +5.75, +8.08] W/L 10/0 p=0.0020 holm=True
+  news_cil         oracle                         vs firstseg            +0.88 [ -0.19, +1.95] W/L 7/3 p=0.0840 holm=False
+  cifar_cil        oracle                         vs firstseg           +16.60 [+13.41,+19.80] W/L 8/0 p=0.0078 holm=True
+XR_all_oracle_vs_firstseg
+  banking_rec      oracle                         vs firstseg            +7.23 [ +5.51, +8.94] W/L 10/0 p=0.0020
+  banking_cil      oracle                         vs firstseg            +5.47 [ +3.85, +7.10] W/L 10/0 p=0.0020
+  clinc_cil        oracle                         vs firstseg            +6.92 [ +5.75, +8.08] W/L 10/0 p=0.0020
+  news_cil         oracle                         vs firstseg            +0.88 [ -0.19, +1.95] W/L 7/3 p=0.0840
+  amazon_rec       oracle                         vs firstseg            +1.74 [ +0.38, +3.11] W/L 9/1 p=0.0254
+  amazon_dil       oracle                         vs firstseg            +1.05 [ +0.41, +1.68] W/L 8/1 p=0.0117
+  senti_dil        oracle                         vs firstseg            +1.74 [ +0.56, +2.91] W/L 8/1 p=0.0195
+  amazon_conflict  oracle                         vs firstseg            +0.83 [ -0.10, +1.77] W/L 6/4 p=0.0859
+  amazon_dilconf   oracle                         vs firstseg            +0.62 [ +0.14, +1.11] W/L 7/2 p=0.0312
+  senti_conf       oracle                         vs firstseg            +4.61 [ +2.74, +6.48] W/L 10/0 p=0.0020
+  cifar_cil        oracle                         vs firstseg           +16.60 [+13.41,+19.80] W/L 8/0 p=0.0078
+  cifar_dil        oracle                         vs firstseg            +8.79 [ +7.68, +9.90] W/L 8/0 p=0.0078
+  cifar_conf       oracle                         vs firstseg            +6.69 [ +5.22, +8.16] W/L 8/0 p=0.0078
+XR_single_vs_firstseg
+  banking_rec      single                         vs firstseg           +15.43 [+13.39,+17.47] W/L 10/0 p=0.0020
+  banking_cil      single                         vs firstseg           +16.83 [+14.61,+19.06] W/L 10/0 p=0.0020
+  clinc_cil        single                         vs firstseg           +16.82 [+15.70,+17.93] W/L 10/0 p=0.0020
+  news_cil         single                         vs firstseg            +8.02 [ +6.53, +9.51] W/L 10/0 p=0.0020
+  amazon_rec       single                         vs firstseg            +2.40 [ +1.38, +3.42] W/L 9/0 p=0.0039
+  amazon_dil       single                         vs firstseg            +0.70 [ +0.07, +1.33] W/L 8/2 p=0.0352
+  senti_dil        single                         vs firstseg            +1.72 [ -0.16, +3.60] W/L 9/1 p=0.0605
+  amazon_conflict  single                         vs firstseg            +0.00 [ -2.78, +2.78] W/L 6/4 p=0.6172
+  amazon_dilconf   single                         vs firstseg            -1.31 [ -2.65, +0.02] W/L 2/8 p=0.0586
+  senti_conf       single                         vs firstseg           +22.09 [+19.80,+24.38] W/L 10/0 p=0.0020
+  cifar_cil        single                         vs firstseg           +25.53 [+21.70,+29.35] W/L 8/0 p=0.0078
+  cifar_dil        single                         vs firstseg           +11.33 [ +9.43,+13.22] W/L 8/0 p=0.0078
+  cifar_conf       single                         vs firstseg           +19.91 [+17.66,+22.17] W/L 8/0 p=0.0078
+XR2_noreplay_oracle_vs_single
+  banking_rec      oracle                         vs single              -4.30 [ -6.03, -2.58] W/L 0/10 p=0.0020
+  banking_cil      oracle                         vs single              -3.26 [ -7.08, +0.56] W/L 1/9 p=0.0840
+  clinc_cil        oracle                         vs single              -0.56 [ -1.80, +0.69] W/L 3/7 p=0.3223
+  news_cil         oracle                         vs single              -1.17 [ -2.90, +0.56] W/L 3/7 p=0.1309
+  amazon_rec       oracle                         vs single              -0.57 [ -1.53, +0.38] W/L 3/5 p=0.2969
+  amazon_dil       oracle                         vs single              +0.11 [ -0.58, +0.80] W/L 6/4 p=0.7578
+  senti_dil        oracle                         vs single              +0.10 [ -1.10, +1.30] W/L 4/5 p=1.0000
+  amazon_conflict  oracle                         vs single              +5.55 [ +2.12, +8.97] W/L 9/1 p=0.0078
+  amazon_dilconf   oracle                         vs single              +3.39 [ +1.51, +5.27] W/L 10/0 p=0.0020
+  senti_conf       oracle                         vs single              +2.42 [ +1.11, +3.74] W/L 8/2 p=0.0098
+  cifar_cil        oracle                         vs single              +1.35 [ -0.42, +3.11] W/L 5/3 p=0.1953
+  cifar_dil        oracle                         vs single              +1.37 [ +0.32, +2.43] W/L 7/1 p=0.0391
+  cifar_conf       oracle                         vs single              +0.29 [ -2.87, +3.45] W/L 5/3 p=0.8438
+XR2_did
+  banking_rec      DiD(noreplay-replay)           vs 0                   +3.90 [ +1.89, +5.91] W/L 10/0 p=0.0020
+  banking_cil      DiD(noreplay-replay)           vs 0                   +8.10 [ +4.76,+11.44] W/L 10/0 p=0.0020
+  clinc_cil        DiD(noreplay-replay)           vs 0                   +9.34 [ +8.05,+10.64] W/L 10/0 p=0.0020
+  news_cil         DiD(noreplay-replay)           vs 0                   +5.97 [ +4.19, +7.75] W/L 10/0 p=0.0020
+  amazon_rec       DiD(noreplay-replay)           vs 0                   +0.08 [ -1.39, +1.54] W/L 5/4 p=0.7578
+  amazon_dil       DiD(noreplay-replay)           vs 0                   -0.23 [ -1.21, +0.74] W/L 4/6 p=0.4746
+  senti_dil        DiD(noreplay-replay)           vs 0                   +0.08 [ -1.27, +1.43] W/L 6/4 p=0.7578
+  amazon_conflict  DiD(noreplay-replay)           vs 0                   +4.71 [ +0.48, +8.94] W/L 7/3 p=0.0410
+  amazon_dilconf   DiD(noreplay-replay)           vs 0                   +1.45 [ +0.16, +2.74] W/L 7/3 p=0.0430
+  senti_conf       DiD(noreplay-replay)           vs 0                  +19.90 [+17.25,+22.56] W/L 10/0 p=0.0020
+  cifar_cil        DiD(noreplay-replay)           vs 0                  +10.27 [ +8.42,+12.11] W/L 8/0 p=0.0078
+  cifar_dil        DiD(noreplay-replay)           vs 0                   +3.91 [ +2.88, +4.94] W/L 8/0 p=0.0078
+  cifar_conf       DiD(noreplay-replay)           vs 0                  +13.51 [+11.75,+15.26] W/L 8/0 p=0.0078
+XV1 {"cifar_cil/loss_z": {"spawns": 47, "within2_of_novel": 47, "fraction": 1.0}, "cifar_cil/fresh_util": {"spawns": 31, "within2_of_novel": 31, "fraction": 1.0}}
+label_novel spawns vision DIL/DRIFT {'cifar_dil': 0, 'cifar_conf': 0}

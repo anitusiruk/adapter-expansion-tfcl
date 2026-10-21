@@ -1,0 +1,5 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Repo card metadata block was not found. Setting CardData to empty.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6482.80it/s]
+[news_cil_iid shadow s2026] step 99 seg iid packages 1 A:0.465 B:0.655 C:0.620 D:0.615 E:0.470
+FINAL news_cil_iid shadow 2026 {"proto_mean": 0.5649999976158142, "proto_max": 0.5649999976158142, "proto_own": 0.5649999976158142, "linear_last": 0.5789999961853027} 117s

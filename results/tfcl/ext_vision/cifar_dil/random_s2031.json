@@ -1,0 +1,198 @@
+{
+ "args": {
+  "stream": "cifar_dil",
+  "policy": "random",
+  "seed": 2031,
+  "model": "distilbert-base-uncased",
+  "lr": 0.001,
+  "steps": 2,
+  "replay": 16,
+  "mem": 512,
+  "max_length": 64,
+  "head_init": "fresh",
+  "lora_init": "fresh",
+  "no_lora": false,
+  "trigger_args": "{}",
+  "out": "results/tfcl/ext_vision/cifar_dil/random_s2031.json"
+ },
+ "n_batches": 250,
+ "packages": 5,
+ "events": [
+  {
+   "step": 134,
+   "seg": "C",
+   "boundary": false
+  },
+  {
+   "step": 151,
+   "seg": "D",
+   "boundary": false
+  },
+  {
+   "step": 157,
+   "seg": "D",
+   "boundary": false
+  },
+  {
+   "step": 204,
+   "seg": "E",
+   "boundary": false
+  }
+ ],
+ "checkpoints": [
+  {
+   "step": 49,
+   "seg": "A",
+   "seen": [
+    "A"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.9583333134651184,
+     "proto_max": 0.9583333134651184,
+     "proto_own": 0.9583333134651184,
+     "linear_last": 0.9566666483879089
+    }
+   }
+  },
+  {
+   "step": 99,
+   "seg": "B",
+   "seen": [
+    "A",
+    "B"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.9166666865348816,
+     "proto_max": 0.9166666865348816,
+     "proto_own": 0.9166666865348816,
+     "linear_last": 0.9166666865348816
+    },
+    "B": {
+     "proto_mean": 0.9100000262260437,
+     "proto_max": 0.9100000262260437,
+     "proto_own": 0.9100000262260437,
+     "linear_last": 0.9083333611488342
+    }
+   }
+  },
+  {
+   "step": 149,
+   "seg": "C",
+   "seen": [
+    "A",
+    "B",
+    "C"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.9083333611488342,
+     "proto_max": 0.9183333516120911,
+     "proto_own": 0.9150000214576721,
+     "linear_last": 0.25333333015441895
+    },
+    "B": {
+     "proto_mean": 0.8616666793823242,
+     "proto_max": 0.8533333539962769,
+     "proto_own": 0.8533333539962769,
+     "linear_last": 0.2516666650772095
+    },
+    "C": {
+     "proto_mean": 0.9150000214576721,
+     "proto_max": 0.903333306312561,
+     "proto_own": 0.9116666913032532,
+     "linear_last": 0.7549999952316284
+    }
+   }
+  },
+  {
+   "step": 199,
+   "seg": "D",
+   "seen": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.9016666412353516,
+     "proto_max": 0.9083333611488342,
+     "proto_own": 0.903333306312561,
+     "linear_last": 0.49166667461395264
+    },
+    "B": {
+     "proto_mean": 0.8650000095367432,
+     "proto_max": 0.8516666889190674,
+     "proto_own": 0.8483333587646484,
+     "linear_last": 0.4833333194255829
+    },
+    "C": {
+     "proto_mean": 0.8866666555404663,
+     "proto_max": 0.8816666603088379,
+     "proto_own": 0.8799999952316284,
+     "linear_last": 0.5483333468437195
+    },
+    "D": {
+     "proto_mean": 0.9333333373069763,
+     "proto_max": 0.9066666960716248,
+     "proto_own": 0.949999988079071,
+     "linear_last": 0.9549999833106995
+    }
+   }
+  },
+  {
+   "step": 249,
+   "seg": "E",
+   "seen": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.8583333492279053,
+     "proto_max": 0.8616666793823242,
+     "proto_own": 0.8666666746139526,
+     "linear_last": 0.5316666960716248
+    },
+    "B": {
+     "proto_mean": 0.8533333539962769,
+     "proto_max": 0.8383333086967468,
+     "proto_own": 0.8416666388511658,
+     "linear_last": 0.5216666460037231
+    },
+    "C": {
+     "proto_mean": 0.8500000238418579,
+     "proto_max": 0.8016666769981384,
+     "proto_own": 0.8133333325386047,
+     "linear_last": 0.3316666781902313
+    },
+    "D": {
+     "proto_mean": 0.9066666960716248,
+     "proto_max": 0.8500000238418579,
+     "proto_own": 0.9316666722297668,
+     "linear_last": 0.476666659116745
+    },
+    "E": {
+     "proto_mean": 0.8333333134651184,
+     "proto_max": 0.7583333253860474,
+     "proto_own": 0.8899999856948853,
+     "linear_last": 0.9649999737739563
+    }
+   }
+  }
+ ],
+ "final_mean": {
+  "proto_mean": 0.8603333473205567,
+  "proto_max": 0.8220000028610229,
+  "proto_own": 0.868666660785675,
+  "linear_last": 0.5653333306312561
+ },
+ "trigger_records": [],
+ "seconds": 196.03362679481506,
+ "trainable_params_per_package": 310292
+}

@@ -1,0 +1,68 @@
+S1
+  banking_rec  single: proto_ef_sdc - proto_ef               +19.57 [+13.19,+25.95] n=5 W=5 p=0.062 supported=True
+  banking_cil  single: proto_ef_sdc - proto_ef                +5.37 [ +0.70,+10.04] n=5 W=4 p=0.125 supported=True
+  clinc_cil    single: proto_ef_sdc - proto_ef                -8.55 [-16.97, -0.14] n=5 W=0 p=0.062 supported=False
+  news_cil     single: proto_ef_sdc - proto_ef               +10.76 [ +4.24,+17.28] n=5 W=5 p=0.062 supported=True
+  cifar_cil    single: proto_ef_sdc - proto_ef               -19.77 [-22.15,-17.38] n=5 W=0 p=0.062 supported=False
+S2
+  banking_rec  (oracle-single|sdc) - (oracle-single|ef)      -18.61 [-25.57,-11.65] n=5 W=0 p=0.062 supported=True
+  banking_cil  (oracle-single|sdc) - (oracle-single|ef)       +0.15 [ -5.43, +5.72] n=5 W=2 p=0.812 supported=False
+  clinc_cil    (oracle-single|sdc) - (oracle-single|ef)       +8.73 [ +0.34,+17.11] n=5 W=5 p=0.062 supported=False
+  news_cil     (oracle-single|sdc) - (oracle-single|ef)       -8.86 [-15.72, -2.00] n=5 W=0 p=0.062 supported=True
+  cifar_cil    (oracle-single|sdc) - (oracle-single|ef)      +20.73 [+17.83,+23.63] n=5 W=5 p=0.062 supported=False
+S_desc
+  banking_rec  proto_ef: oracle - single                     +26.01 [+21.39,+30.62] n=5 W=5 p=0.062 supported=True
+  banking_rec  proto_ef: firstseg - single                   +21.26 [+16.20,+26.31] n=5 W=5 p=0.062 supported=True
+  banking_rec  proto_ef: oracle - firstseg                    +4.75 [ +2.32, +7.18] n=5 W=5 p=0.062 supported=True
+  banking_rec  proto_ef_sdc: oracle - single                  +7.40 [ +1.85,+12.94] n=5 W=5 p=0.062 supported=True
+  banking_rec  proto_ef_sdc: firstseg - single                +2.39 [ -1.15, +5.93] n=5 W=4 p=0.125 supported=False
+  banking_rec  proto_ef_sdc: oracle - firstseg                +5.01 [ +2.76, +7.26] n=5 W=5 p=0.062 supported=True
+  banking_cil  proto_ef: oracle - single                     +30.21 [+18.50,+41.92] n=5 W=5 p=0.062 supported=True
+  banking_cil  proto_ef: firstseg - single                   +31.82 [+19.88,+43.76] n=5 W=5 p=0.062 supported=True
+  banking_cil  proto_ef: oracle - firstseg                    -1.61 [ -4.15, +0.93] n=5 W=1 p=0.188 supported=False
+  banking_cil  proto_ef_sdc: oracle - single                 +30.36 [+20.49,+40.23] n=5 W=5 p=0.062 supported=True
+  banking_cil  proto_ef_sdc: firstseg - single               +29.44 [+18.87,+40.01] n=5 W=5 p=0.062 supported=True
+  banking_cil  proto_ef_sdc: oracle - firstseg                +0.92 [ -1.24, +3.08] n=5 W=3 p=0.438 supported=False
+  clinc_cil    proto_ef: oracle - single                     +27.81 [+19.16,+36.47] n=5 W=5 p=0.062 supported=True
+  clinc_cil    proto_ef: firstseg - single                   +23.55 [+14.71,+32.40] n=5 W=5 p=0.062 supported=True
+  clinc_cil    proto_ef: oracle - firstseg                    +4.26 [ +2.61, +5.91] n=5 W=5 p=0.062 supported=True
+  clinc_cil    proto_ef_sdc: oracle - single                 +36.54 [+33.91,+39.17] n=5 W=5 p=0.062 supported=True
+  clinc_cil    proto_ef_sdc: firstseg - single               +33.34 [+31.49,+35.19] n=5 W=5 p=0.062 supported=True
+  clinc_cil    proto_ef_sdc: oracle - firstseg                +3.20 [ +2.22, +4.18] n=5 W=5 p=0.062 supported=True
+  news_cil     proto_ef: oracle - single                     +18.82 [ +8.18,+29.46] n=5 W=5 p=0.062 supported=True
+  news_cil     proto_ef: firstseg - single                   +19.28 [ +7.69,+30.87] n=5 W=5 p=0.062 supported=True
+  news_cil     proto_ef: oracle - firstseg                    -0.46 [ -3.05, +2.13] n=5 W=1 p=0.438 supported=False
+  news_cil     proto_ef_sdc: oracle - single                  +9.96 [ +2.75,+17.17] n=5 W=5 p=0.062 supported=True
+  news_cil     proto_ef_sdc: firstseg - single               +10.68 [ +1.13,+20.23] n=5 W=5 p=0.062 supported=True
+  news_cil     proto_ef_sdc: oracle - firstseg                -0.72 [ -3.67, +2.23] n=5 W=3 p=1.000 supported=False
+  cifar_cil    proto_ef: oracle - single                     +28.64 [+22.66,+34.62] n=5 W=5 p=0.062 supported=True
+  cifar_cil    proto_ef: firstseg - single                   +21.79 [+13.85,+29.72] n=5 W=5 p=0.062 supported=True
+  cifar_cil    proto_ef: oracle - firstseg                    +6.85 [ +1.48,+12.22] n=5 W=5 p=0.062 supported=True
+  cifar_cil    proto_ef_sdc: oracle - single                 +49.37 [+45.11,+53.64] n=5 W=5 p=0.062 supported=True
+  cifar_cil    proto_ef_sdc: firstseg - single               +41.99 [+34.69,+49.29] n=5 W=5 p=0.062 supported=True
+  cifar_cil    proto_ef_sdc: oracle - firstseg                +7.39 [ +1.02,+13.75] n=5 W=5 p=0.062 supported=True
+  banking_rec  proto_ef_sdc02: oracle - single               +11.04 [ +5.62,+16.45] n=5 W=5 p=0.062 supported=True
+  banking_cil  proto_ef_sdc02: oracle - single               +38.52 [+30.51,+46.53] n=5 W=5 p=0.062 supported=True
+  clinc_cil    proto_ef_sdc02: oracle - single               +48.55 [+45.44,+51.67] n=5 W=5 p=0.062 supported=True
+  news_cil     proto_ef_sdc02: oracle - single               +16.90 [ +6.47,+27.33] n=5 W=5 p=0.062 supported=True
+  cifar_cil    proto_ef_sdc02: oracle - single               +51.04 [+46.19,+55.89] n=5 W=5 p=0.062 supported=True
+  banking_rec  proto_ef_sdcinf: oracle - single              +10.34 [ +7.41,+13.27] n=5 W=5 p=0.062 supported=True
+  banking_cil  proto_ef_sdcinf: oracle - single              +26.84 [+17.29,+36.39] n=5 W=5 p=0.062 supported=True
+  clinc_cil    proto_ef_sdcinf: oracle - single              +27.98 [+25.95,+30.01] n=5 W=5 p=0.062 supported=True
+  news_cil     proto_ef_sdcinf: oracle - single               +9.52 [ +2.11,+16.93] n=5 W=5 p=0.062 supported=True
+  cifar_cil    proto_ef_sdcinf: oracle - single              +49.79 [+46.35,+53.22] n=5 W=5 p=0.062 supported=True
+I
+  imnr_cil     I1 exemplar: oracle - single                  -18.27 [-20.31,-16.23] n=6 W=0 p=0.031 supported=True
+  imnr_cil     I2 exemplar: oracle - firstseg                 +5.53 [ +4.51, +6.55] n=6 W=6 p=0.031 supported=True
+  imnr_cil     I3 exemplar-free: oracle - single              +8.08 [ +3.75,+12.40] n=6 W=6 p=0.031 supported=True
+  imnr_cil     I4 DiD (proto_ef - proto_mean, same runs)     +16.43 [+15.21,+17.66] n=6 W=6 p=0.031 supported=True
+I_desc
+  imnr_cil     exemplar proto_mean: firstseg - single        -23.80 [-26.33,-21.26] n=6 W=0 p=0.031 supported=False
+  imnr_cil     exemplar proto_mean: oracle - firstseg         +5.53 [ +4.51, +6.55] n=6 W=6 p=0.031 supported=True
+  imnr_cil     exemplar proto_mean: oracle - single          -18.27 [-20.31,-16.23] n=6 W=0 p=0.031 supported=False
+  imnr_cil     ef proto_ef: firstseg - single                +17.62 [+12.53,+22.71] n=6 W=6 p=0.031 supported=True
+  imnr_cil     ef proto_ef: oracle - firstseg                 -9.55 [-12.34, -6.76] n=6 W=0 p=0.031 supported=False
+  imnr_cil     ef proto_ef: oracle - single                   +8.08 [ +3.75,+12.40] n=6 W=6 p=0.031 supported=True
+  imnr_cil     ef proto_ef_sdc: firstseg - single            +30.72 [+26.46,+34.98] n=6 W=6 p=0.031 supported=True
+  imnr_cil     ef proto_ef_sdc: oracle - firstseg             -8.58 [-11.68, -5.48] n=6 W=0 p=0.031 supported=False
+  imnr_cil     ef proto_ef_sdc: oracle - single              +22.14 [+19.38,+24.90] n=6 W=6 p=0.031 supported=True

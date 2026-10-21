@@ -1,0 +1,8 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 7398.14it/s]
+[amazon_dilconf trigger:interf_proto s2028] step 19 seg A packages 2 A:0.867
+[amazon_dilconf trigger:interf_proto s2028] step 39 seg B packages 2 A:0.859 B:0.266
+[amazon_dilconf trigger:interf_proto s2028] step 59 seg C packages 2 A:0.875 B:0.188 C:0.805
+[amazon_dilconf trigger:interf_proto s2028] step 79 seg D packages 2 A:0.594 B:0.445 C:0.641 D:0.453
+[amazon_dilconf trigger:interf_proto s2028] step 99 seg E packages 2 A:0.867 B:0.219 C:0.789 D:0.219 E:0.859
+FINAL amazon_dilconf trigger:interf_proto 2028 {"proto_mean": 0.590625, "proto_max": 0.590625, "proto_own": 0.58125, "linear_last": 0.590625} 97s

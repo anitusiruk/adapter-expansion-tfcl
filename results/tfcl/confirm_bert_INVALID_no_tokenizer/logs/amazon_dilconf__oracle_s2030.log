@@ -1,0 +1,11 @@
+Using the latest cached version of the dataset since goosmanlei/amazon_reviews_multi couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'en' at /workspace/.cache/huggingface/datasets/goosmanlei___amazon_reviews_multi/en/0.0.0/a7b1fa9703f1f930d5c8e1a65c5d2774aaab0c85 (last modified on Sun Oct 11 03:32:03 2026).
+Using the latest cached version of the dataset since goosmanlei/amazon_reviews_multi couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'en' at /workspace/.cache/huggingface/datasets/goosmanlei___amazon_reviews_multi/en/0.0.0/a7b1fa9703f1f930d5c8e1a65c5d2774aaab0c85 (last modified on Sun Oct 11 03:32:03 2026).
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7225.55it/s]
+[amazon_dilconf oracle s2030] step 19 seg A packages 1 A:0.594
+[amazon_dilconf oracle s2030] step 39 seg B packages 2 A:0.578 B:0.500
+[amazon_dilconf oracle s2030] step 59 seg C packages 3 A:0.602 B:0.461 C:0.547
+[amazon_dilconf oracle s2030] step 79 seg D packages 4 A:0.383 B:0.562 C:0.445 D:0.555
+[amazon_dilconf oracle s2030] step 99 seg E packages 5 A:0.383 B:0.570 C:0.461 D:0.555 E:0.375
+FINAL amazon_dilconf oracle 2030 {"proto_mean": 0.46875, "proto_max": 0.4671875, "proto_own": 0.4625, "linear_last": 0.5} 79s

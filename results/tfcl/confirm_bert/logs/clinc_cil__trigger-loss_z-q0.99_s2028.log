@@ -1,0 +1,14 @@
+Using the latest cached version of the dataset since clinc/clinc_oos couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'plus' at /workspace/.cache/huggingface/datasets/clinc___clinc_oos/plus/0.0.0/155b9c710419136e17307b80d0a13e68cd46b4ec (last modified on Sun Oct 11 03:31:55 2026).
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 6624.97it/s]
+[clinc_cil trigger:loss_z s2028] step 37 seg A packages 1 A:0.973
+[clinc_cil trigger:loss_z s2028] step 75 seg B packages 2 A:0.970 B:0.920
+[clinc_cil trigger:loss_z s2028] step 113 seg C packages 3 A:0.950 B:0.913 C:0.933
+[clinc_cil trigger:loss_z s2028] step 151 seg D packages 4 A:0.947 B:0.900 C:0.917 D:0.833
+[clinc_cil trigger:loss_z s2028] step 189 seg E packages 5 A:0.923 B:0.897 C:0.873 D:0.830 E:0.800
+[clinc_cil trigger:loss_z s2028] step 227 seg F packages 6 A:0.903 B:0.877 C:0.893 D:0.777 E:0.767 F:0.963
+[clinc_cil trigger:loss_z s2028] step 265 seg G packages 7 A:0.913 B:0.833 C:0.857 D:0.743 E:0.717 F:0.947 G:0.770
+[clinc_cil trigger:loss_z s2028] step 303 seg H packages 8 A:0.903 B:0.817 C:0.857 D:0.710 E:0.690 F:0.823 G:0.717 H:0.883
+[clinc_cil trigger:loss_z s2028] step 341 seg I packages 9 A:0.900 B:0.787 C:0.847 D:0.690 E:0.687 F:0.817 G:0.647 H:0.863 I:0.753
+[clinc_cil trigger:loss_z s2028] step 379 seg J packages 10 A:0.820 B:0.753 C:0.790 D:0.667 E:0.650 F:0.807 G:0.650 H:0.850 I:0.710 J:0.793
+FINAL clinc_cil trigger:loss_z 2028 {"proto_mean": 0.7490000009536744, "proto_max": 0.7553333342075348, "proto_own": 0.764000004529953, "linear_last": 0.09633333086967469} 316s

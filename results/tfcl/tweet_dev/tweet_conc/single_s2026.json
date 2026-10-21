@@ -1,0 +1,127 @@
+{
+ "args": {
+  "stream": "tweet_conc",
+  "policy": "single",
+  "seed": 2026,
+  "model": "distilbert-base-uncased",
+  "lr": 0.001,
+  "steps": 2,
+  "replay": 16,
+  "mem": 512,
+  "max_length": 64,
+  "head_init": "fresh",
+  "lora_init": "fresh",
+  "no_lora": false,
+  "trigger_args": "{}",
+  "out": "results/tfcl/tweet_dev/tweet_conc/single_s2026.json"
+ },
+ "n_batches": 80,
+ "packages": 1,
+ "events": [],
+ "checkpoints": [
+  {
+   "step": 19,
+   "seg": "A",
+   "seen": [
+    "A"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.703125,
+     "proto_max": 0.703125,
+     "proto_own": 0.703125,
+     "linear_last": 0.71875
+    }
+   }
+  },
+  {
+   "step": 39,
+   "seg": "B",
+   "seen": [
+    "A",
+    "B"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.7421875,
+     "proto_max": 0.7421875,
+     "proto_own": 0.7421875,
+     "linear_last": 0.734375
+    },
+    "B": {
+     "proto_mean": 0.6953125,
+     "proto_max": 0.6953125,
+     "proto_own": 0.6953125,
+     "linear_last": 0.6171875
+    }
+   }
+  },
+  {
+   "step": 59,
+   "seg": "C",
+   "seen": [
+    "A",
+    "B",
+    "C"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.7734375,
+     "proto_max": 0.7734375,
+     "proto_own": 0.7734375,
+     "linear_last": 0.734375
+    },
+    "B": {
+     "proto_mean": 0.6875,
+     "proto_max": 0.6875,
+     "proto_own": 0.6875,
+     "linear_last": 0.6875
+    },
+    "C": {
+     "proto_mean": 0.53125,
+     "proto_max": 0.53125,
+     "proto_own": 0.53125,
+     "linear_last": 0.625
+    }
+   }
+  },
+  {
+   "step": 79,
+   "seg": "A",
+   "seen": [
+    "A",
+    "B",
+    "C"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.7265625,
+     "proto_max": 0.7265625,
+     "proto_own": 0.7265625,
+     "linear_last": 0.765625
+    },
+    "B": {
+     "proto_mean": 0.6796875,
+     "proto_max": 0.6796875,
+     "proto_own": 0.6796875,
+     "linear_last": 0.6796875
+    },
+    "C": {
+     "proto_mean": 0.53125,
+     "proto_max": 0.53125,
+     "proto_own": 0.53125,
+     "linear_last": 0.5625
+    }
+   }
+  }
+ ],
+ "final_mean": {
+  "proto_mean": 0.6458333333333334,
+  "proto_max": 0.6458333333333334,
+  "proto_own": 0.6458333333333334,
+  "linear_last": 0.6692708333333334
+ },
+ "trigger_records": [],
+ "seconds": 37.793264627456665,
+ "trainable_params_per_package": 148994
+}

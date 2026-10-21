@@ -1,0 +1,13 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/200 [00:00<?, ?it/s]Loading weights: 100%|██████████| 200/200 [00:00<00:00, 11496.28it/s]
+[cifar_cil oracle s2027] step 24 seg A packages 1 A:0.973
+[cifar_cil oracle s2027] step 49 seg B packages 2 A:0.963 B:0.920
+[cifar_cil oracle s2027] step 74 seg C packages 3 A:0.963 B:0.930 C:0.933
+[cifar_cil oracle s2027] step 99 seg D packages 4 A:0.957 B:0.893 C:0.930 D:0.897
+[cifar_cil oracle s2027] step 124 seg E packages 5 A:0.943 B:0.863 C:0.897 D:0.880 E:0.913
+[cifar_cil oracle s2027] step 149 seg F packages 6 A:0.900 B:0.863 C:0.897 D:0.870 E:0.867 F:0.823
+[cifar_cil oracle s2027] step 174 seg G packages 7 A:0.877 B:0.857 C:0.870 D:0.870 E:0.837 F:0.820 G:0.877
+[cifar_cil oracle s2027] step 199 seg H packages 8 A:0.853 B:0.847 C:0.813 D:0.847 E:0.820 F:0.723 G:0.847 H:0.830
+[cifar_cil oracle s2027] step 224 seg I packages 9 A:0.840 B:0.827 C:0.803 D:0.817 E:0.790 F:0.717 G:0.810 H:0.820 I:0.830
+[cifar_cil oracle s2027] step 249 seg J packages 10 A:0.830 B:0.810 C:0.810 D:0.790 E:0.783 F:0.710 G:0.803 H:0.767 I:0.767 J:0.693
+FINAL cifar_cil oracle 2027 {"proto_mean": 0.7763333320617676, "proto_max": 0.7430000007152557, "proto_own": 0.7273333370685577, "linear_last": 0.08766666650772095} 488s

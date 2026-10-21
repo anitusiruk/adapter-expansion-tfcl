@@ -1,0 +1,7 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 8429.41it/s]
+[senti_conf trigger:fresh_util s2028] step 19 seg A packages 1 A:0.883
+[senti_conf trigger:fresh_util s2028] step 39 seg B packages 2 A:0.852 B:0.562
+[senti_conf trigger:fresh_util s2028] step 59 seg C packages 3 A:0.867 B:0.156 C:0.852
+[senti_conf trigger:fresh_util s2028] step 79 seg D packages 3 A:0.844 B:0.289 C:0.781 D:0.359
+FINAL senti_conf trigger:fresh_util 2028 {"proto_mean": 0.568359375, "proto_max": 0.53515625, "proto_own": 0.62109375, "linear_last": 0.55859375} 166s

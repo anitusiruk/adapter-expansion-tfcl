@@ -1,0 +1,7 @@
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 7962.46it/s]
+[banking_rec trigger:interf_logit s2026] step 15 seg A packages 1 A:0.897
+[banking_rec trigger:interf_logit s2026] step 31 seg B packages 1 A:0.935 B:0.845
+[banking_rec trigger:interf_logit s2026] step 47 seg A packages 2 A:0.924 B:0.803
+[banking_rec trigger:interf_logit s2026] step 63 seg C packages 2 A:0.887 B:0.752 C:0.769
+[banking_rec trigger:interf_logit s2026] step 79 seg B packages 3 A:0.873 B:0.800 C:0.784
+FINAL banking_rec trigger:interf_logit 2026 {"proto_mean": 0.8189116716384888, "proto_max": 0.7498962879180908, "proto_own": 0.7458414832750956, "linear_last": 0.23548386494318643} 27s

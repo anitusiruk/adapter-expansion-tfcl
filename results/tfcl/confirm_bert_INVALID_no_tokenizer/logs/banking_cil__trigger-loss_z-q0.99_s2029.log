@@ -1,0 +1,10 @@
+Using the latest cached version of the module from /workspace/.cache/huggingface/modules/datasets_modules/datasets/PolyAI--banking77/17ffc2ed47c2ed928bee64127ff1dbc97204cb974c2f980becae7c864007aed9 (last modified on Sun Oct 11 03:31:47 2026) since it couldn't be found locally at PolyAI/banking77
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 6589.82it/s]
+[banking_cil trigger:loss_z s2029] step 19 seg A packages 1 A:0.148
+[banking_cil trigger:loss_z s2029] step 39 seg B packages 2 A:0.066 B:0.092
+[banking_cil trigger:loss_z s2029] step 59 seg C packages 3 A:0.086 B:0.065 C:0.020
+[banking_cil trigger:loss_z s2029] step 79 seg D packages 4 A:0.031 B:0.029 C:0.020 D:0.039
+[banking_cil trigger:loss_z s2029] step 99 seg E packages 5 A:0.039 B:0.039 C:0.016 D:0.013 E:0.026
+[banking_cil trigger:loss_z s2029] step 119 seg F packages 6 A:0.004 B:0.039 C:0.000 D:0.007 E:0.007 F:0.032
+[banking_cil trigger:loss_z s2029] step 139 seg G packages 7 A:0.016 B:0.029 C:0.000 D:0.016 E:0.007 F:0.011 G:0.034
+FINAL banking_cil trigger:loss_z 2029 {"proto_mean": 0.016226363235286305, "proto_max": 0.021055209450423717, "proto_own": 0.015727215047393526, "linear_last": 0.01379617303609848} 195s

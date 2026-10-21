@@ -1,0 +1,9 @@
+Using the latest cached version of the dataset since SetFit/20_newsgroups couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'default' at /workspace/.cache/huggingface/datasets/SetFit___20_newsgroups/default/0.0.0/f1b91292074e7cfb69be58b642d583ec262f30ed (last modified on Sun Oct 11 03:32:14 2026).
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 6139.69it/s]
+[news_cil trigger:loss_z s2028] step 19 seg A packages 1 A:0.865
+[news_cil trigger:loss_z s2028] step 39 seg B packages 2 A:0.825 B:0.760
+[news_cil trigger:loss_z s2028] step 59 seg C packages 3 A:0.650 B:0.680 C:0.655
+[news_cil trigger:loss_z s2028] step 79 seg D packages 4 A:0.550 B:0.630 C:0.590 D:0.530
+[news_cil trigger:loss_z s2028] step 99 seg E packages 5 A:0.505 B:0.615 C:0.555 D:0.480 E:0.430
+FINAL news_cil trigger:loss_z 2028 {"proto_mean": 0.51700000166893, "proto_max": 0.5079999983310699, "proto_own": 0.45300000309944155, "linear_last": 0.1509999990463257} 128s

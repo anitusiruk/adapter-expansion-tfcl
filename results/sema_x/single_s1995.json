@@ -1,0 +1,281 @@
+{
+ "args": {
+  "variant": "single",
+  "seed": 1995,
+  "config": "exps/sema_cifar.json",
+  "out": "results/sema_x/single_s1995.json",
+  "n_ex": 20,
+  "max_tasks": 0
+ },
+ "sema_args": {
+  "prefix": "reproduce",
+  "dataset": "cifar224",
+  "memory_size": 0,
+  "memory_per_class": 0,
+  "fixed_memory": false,
+  "shuffle": true,
+  "init_cls": 10,
+  "increment": 10,
+  "model_name": "sema",
+  "backbone_type": "pretrained_vit_b16_224_adapter",
+  "device": [
+   "cuda:0"
+  ],
+  "seed": 1995,
+  "batch_size": 32,
+  "weight_decay": 0.0005,
+  "min_lr": 0,
+  "ffn_adapter_type": "adaptmlp",
+  "ffn_num": 16,
+  "optimizer": "sgd",
+  "vpt_type": "shallow",
+  "prompt_token_num": 5,
+  "func_epoch": 5,
+  "rd_epoch": 20,
+  "init_lr": 0.005,
+  "rd_lr": 0.01,
+  "rd_dim": 128,
+  "buffer_size": 500,
+  "detect_batch_size": 128,
+  "exp_threshold": "inf",
+  "adapt_start_layer": 9,
+  "adapt_end_layer": 11,
+  "nb_classes": 100,
+  "nb_tasks": 10
+ },
+ "tasks": [
+  {
+   "task": 0,
+   "seen": 10,
+   "linear": 98.7,
+   "ncm_ef": 98.0999984741211,
+   "ncm_ex20": 98.19999694824219,
+   "adapters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "seconds": 2399.78573513031
+  },
+  {
+   "task": 1,
+   "seen": 20,
+   "linear": 95.75,
+   "ncm_ef": 95.6500015258789,
+   "ncm_ex20": 95.70000457763672,
+   "adapters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "seconds": 2903.887528657913
+  },
+  {
+   "task": 2,
+   "seen": 30,
+   "linear": 93.47,
+   "ncm_ef": 94.03333282470703,
+   "ncm_ex20": 94.13333892822266,
+   "adapters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "seconds": 3404.7900247573853
+  },
+  {
+   "task": 3,
+   "seen": 40,
+   "linear": 91.25,
+   "ncm_ef": 93.30000305175781,
+   "ncm_ex20": 92.8499984741211,
+   "adapters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "seconds": 3938.9858980178833
+  },
+  {
+   "task": 4,
+   "seen": 50,
+   "linear": 89.32,
+   "ncm_ef": 90.5,
+   "ncm_ex20": 90.76000213623047,
+   "adapters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "seconds": 4469.909459352493
+  },
+  {
+   "task": 5,
+   "seen": 60,
+   "linear": 89.13,
+   "ncm_ef": 89.76667022705078,
+   "ncm_ex20": 90.30000305175781,
+   "adapters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "seconds": 5025.485501527786
+  },
+  {
+   "task": 6,
+   "seen": 70,
+   "linear": 89.24,
+   "ncm_ef": 89.62857055664062,
+   "ncm_ex20": 90.0,
+   "adapters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "seconds": 5854.890208482742
+  },
+  {
+   "task": 7,
+   "seen": 80,
+   "linear": 87.66,
+   "ncm_ef": 88.07499694824219,
+   "ncm_ex20": 88.9625015258789,
+   "adapters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "seconds": 6608.5856120586395
+  },
+  {
+   "task": 8,
+   "seen": 90,
+   "linear": 85.66,
+   "ncm_ef": 86.73333740234375,
+   "ncm_ex20": 88.32221984863281,
+   "adapters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "seconds": 7287.886966943741
+  },
+  {
+   "task": 9,
+   "seen": 100,
+   "linear": 85.15,
+   "ncm_ef": 86.29000091552734,
+   "ncm_ex20": 87.73999786376953,
+   "adapters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "seconds": 8045.086667776108,
+   "ncm_full": 88.52000427246094
+  }
+ ],
+ "final": {
+  "linear": 85.15,
+  "ncm_ef": 86.29000091552734,
+  "ncm_ex20": 87.73999786376953,
+  "ncm_full": 88.52000427246094
+ },
+ "avg_inc": {
+  "linear": 90.53299999999999,
+  "ncm_ef": 91.20769119262695,
+  "ncm_ex20": 91.69680633544922
+ },
+ "seconds": 8455.088688373566
+}

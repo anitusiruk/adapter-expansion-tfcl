@@ -1,0 +1,7 @@
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6956.07it/s]
+[banking_rec frozen s2027] step 15 seg A packages 1 A:0.801
+[banking_rec frozen s2027] step 31 seg B packages 1 A:0.729 B:0.694
+[banking_rec frozen s2027] step 47 seg A packages 1 A:0.759 B:0.594
+[banking_rec frozen s2027] step 63 seg C packages 1 A:0.735 B:0.555 C:0.722
+[banking_rec frozen s2027] step 79 seg B packages 1 A:0.674 B:0.610 C:0.656
+FINAL banking_rec frozen 2027 {"proto_mean": 0.6462982098261515, "proto_max": 0.6462982098261515, "proto_own": 0.6462982098261515, "linear_last": 0.03665521244208018, "frozen_full_ncm": 0.7142897446950277} 8s

@@ -1,0 +1,5 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6255.58it/s]
+[amazon_rec trigger:interf_logit s2027] step 15 seg A packages 1 A:0.891
+[amazon_rec trigger:interf_logit s2027] step 31 seg B packages 1 A:0.891 B:0.922
+[amazon_rec trigger:interf_logit s2027] step 47 seg A packages 1 A:0.906 B:0.922

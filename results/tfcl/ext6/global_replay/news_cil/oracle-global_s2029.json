@@ -1,0 +1,201 @@
+{
+ "args": {
+  "stream": "news_cil",
+  "policy": "oracle",
+  "seed": 2029,
+  "model": "distilbert-base-uncased",
+  "lr": 0.001,
+  "steps": 2,
+  "replay": 16,
+  "mem": 512,
+  "max_length": 64,
+  "head_init": "fresh",
+  "lora_init": "fresh",
+  "no_lora": false,
+  "trigger_args": "{}",
+  "out": "results/tfcl/ext6/global_replay/news_cil/oracle-global_s2029.json",
+  "mr": false,
+  "global_replay": true,
+  "ef": false
+ },
+ "n_batches": 100,
+ "packages": 5,
+ "events": [
+  {
+   "step": 20,
+   "seg": "B",
+   "boundary": true
+  },
+  {
+   "step": 40,
+   "seg": "C",
+   "boundary": true
+  },
+  {
+   "step": 60,
+   "seg": "D",
+   "boundary": true
+  },
+  {
+   "step": 80,
+   "seg": "E",
+   "boundary": true
+  }
+ ],
+ "checkpoints": [
+  {
+   "step": 19,
+   "seg": "A",
+   "seen": [
+    "A"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.8700000047683716,
+     "proto_max": 0.8700000047683716,
+     "proto_own": 0.8700000047683716,
+     "linear_last": 0.8700000047683716
+    }
+   }
+  },
+  {
+   "step": 39,
+   "seg": "B",
+   "seen": [
+    "A",
+    "B"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.7900000214576721,
+     "proto_max": 0.7850000262260437,
+     "proto_own": 0.7599999904632568,
+     "linear_last": 0.7400000095367432
+    },
+    "B": {
+     "proto_mean": 0.7200000286102295,
+     "proto_max": 0.7049999833106995,
+     "proto_own": 0.7649999856948853,
+     "linear_last": 0.7450000047683716
+    }
+   }
+  },
+  {
+   "step": 59,
+   "seg": "C",
+   "seen": [
+    "A",
+    "B",
+    "C"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.7250000238418579,
+     "proto_max": 0.6949999928474426,
+     "proto_own": 0.7049999833106995,
+     "linear_last": 0.5600000023841858
+    },
+    "B": {
+     "proto_mean": 0.6800000071525574,
+     "proto_max": 0.6600000262260437,
+     "proto_own": 0.7099999785423279,
+     "linear_last": 0.625
+    },
+    "C": {
+     "proto_mean": 0.6299999952316284,
+     "proto_max": 0.625,
+     "proto_own": 0.6200000047683716,
+     "linear_last": 0.7200000286102295
+    }
+   }
+  },
+  {
+   "step": 79,
+   "seg": "D",
+   "seen": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.5799999833106995,
+     "proto_max": 0.550000011920929,
+     "proto_own": 0.5899999737739563,
+     "linear_last": 0.3799999952316284
+    },
+    "B": {
+     "proto_mean": 0.6499999761581421,
+     "proto_max": 0.6449999809265137,
+     "proto_own": 0.6399999856948853,
+     "linear_last": 0.4449999928474426
+    },
+    "C": {
+     "proto_mean": 0.5550000071525574,
+     "proto_max": 0.5849999785423279,
+     "proto_own": 0.4650000035762787,
+     "linear_last": 0.1599999964237213
+    },
+    "D": {
+     "proto_mean": 0.5149999856948853,
+     "proto_max": 0.5400000214576721,
+     "proto_own": 0.574999988079071,
+     "linear_last": 0.8399999737739563
+    }
+   }
+  },
+  {
+   "step": 99,
+   "seg": "E",
+   "seen": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+   ],
+   "acc": {
+    "A": {
+     "proto_mean": 0.5249999761581421,
+     "proto_max": 0.5199999809265137,
+     "proto_own": 0.5049999952316284,
+     "linear_last": 0.3149999976158142
+    },
+    "B": {
+     "proto_mean": 0.625,
+     "proto_max": 0.6349999904632568,
+     "proto_own": 0.625,
+     "linear_last": 0.4650000035762787
+    },
+    "C": {
+     "proto_mean": 0.5199999809265137,
+     "proto_max": 0.4950000047683716,
+     "proto_own": 0.4050000011920929,
+     "linear_last": 0.125
+    },
+    "D": {
+     "proto_mean": 0.45500001311302185,
+     "proto_max": 0.4699999988079071,
+     "proto_own": 0.5,
+     "linear_last": 0.12999999523162842
+    },
+    "E": {
+     "proto_mean": 0.38999998569488525,
+     "proto_max": 0.4350000023841858,
+     "proto_own": 0.46000000834465027,
+     "linear_last": 0.7400000095367432
+    }
+   }
+  }
+ ],
+ "final_mean": {
+  "proto_mean": 0.5029999911785126,
+  "proto_max": 0.510999995470047,
+  "proto_own": 0.4990000009536743,
+  "linear_last": 0.3550000011920929
+ },
+ "trigger_records": [],
+ "seconds": 70.82150888442993,
+ "trainable_params_per_package": 162836
+}

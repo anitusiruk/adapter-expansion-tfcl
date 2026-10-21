@@ -1,0 +1,7 @@
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6203.31it/s]
+[banking_rec random s2030] step 15 seg A packages 2 A:0.842
+[banking_rec random s2030] step 31 seg B packages 2 A:0.835 B:0.781
+[banking_rec random s2030] step 47 seg A packages 3 A:0.911 B:0.803
+[banking_rec random s2030] step 63 seg C packages 4 A:0.842 B:0.732 C:0.799
+[banking_rec random s2030] step 79 seg B packages 5 A:0.852 B:0.723 C:0.766
+FINAL banking_rec random 2030 {"proto_mean": 0.7801273663838705, "proto_max": 0.5614151159922282, "proto_own": 0.3585994872264564, "linear_last": 0.0903225839138031} 20s

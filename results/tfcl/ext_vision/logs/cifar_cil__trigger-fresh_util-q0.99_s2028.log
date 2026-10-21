@@ -1,0 +1,13 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/200 [00:00<?, ?it/s]Loading weights: 100%|██████████| 200/200 [00:00<00:00, 7729.23it/s]
+[cifar_cil trigger:fresh_util s2028] step 24 seg A packages 1 A:0.967
+[cifar_cil trigger:fresh_util s2028] step 49 seg B packages 2 A:0.970 B:0.930
+[cifar_cil trigger:fresh_util s2028] step 74 seg C packages 3 A:0.950 B:0.920 C:0.907
+[cifar_cil trigger:fresh_util s2028] step 99 seg D packages 3 A:0.953 B:0.923 C:0.887 D:0.880
+[cifar_cil trigger:fresh_util s2028] step 124 seg E packages 4 A:0.927 B:0.887 C:0.857 D:0.877 E:0.867
+[cifar_cil trigger:fresh_util s2028] step 149 seg F packages 4 A:0.917 B:0.897 C:0.843 D:0.857 E:0.847 F:0.853
+[cifar_cil trigger:fresh_util s2028] step 174 seg G packages 4 A:0.907 B:0.897 C:0.847 D:0.840 E:0.817 F:0.827 G:0.880
+[cifar_cil trigger:fresh_util s2028] step 199 seg H packages 5 A:0.887 B:0.860 C:0.820 D:0.850 E:0.803 F:0.790 G:0.857 H:0.770
+[cifar_cil trigger:fresh_util s2028] step 224 seg I packages 5 A:0.887 B:0.873 C:0.783 D:0.813 E:0.787 F:0.810 G:0.843 H:0.730 I:0.850
+[cifar_cil trigger:fresh_util s2028] step 249 seg J packages 5 A:0.877 B:0.857 C:0.770 D:0.843 E:0.800 F:0.790 G:0.840 H:0.763 I:0.837 J:0.760
+FINAL cifar_cil trigger:fresh_util 2028 {"proto_mean": 0.8136666595935822, "proto_max": 0.772000002861023, "proto_own": 0.7543333351612092, "linear_last": 0.26433333158493044} 538s

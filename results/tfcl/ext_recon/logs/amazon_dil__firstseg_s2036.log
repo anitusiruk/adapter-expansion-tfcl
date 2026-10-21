@@ -1,0 +1,14 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Using the latest cached version of the dataset since goosmanlei/amazon_reviews_multi couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'en' at /workspace/.cache/huggingface/datasets/goosmanlei___amazon_reviews_multi/en/0.0.0/a7b1fa9703f1f930d5c8e1a65c5d2774aaab0c85 (last modified on Sat Oct 10 00:41:46 2026).
+Using the latest cached version of the dataset since goosmanlei/amazon_reviews_multi couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'en' at /workspace/.cache/huggingface/datasets/goosmanlei___amazon_reviews_multi/en/0.0.0/a7b1fa9703f1f930d5c8e1a65c5d2774aaab0c85 (last modified on Sat Oct 10 00:41:46 2026).
+HTTP Error 429 thrown while requesting GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main/additional_chat_templates
+Rate limited. Waiting 136.0s before retry [Retry 1/5].
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 5394.81it/s]
+[amazon_dil single s2036] step 19 seg A packages 1 A:0.859
+[amazon_dil single s2036] step 39 seg B packages 1 A:0.867 B:0.875
+[amazon_dil single s2036] step 59 seg C packages 1 A:0.867 B:0.875 C:0.797
+[amazon_dil single s2036] step 79 seg D packages 1 A:0.859 B:0.891 C:0.797 D:0.828
+[amazon_dil single s2036] step 99 seg E packages 1 A:0.859 B:0.906 C:0.805 D:0.828 E:0.867
+FINAL amazon_dil single 2036 {"proto_mean": 0.853125, "proto_max": 0.853125, "proto_own": 0.853125, "linear_last": 0.840625} 163s

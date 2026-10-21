@@ -1,0 +1,2 @@
+FAIL --stream cifar_conf --policy trigger:loss_z --trigger-args {"tau": 2.437556709760822} --replay 0 --ef --seed 2034 --out results/tfcl/ext2_ef/cifar_conf/trigger-loss_z-q0.99_s2034.json
+JOBS_DONE

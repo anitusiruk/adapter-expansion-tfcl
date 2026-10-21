@@ -1,0 +1,8 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 8331.45it/s]
+[banking_rec trigger:conflict_z s2035] step 15 seg A packages 1 A:0.900
+[banking_rec trigger:conflict_z s2035] step 31 seg B packages 1 A:0.904 B:0.823
+[banking_rec trigger:conflict_z s2035] step 47 seg A packages 1 A:0.931 B:0.810
+[banking_rec trigger:conflict_z s2035] step 63 seg C packages 1 A:0.911 B:0.800 C:0.839
+[banking_rec trigger:conflict_z s2035] step 79 seg B packages 2 A:0.897 B:0.810 C:0.832
+FINAL banking_rec trigger:conflict_z 2035 {"proto_mean": 0.8460288246472677, "proto_max": 0.7622068325678507, "proto_own": 0.6873132189114889, "linear_last": 0.22903225819269815} 23s
